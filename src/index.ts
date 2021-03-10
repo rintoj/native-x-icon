@@ -1,3 +1,4 @@
+export * from './add-outline-icon'
 export * from './arrow-forward-outline-icon'
 export * from './back-arrow-outline-icon'
 export * from './business-outline-icon'

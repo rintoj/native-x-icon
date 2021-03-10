@@ -44,6 +44,7 @@ function MyComponent() {
 ## List of Icon
 
 ```tsx
+<AddOutlineIcon />
 <ArrowForwardOutlineIcon />
 <BackArrowOutlineIcon />
 <CalendarOutlineIcon />
