@@ -47,9 +47,11 @@ function MyComponent() {
 <AddOutlineIcon />
 <ArrowForwardOutlineIcon />
 <BackArrowOutlineIcon />
+<BusinessOutlineIcon />
 <CalendarOutlineIcon />
 <CardsOutlineIcon />
 <CloseOutlineIcon />
+<FilterCircleOutlineIcon />
 <HammerOutlineIcon />
 <HomeOutlineIcon />
 <ListOutlineIcon />
