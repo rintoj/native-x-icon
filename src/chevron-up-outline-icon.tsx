@@ -1,0 +1,28 @@
+import { COLOR, useTheme } from 'native-x-theme'
+import * as React from 'react'
+import Svg, { Path } from 'react-native-svg'
+import { getIconSize, IconSize } from './icon-size'
+
+export interface ChevronUpOutlineIconProps {
+  color?: string
+  size?: IconSize
+}
+
+export function ChevronUpOutlineIcon({
+  size = 'normal',
+  color = COLOR.SECONDARY,
+}: ChevronUpOutlineIconProps) {
+  const { getColor } = useTheme()
+  const contentColor = getColor?.(color)
+  const iconSize = getIconSize(size)
+  return (
+    <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
+      <Path
+        d='M5.25 15.375L12 8.625L18.75 15.375'
+        stroke={contentColor}
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      />
+    </Svg>
+  )
+}

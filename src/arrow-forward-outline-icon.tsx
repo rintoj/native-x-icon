@@ -13,16 +13,21 @@ export function ArrowForwardOutlineIcon({
   color = COLOR.SECONDARY,
 }: ArrowForwardOutlineIconProps) {
   const { getColor } = useTheme()
-  const strokeColor = getColor?.(color)
+  const contentColor = getColor?.(color)
   const iconSize = getIconSize(size)
-
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        d='M8.625 5.25l6.75 6.75-6.75 6.75'
-        stroke={strokeColor}
-        strokeLinecap='round'
-        strokeLinejoin='round'
+        d='M12.5625 5.25L19.3125 12L12.5625 18.75'
+        stroke={contentColor}
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      />
+      <Path
+        d='M18.375 12H4.6875'
+        stroke={contentColor}
+        stroke-linecap='round'
+        stroke-linejoin='round'
       />
     </Svg>
   )
