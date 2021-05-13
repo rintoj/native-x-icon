@@ -37,8 +37,7 @@ return (
 ## API
 
 | Property | Default Value | Usage |
-| --------------------- | --------------- |
--------------------------------------------------------------------------------------------------- |
+| --------------------- | --------------- | -------------------------------------------------------------------------------------------------- |
 | color?: string | COLOR.SECONDARY | Color of the icon |
 | size?: Size or number | 'normal' | Valid values: 'xx-small', 'x-small', 'small', 'normal',
 'large', 'x-large', 'xx-large' or a number |
