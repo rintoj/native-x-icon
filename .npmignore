@@ -2,3 +2,5 @@ src
 .eslintrc.json
 tsconfig.json
 .github
+icons
+devops
