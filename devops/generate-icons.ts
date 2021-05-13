@@ -3,6 +3,7 @@ import { basename } from 'path'
 import { parseString } from 'xml2js'
 import { readFileSync, writeFileSync } from 'fs-extra'
 import { toClassName, toDashedName } from 'name-util'
+import { compileReadme } from './readme-compiler'
 
 const componentTemplate = (name: string, jsxContent: string, imports: string[]) => `
 import { COLOR, useTheme } from 'native-x-theme'
@@ -92,6 +93,14 @@ function composeElement(name: string, props: Record<string, string> = {}, conten
   </${elementName}>`
 }
 
+async function regenerateIndex(pattern = 'src/*.tsx') {
+  const files = sync(pattern)
+  const fileContent = files
+    .map(file => `export * from './${basename(file).replace('.tsx', '')}'`)
+    .join('\n')
+  writeFileSync('src/index.ts', fileContent, 'utf8')
+}
+
 async function processFile(file: string) {
   const name = toClassName(basename(file).replace('.svg', ''))
   const content = readFileSync(file, 'utf8')
@@ -107,6 +116,8 @@ async function processFile(file: string) {
 async function buildIcons(patterns = 'icons/*.svg') {
   const files = sync(patterns)
   files.map(processFile)
+  regenerateIndex()
+  compileReadme()
 }
 
 buildIcons()
