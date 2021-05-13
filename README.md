@@ -60,6 +60,7 @@ function MyComponent() {
 <MoreOutlineIcon />
 <PersonOutlineIcon />
 <RadioOutlineIcon />
+<SearchOutlineIcon />
 <TimeOutlineIcon />
 <TodayOutlineIcon />
 ```
