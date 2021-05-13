@@ -44,10 +44,10 @@ return (
 'large', 'x-large', 'xx-large' or a number |
 
 ## List of Icon
-| Icon | Component
-| ---- | ---------------
+| Icon | Component | Outline | Outline Component
+| ---- | --------- | ------- | ------------------
 {{#icons}}
-| ![{{iconName}}](./icons/{{iconName}}.svg) | `<{{componentName}} />`
+| ![{{iconName}}](./icons/{{iconName}}.svg) | `<{{componentName}} />` | {{#if hasOutline}} ![{{outlineIconName}}](./icons/{{outlineIconName}}.svg) {{/if}} | {{#if hasOutline}} `<{{outlineComponentName}} />` {{/if}}
 {{/icons}}
 
 
