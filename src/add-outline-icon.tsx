@@ -10,16 +10,21 @@ export interface AddOutlineIconProps {
 
 export function AddOutlineIcon({ size = 'normal', color = COLOR.SECONDARY }: AddOutlineIconProps) {
   const { getColor } = useTheme()
-  const strokeColor = getColor?.(color)
+  const contentColor = getColor?.(color)
   const iconSize = getIconSize(size)
-
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        d='M12 5.25v13.5M18.75 12H5.25'
-        stroke={strokeColor}
-        strokeLinecap='round'
-        strokeLinejoin='round'
+        d='M12 5.25V18.75'
+        stroke={contentColor}
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      />
+      <Path
+        d='M18.75 12H5.25'
+        stroke={contentColor}
+        stroke-linecap='round'
+        stroke-linejoin='round'
       />
     </Svg>
   )

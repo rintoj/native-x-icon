@@ -13,17 +13,21 @@ export function TimeOutlineIcon({
   color = COLOR.SECONDARY,
 }: TimeOutlineIconProps) {
   const { getColor } = useTheme()
-  const strokeColor = getColor?.(color)
+  const contentColor = getColor?.(color)
   const iconSize = getIconSize(size)
-
   return (
-    <Svg width={iconSize} height={iconSize} viewBox='0 0 16 16' fill='none'>
+    <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        d='M8 2C4.687 2 2 4.688 2 8c0 3.313 2.688 6 6 6 3.313 0 6-2.688 6-6 0-3.313-2.688-6-6-6z'
-        stroke={strokeColor}
-        strokeMiterlimit={10}
+        d='M12 3C7.03125 3 3 7.03125 3 12C3 16.9688 7.03125 21 12 21C16.9688 21 21 16.9688 21 12C21 7.03125 16.9688 3 12 3Z'
+        stroke={contentColor}
+        stroke-miterlimit='10'
       />
-      <Path d='M8 4v4.5h3' stroke={strokeColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path
+        d='M12 6V12.75H16.5'
+        stroke={contentColor}
+        stroke-linecap='round'
+        stroke-linejoin='round'
+      />
     </Svg>
   )
 }
