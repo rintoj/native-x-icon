@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "build": "yarn run lint && rimraf lib && tsc",
-    "build:icons": "ts-node --transpile-only devops/generate-icons.ts && yarn run lint",
+    "generate:icons": "ts-node --skip-project --transpile-only devops/generate-icons.ts && yarn run lint",
     "lint": "eslint src/**/*.ts? --fix && tsc -p . --noEmit && yarn prettier",
     "prettier": "prettier --write \"src/**/*.{ts,tsx}\" -c",
     "semantic-release": "semantic-release"
