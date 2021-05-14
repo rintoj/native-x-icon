@@ -31,10 +31,10 @@ export function compileReadme(pattern = 'src/*-icon.tsx') {
       const hasOutline = iconsById[outlineIconName]
       return {
         iconName,
-        componentName: toClassName(iconName),
+        componentName: `${toClassName(iconName)}Icon`,
         hasOutline,
         outlineIconName: hasOutline ? outlineIconName : '-',
-        outlineComponentName: hasOutline ? toClassName(outlineIconName) : '-',
+        outlineComponentName: hasOutline ? toClassName(`${outlineIconName}Icon`) : '-',
       }
     })
     .sort(sortByHasOutline)

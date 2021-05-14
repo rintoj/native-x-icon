@@ -24,528 +24,528 @@ npm install native-x-icon
 import { HomeOutlineIcon } from 'native-x-icon'
 
 function MyComponent() {
-return (
-<Stack>
-  ...
-  <HomeOutlineIcon />
-  ...
-</Stack>
-)
+  return (
+    <Stack>
+      ...
+      <HomeOutlineIcon />
+      ...
+    </Stack>
+  )
 }
 ```
 
 ## API
 
-| Property | Default Value | Usage |
+| Property              | Default Value   | Usage                                                                                              |
 | --------------------- | --------------- | -------------------------------------------------------------------------------------------------- |
-| color?: string | COLOR.SECONDARY | Color of the icon |
-| size?: Size or number | 'normal' | Valid values: 'xx-small', 'x-small', 'small', 'normal', 'large', 'x-large', 'xx-large' or a number |
+| color?: string        | COLOR.SECONDARY | Color of the icon                                                                                  |
+| size?: Size or number | 'normal'        | Valid values: 'xx-small', 'x-small', 'small', 'normal', 'large', 'x-large', 'xx-large' or a number |
 
 ## List of Icon
-| Icon | Component | Outline | Outline Component
-| ---- | --------- | ------- | ------------------
-| ![accessibility](./icons/accessibility.svg) | `<Accessibility />` |  ![accessibility-outline](./icons/accessibility-outline.svg)  |  `<AccessibilityOutline />` 
-| ![add-circle](./icons/add-circle.svg) | `<AddCircle />` |  ![add-circle-outline](./icons/add-circle-outline.svg)  |  `<AddCircleOutline />` 
-| ![add](./icons/add.svg) | `<Add />` |  ![add-outline](./icons/add-outline.svg)  |  `<AddOutline />` 
-| ![airplane](./icons/airplane.svg) | `<Airplane />` |  ![airplane-outline](./icons/airplane-outline.svg)  |  `<AirplaneOutline />` 
-| ![alarm](./icons/alarm.svg) | `<Alarm />` |  ![alarm-outline](./icons/alarm-outline.svg)  |  `<AlarmOutline />` 
-| ![albums](./icons/albums.svg) | `<Albums />` |  ![albums-outline](./icons/albums-outline.svg)  |  `<AlbumsOutline />` 
-| ![alert-circle](./icons/alert-circle.svg) | `<AlertCircle />` |  ![alert-circle-outline](./icons/alert-circle-outline.svg)  |  `<AlertCircleOutline />` 
-| ![alert](./icons/alert.svg) | `<Alert />` |  ![alert-outline](./icons/alert-outline.svg)  |  `<AlertOutline />` 
-| ![american-football](./icons/american-football.svg) | `<AmericanFootball />` |  ![american-football-outline](./icons/american-football-outline.svg)  |  `<AmericanFootballOutline />` 
-| ![analytics](./icons/analytics.svg) | `<Analytics />` |  ![analytics-outline](./icons/analytics-outline.svg)  |  `<AnalyticsOutline />` 
-| ![aperture](./icons/aperture.svg) | `<Aperture />` |  ![aperture-outline](./icons/aperture-outline.svg)  |  `<ApertureOutline />` 
-| ![apps](./icons/apps.svg) | `<Apps />` |  ![apps-outline](./icons/apps-outline.svg)  |  `<AppsOutline />` 
-| ![archive](./icons/archive.svg) | `<Archive />` |  ![archive-outline](./icons/archive-outline.svg)  |  `<ArchiveOutline />` 
-| ![arrow-back-circle](./icons/arrow-back-circle.svg) | `<ArrowBackCircle />` |  ![arrow-back-circle-outline](./icons/arrow-back-circle-outline.svg)  |  `<ArrowBackCircleOutline />` 
-| ![arrow-back](./icons/arrow-back.svg) | `<ArrowBack />` |  ![arrow-back-outline](./icons/arrow-back-outline.svg)  |  `<ArrowBackOutline />` 
-| ![arrow-down-circle](./icons/arrow-down-circle.svg) | `<ArrowDownCircle />` |  ![arrow-down-circle-outline](./icons/arrow-down-circle-outline.svg)  |  `<ArrowDownCircleOutline />` 
-| ![arrow-down](./icons/arrow-down.svg) | `<ArrowDown />` |  ![arrow-down-outline](./icons/arrow-down-outline.svg)  |  `<ArrowDownOutline />` 
-| ![arrow-forward-circle](./icons/arrow-forward-circle.svg) | `<ArrowForwardCircle />` |  ![arrow-forward-circle-outline](./icons/arrow-forward-circle-outline.svg)  |  `<ArrowForwardCircleOutline />` 
-| ![arrow-forward](./icons/arrow-forward.svg) | `<ArrowForward />` |  ![arrow-forward-outline](./icons/arrow-forward-outline.svg)  |  `<ArrowForwardOutline />` 
-| ![arrow-redo-circle](./icons/arrow-redo-circle.svg) | `<ArrowRedoCircle />` |  ![arrow-redo-circle-outline](./icons/arrow-redo-circle-outline.svg)  |  `<ArrowRedoCircleOutline />` 
-| ![arrow-redo](./icons/arrow-redo.svg) | `<ArrowRedo />` |  ![arrow-redo-outline](./icons/arrow-redo-outline.svg)  |  `<ArrowRedoOutline />` 
-| ![arrow-undo-circle](./icons/arrow-undo-circle.svg) | `<ArrowUndoCircle />` |  ![arrow-undo-circle-outline](./icons/arrow-undo-circle-outline.svg)  |  `<ArrowUndoCircleOutline />` 
-| ![arrow-undo](./icons/arrow-undo.svg) | `<ArrowUndo />` |  ![arrow-undo-outline](./icons/arrow-undo-outline.svg)  |  `<ArrowUndoOutline />` 
-| ![arrow-up-circle](./icons/arrow-up-circle.svg) | `<ArrowUpCircle />` |  ![arrow-up-circle-outline](./icons/arrow-up-circle-outline.svg)  |  `<ArrowUpCircleOutline />` 
-| ![arrow-up](./icons/arrow-up.svg) | `<ArrowUp />` |  ![arrow-up-outline](./icons/arrow-up-outline.svg)  |  `<ArrowUpOutline />` 
-| ![at-circle](./icons/at-circle.svg) | `<AtCircle />` |  ![at-circle-outline](./icons/at-circle-outline.svg)  |  `<AtCircleOutline />` 
-| ![attach](./icons/attach.svg) | `<Attach />` |  ![attach-outline](./icons/attach-outline.svg)  |  `<AttachOutline />` 
-| ![backspace](./icons/backspace.svg) | `<Backspace />` |  ![backspace-outline](./icons/backspace-outline.svg)  |  `<BackspaceOutline />` 
-| ![bag-add](./icons/bag-add.svg) | `<BagAdd />` |  ![bag-add-outline](./icons/bag-add-outline.svg)  |  `<BagAddOutline />` 
-| ![bag-check](./icons/bag-check.svg) | `<BagCheck />` |  ![bag-check-outline](./icons/bag-check-outline.svg)  |  `<BagCheckOutline />` 
-| ![bag-handle](./icons/bag-handle.svg) | `<BagHandle />` |  ![bag-handle-outline](./icons/bag-handle-outline.svg)  |  `<BagHandleOutline />` 
-| ![bag](./icons/bag.svg) | `<Bag />` |  ![bag-outline](./icons/bag-outline.svg)  |  `<BagOutline />` 
-| ![bag-remove](./icons/bag-remove.svg) | `<BagRemove />` |  ![bag-remove-outline](./icons/bag-remove-outline.svg)  |  `<BagRemoveOutline />` 
-| ![ban](./icons/ban.svg) | `<Ban />` |  ![ban-outline](./icons/ban-outline.svg)  |  `<BanOutline />` 
-| ![bandage](./icons/bandage.svg) | `<Bandage />` |  ![bandage-outline](./icons/bandage-outline.svg)  |  `<BandageOutline />` 
-| ![bar-chart](./icons/bar-chart.svg) | `<BarChart />` |  ![bar-chart-outline](./icons/bar-chart-outline.svg)  |  `<BarChartOutline />` 
-| ![barbell](./icons/barbell.svg) | `<Barbell />` |  ![barbell-outline](./icons/barbell-outline.svg)  |  `<BarbellOutline />` 
-| ![barcode](./icons/barcode.svg) | `<Barcode />` |  ![barcode-outline](./icons/barcode-outline.svg)  |  `<BarcodeOutline />` 
-| ![baseball](./icons/baseball.svg) | `<Baseball />` |  ![baseball-outline](./icons/baseball-outline.svg)  |  `<BaseballOutline />` 
-| ![basket](./icons/basket.svg) | `<Basket />` |  ![basket-outline](./icons/basket-outline.svg)  |  `<BasketOutline />` 
-| ![basketball](./icons/basketball.svg) | `<Basketball />` |  ![basketball-outline](./icons/basketball-outline.svg)  |  `<BasketballOutline />` 
-| ![battery-charging](./icons/battery-charging.svg) | `<BatteryCharging />` |  ![battery-charging-outline](./icons/battery-charging-outline.svg)  |  `<BatteryChargingOutline />` 
-| ![battery-dead](./icons/battery-dead.svg) | `<BatteryDead />` |  ![battery-dead-outline](./icons/battery-dead-outline.svg)  |  `<BatteryDeadOutline />` 
-| ![battery-full](./icons/battery-full.svg) | `<BatteryFull />` |  ![battery-full-outline](./icons/battery-full-outline.svg)  |  `<BatteryFullOutline />` 
-| ![battery-half](./icons/battery-half.svg) | `<BatteryHalf />` |  ![battery-half-outline](./icons/battery-half-outline.svg)  |  `<BatteryHalfOutline />` 
-| ![beaker](./icons/beaker.svg) | `<Beaker />` |  ![beaker-outline](./icons/beaker-outline.svg)  |  `<BeakerOutline />` 
-| ![bed](./icons/bed.svg) | `<Bed />` |  ![bed-outline](./icons/bed-outline.svg)  |  `<BedOutline />` 
-| ![beer](./icons/beer.svg) | `<Beer />` |  ![beer-outline](./icons/beer-outline.svg)  |  `<BeerOutline />` 
-| ![bicycle](./icons/bicycle.svg) | `<Bicycle />` |  ![bicycle-outline](./icons/bicycle-outline.svg)  |  `<BicycleOutline />` 
-| ![bluetooth](./icons/bluetooth.svg) | `<Bluetooth />` |  ![bluetooth-outline](./icons/bluetooth-outline.svg)  |  `<BluetoothOutline />` 
-| ![boat](./icons/boat.svg) | `<Boat />` |  ![boat-outline](./icons/boat-outline.svg)  |  `<BoatOutline />` 
-| ![body](./icons/body.svg) | `<Body />` |  ![body-outline](./icons/body-outline.svg)  |  `<BodyOutline />` 
-| ![bonfire](./icons/bonfire.svg) | `<Bonfire />` |  ![bonfire-outline](./icons/bonfire-outline.svg)  |  `<BonfireOutline />` 
-| ![book](./icons/book.svg) | `<Book />` |  ![book-outline](./icons/book-outline.svg)  |  `<BookOutline />` 
-| ![bookmark](./icons/bookmark.svg) | `<Bookmark />` |  ![bookmark-outline](./icons/bookmark-outline.svg)  |  `<BookmarkOutline />` 
-| ![bookmarks](./icons/bookmarks.svg) | `<Bookmarks />` |  ![bookmarks-outline](./icons/bookmarks-outline.svg)  |  `<BookmarksOutline />` 
-| ![briefcase](./icons/briefcase.svg) | `<Briefcase />` |  ![briefcase-outline](./icons/briefcase-outline.svg)  |  `<BriefcaseOutline />` 
-| ![browsers](./icons/browsers.svg) | `<Browsers />` |  ![browsers-outline](./icons/browsers-outline.svg)  |  `<BrowsersOutline />` 
-| ![brush](./icons/brush.svg) | `<Brush />` |  ![brush-outline](./icons/brush-outline.svg)  |  `<BrushOutline />` 
-| ![bug](./icons/bug.svg) | `<Bug />` |  ![bug-outline](./icons/bug-outline.svg)  |  `<BugOutline />` 
-| ![build](./icons/build.svg) | `<Build />` |  ![build-outline](./icons/build-outline.svg)  |  `<BuildOutline />` 
-| ![bulb](./icons/bulb.svg) | `<Bulb />` |  ![bulb-outline](./icons/bulb-outline.svg)  |  `<BulbOutline />` 
-| ![bus](./icons/bus.svg) | `<Bus />` |  ![bus-outline](./icons/bus-outline.svg)  |  `<BusOutline />` 
-| ![business](./icons/business.svg) | `<Business />` |  ![business-outline](./icons/business-outline.svg)  |  `<BusinessOutline />` 
-| ![cafe](./icons/cafe.svg) | `<Cafe />` |  ![cafe-outline](./icons/cafe-outline.svg)  |  `<CafeOutline />` 
-| ![calculator](./icons/calculator.svg) | `<Calculator />` |  ![calculator-outline](./icons/calculator-outline.svg)  |  `<CalculatorOutline />` 
-| ![calendar-clear](./icons/calendar-clear.svg) | `<CalendarClear />` |  ![calendar-clear-outline](./icons/calendar-clear-outline.svg)  |  `<CalendarClearOutline />` 
-| ![calendar](./icons/calendar.svg) | `<Calendar />` |  ![calendar-outline](./icons/calendar-outline.svg)  |  `<CalendarOutline />` 
-| ![call](./icons/call.svg) | `<Call />` |  ![call-outline](./icons/call-outline.svg)  |  `<CallOutline />` 
-| ![camera](./icons/camera.svg) | `<Camera />` |  ![camera-outline](./icons/camera-outline.svg)  |  `<CameraOutline />` 
-| ![camera-reverse](./icons/camera-reverse.svg) | `<CameraReverse />` |  ![camera-reverse-outline](./icons/camera-reverse-outline.svg)  |  `<CameraReverseOutline />` 
-| ![car](./icons/car.svg) | `<Car />` |  ![car-outline](./icons/car-outline.svg)  |  `<CarOutline />` 
-| ![car-sport](./icons/car-sport.svg) | `<CarSport />` |  ![car-sport-outline](./icons/car-sport-outline.svg)  |  `<CarSportOutline />` 
-| ![card](./icons/card.svg) | `<Card />` |  ![card-outline](./icons/card-outline.svg)  |  `<CardOutline />` 
-| ![caret-back-circle](./icons/caret-back-circle.svg) | `<CaretBackCircle />` |  ![caret-back-circle-outline](./icons/caret-back-circle-outline.svg)  |  `<CaretBackCircleOutline />` 
-| ![caret-back](./icons/caret-back.svg) | `<CaretBack />` |  ![caret-back-outline](./icons/caret-back-outline.svg)  |  `<CaretBackOutline />` 
-| ![caret-down-circle](./icons/caret-down-circle.svg) | `<CaretDownCircle />` |  ![caret-down-circle-outline](./icons/caret-down-circle-outline.svg)  |  `<CaretDownCircleOutline />` 
-| ![caret-down](./icons/caret-down.svg) | `<CaretDown />` |  ![caret-down-outline](./icons/caret-down-outline.svg)  |  `<CaretDownOutline />` 
-| ![caret-forward-circle](./icons/caret-forward-circle.svg) | `<CaretForwardCircle />` |  ![caret-forward-circle-outline](./icons/caret-forward-circle-outline.svg)  |  `<CaretForwardCircleOutline />` 
-| ![caret-forward](./icons/caret-forward.svg) | `<CaretForward />` |  ![caret-forward-outline](./icons/caret-forward-outline.svg)  |  `<CaretForwardOutline />` 
-| ![caret-up-circle](./icons/caret-up-circle.svg) | `<CaretUpCircle />` |  ![caret-up-circle-outline](./icons/caret-up-circle-outline.svg)  |  `<CaretUpCircleOutline />` 
-| ![caret-up](./icons/caret-up.svg) | `<CaretUp />` |  ![caret-up-outline](./icons/caret-up-outline.svg)  |  `<CaretUpOutline />` 
-| ![cart](./icons/cart.svg) | `<Cart />` |  ![cart-outline](./icons/cart-outline.svg)  |  `<CartOutline />` 
-| ![cash](./icons/cash.svg) | `<Cash />` |  ![cash-outline](./icons/cash-outline.svg)  |  `<CashOutline />` 
-| ![cellular](./icons/cellular.svg) | `<Cellular />` |  ![cellular-outline](./icons/cellular-outline.svg)  |  `<CellularOutline />` 
-| ![chatbox-ellipses](./icons/chatbox-ellipses.svg) | `<ChatboxEllipses />` |  ![chatbox-ellipses-outline](./icons/chatbox-ellipses-outline.svg)  |  `<ChatboxEllipsesOutline />` 
-| ![chatbox](./icons/chatbox.svg) | `<Chatbox />` |  ![chatbox-outline](./icons/chatbox-outline.svg)  |  `<ChatboxOutline />` 
-| ![chatbubble-ellipses](./icons/chatbubble-ellipses.svg) | `<ChatbubbleEllipses />` |  ![chatbubble-ellipses-outline](./icons/chatbubble-ellipses-outline.svg)  |  `<ChatbubbleEllipsesOutline />` 
-| ![chatbubble](./icons/chatbubble.svg) | `<Chatbubble />` |  ![chatbubble-outline](./icons/chatbubble-outline.svg)  |  `<ChatbubbleOutline />` 
-| ![chatbubbles](./icons/chatbubbles.svg) | `<Chatbubbles />` |  ![chatbubbles-outline](./icons/chatbubbles-outline.svg)  |  `<ChatbubblesOutline />` 
-| ![checkbox](./icons/checkbox.svg) | `<Checkbox />` |  ![checkbox-outline](./icons/checkbox-outline.svg)  |  `<CheckboxOutline />` 
-| ![checkmark-circle](./icons/checkmark-circle.svg) | `<CheckmarkCircle />` |  ![checkmark-circle-outline](./icons/checkmark-circle-outline.svg)  |  `<CheckmarkCircleOutline />` 
-| ![checkmark-done-circle](./icons/checkmark-done-circle.svg) | `<CheckmarkDoneCircle />` |  ![checkmark-done-circle-outline](./icons/checkmark-done-circle-outline.svg)  |  `<CheckmarkDoneCircleOutline />` 
-| ![checkmark-done](./icons/checkmark-done.svg) | `<CheckmarkDone />` |  ![checkmark-done-outline](./icons/checkmark-done-outline.svg)  |  `<CheckmarkDoneOutline />` 
-| ![checkmark](./icons/checkmark.svg) | `<Checkmark />` |  ![checkmark-outline](./icons/checkmark-outline.svg)  |  `<CheckmarkOutline />` 
-| ![chevron-back-circle](./icons/chevron-back-circle.svg) | `<ChevronBackCircle />` |  ![chevron-back-circle-outline](./icons/chevron-back-circle-outline.svg)  |  `<ChevronBackCircleOutline />` 
-| ![chevron-back](./icons/chevron-back.svg) | `<ChevronBack />` |  ![chevron-back-outline](./icons/chevron-back-outline.svg)  |  `<ChevronBackOutline />` 
-| ![chevron-down-circle](./icons/chevron-down-circle.svg) | `<ChevronDownCircle />` |  ![chevron-down-circle-outline](./icons/chevron-down-circle-outline.svg)  |  `<ChevronDownCircleOutline />` 
-| ![chevron-down](./icons/chevron-down.svg) | `<ChevronDown />` |  ![chevron-down-outline](./icons/chevron-down-outline.svg)  |  `<ChevronDownOutline />` 
-| ![chevron-forward-circle](./icons/chevron-forward-circle.svg) | `<ChevronForwardCircle />` |  ![chevron-forward-circle-outline](./icons/chevron-forward-circle-outline.svg)  |  `<ChevronForwardCircleOutline />` 
-| ![chevron-forward](./icons/chevron-forward.svg) | `<ChevronForward />` |  ![chevron-forward-outline](./icons/chevron-forward-outline.svg)  |  `<ChevronForwardOutline />` 
-| ![chevron-up-circle](./icons/chevron-up-circle.svg) | `<ChevronUpCircle />` |  ![chevron-up-circle-outline](./icons/chevron-up-circle-outline.svg)  |  `<ChevronUpCircleOutline />` 
-| ![chevron-up](./icons/chevron-up.svg) | `<ChevronUp />` |  ![chevron-up-outline](./icons/chevron-up-outline.svg)  |  `<ChevronUpOutline />` 
-| ![clipboard](./icons/clipboard.svg) | `<Clipboard />` |  ![clipboard-outline](./icons/clipboard-outline.svg)  |  `<ClipboardOutline />` 
-| ![close-circle](./icons/close-circle.svg) | `<CloseCircle />` |  ![close-circle-outline](./icons/close-circle-outline.svg)  |  `<CloseCircleOutline />` 
-| ![close](./icons/close.svg) | `<Close />` |  ![close-outline](./icons/close-outline.svg)  |  `<CloseOutline />` 
-| ![cloud-circle](./icons/cloud-circle.svg) | `<CloudCircle />` |  ![cloud-circle-outline](./icons/cloud-circle-outline.svg)  |  `<CloudCircleOutline />` 
-| ![cloud-done](./icons/cloud-done.svg) | `<CloudDone />` |  ![cloud-done-outline](./icons/cloud-done-outline.svg)  |  `<CloudDoneOutline />` 
-| ![cloud-download](./icons/cloud-download.svg) | `<CloudDownload />` |  ![cloud-download-outline](./icons/cloud-download-outline.svg)  |  `<CloudDownloadOutline />` 
-| ![cloud](./icons/cloud.svg) | `<Cloud />` |  ![cloud-outline](./icons/cloud-outline.svg)  |  `<CloudOutline />` 
-| ![cloud-offline](./icons/cloud-offline.svg) | `<CloudOffline />` |  ![cloud-offline-outline](./icons/cloud-offline-outline.svg)  |  `<CloudOfflineOutline />` 
-| ![cloud-upload](./icons/cloud-upload.svg) | `<CloudUpload />` |  ![cloud-upload-outline](./icons/cloud-upload-outline.svg)  |  `<CloudUploadOutline />` 
-| ![cloudy](./icons/cloudy.svg) | `<Cloudy />` |  ![cloudy-outline](./icons/cloudy-outline.svg)  |  `<CloudyOutline />` 
-| ![cloudy-night](./icons/cloudy-night.svg) | `<CloudyNight />` |  ![cloudy-night-outline](./icons/cloudy-night-outline.svg)  |  `<CloudyNightOutline />` 
-| ![code-download](./icons/code-download.svg) | `<CodeDownload />` |  ![code-download-outline](./icons/code-download-outline.svg)  |  `<CodeDownloadOutline />` 
-| ![code](./icons/code.svg) | `<Code />` |  ![code-outline](./icons/code-outline.svg)  |  `<CodeOutline />` 
-| ![code-slash](./icons/code-slash.svg) | `<CodeSlash />` |  ![code-slash-outline](./icons/code-slash-outline.svg)  |  `<CodeSlashOutline />` 
-| ![code-working](./icons/code-working.svg) | `<CodeWorking />` |  ![code-working-outline](./icons/code-working-outline.svg)  |  `<CodeWorkingOutline />` 
-| ![cog](./icons/cog.svg) | `<Cog />` |  ![cog-outline](./icons/cog-outline.svg)  |  `<CogOutline />` 
-| ![color-fill](./icons/color-fill.svg) | `<ColorFill />` |  ![color-fill-outline](./icons/color-fill-outline.svg)  |  `<ColorFillOutline />` 
-| ![color-filter](./icons/color-filter.svg) | `<ColorFilter />` |  ![color-filter-outline](./icons/color-filter-outline.svg)  |  `<ColorFilterOutline />` 
-| ![color-palette](./icons/color-palette.svg) | `<ColorPalette />` |  ![color-palette-outline](./icons/color-palette-outline.svg)  |  `<ColorPaletteOutline />` 
-| ![color-wand](./icons/color-wand.svg) | `<ColorWand />` |  ![color-wand-outline](./icons/color-wand-outline.svg)  |  `<ColorWandOutline />` 
-| ![compass](./icons/compass.svg) | `<Compass />` |  ![compass-outline](./icons/compass-outline.svg)  |  `<CompassOutline />` 
-| ![construct](./icons/construct.svg) | `<Construct />` |  ![construct-outline](./icons/construct-outline.svg)  |  `<ConstructOutline />` 
-| ![contract](./icons/contract.svg) | `<Contract />` |  ![contract-outline](./icons/contract-outline.svg)  |  `<ContractOutline />` 
-| ![contrast](./icons/contrast.svg) | `<Contrast />` |  ![contrast-outline](./icons/contrast-outline.svg)  |  `<ContrastOutline />` 
-| ![copy](./icons/copy.svg) | `<Copy />` |  ![copy-outline](./icons/copy-outline.svg)  |  `<CopyOutline />` 
-| ![create](./icons/create.svg) | `<Create />` |  ![create-outline](./icons/create-outline.svg)  |  `<CreateOutline />` 
-| ![crop](./icons/crop.svg) | `<Crop />` |  ![crop-outline](./icons/crop-outline.svg)  |  `<CropOutline />` 
-| ![cube](./icons/cube.svg) | `<Cube />` |  ![cube-outline](./icons/cube-outline.svg)  |  `<CubeOutline />` 
-| ![cut](./icons/cut.svg) | `<Cut />` |  ![cut-outline](./icons/cut-outline.svg)  |  `<CutOutline />` 
-| ![desktop](./icons/desktop.svg) | `<Desktop />` |  ![desktop-outline](./icons/desktop-outline.svg)  |  `<DesktopOutline />` 
-| ![dice](./icons/dice.svg) | `<Dice />` |  ![dice-outline](./icons/dice-outline.svg)  |  `<DiceOutline />` 
-| ![disc](./icons/disc.svg) | `<Disc />` |  ![disc-outline](./icons/disc-outline.svg)  |  `<DiscOutline />` 
-| ![document-attach](./icons/document-attach.svg) | `<DocumentAttach />` |  ![document-attach-outline](./icons/document-attach-outline.svg)  |  `<DocumentAttachOutline />` 
-| ![document](./icons/document.svg) | `<Document />` |  ![document-outline](./icons/document-outline.svg)  |  `<DocumentOutline />` 
-| ![document-lock](./icons/document-lock.svg) | `<DocumentLock />` |  ![document-lock-outline](./icons/document-lock-outline.svg)  |  `<DocumentLockOutline />` 
-| ![document-text](./icons/document-text.svg) | `<DocumentText />` |  ![document-text-outline](./icons/document-text-outline.svg)  |  `<DocumentTextOutline />` 
-| ![documents](./icons/documents.svg) | `<Documents />` |  ![documents-outline](./icons/documents-outline.svg)  |  `<DocumentsOutline />` 
-| ![download](./icons/download.svg) | `<Download />` |  ![download-outline](./icons/download-outline.svg)  |  `<DownloadOutline />` 
-| ![duplicate](./icons/duplicate.svg) | `<Duplicate />` |  ![duplicate-outline](./icons/duplicate-outline.svg)  |  `<DuplicateOutline />` 
-| ![ear](./icons/ear.svg) | `<Ear />` |  ![ear-outline](./icons/ear-outline.svg)  |  `<EarOutline />` 
-| ![earth](./icons/earth.svg) | `<Earth />` |  ![earth-outline](./icons/earth-outline.svg)  |  `<EarthOutline />` 
-| ![easel](./icons/easel.svg) | `<Easel />` |  ![easel-outline](./icons/easel-outline.svg)  |  `<EaselOutline />` 
-| ![egg](./icons/egg.svg) | `<Egg />` |  ![egg-outline](./icons/egg-outline.svg)  |  `<EggOutline />` 
-| ![ellipse](./icons/ellipse.svg) | `<Ellipse />` |  ![ellipse-outline](./icons/ellipse-outline.svg)  |  `<EllipseOutline />` 
-| ![ellipsis-horizontal-circle](./icons/ellipsis-horizontal-circle.svg) | `<EllipsisHorizontalCircle />` |  ![ellipsis-horizontal-circle-outline](./icons/ellipsis-horizontal-circle-outline.svg)  |  `<EllipsisHorizontalCircleOutline />` 
-| ![ellipsis-horizontal](./icons/ellipsis-horizontal.svg) | `<EllipsisHorizontal />` |  ![ellipsis-horizontal-outline](./icons/ellipsis-horizontal-outline.svg)  |  `<EllipsisHorizontalOutline />` 
-| ![ellipsis-vertical-circle](./icons/ellipsis-vertical-circle.svg) | `<EllipsisVerticalCircle />` |  ![ellipsis-vertical-circle-outline](./icons/ellipsis-vertical-circle-outline.svg)  |  `<EllipsisVerticalCircleOutline />` 
-| ![ellipsis-vertical](./icons/ellipsis-vertical.svg) | `<EllipsisVertical />` |  ![ellipsis-vertical-outline](./icons/ellipsis-vertical-outline.svg)  |  `<EllipsisVerticalOutline />` 
-| ![enter](./icons/enter.svg) | `<Enter />` |  ![enter-outline](./icons/enter-outline.svg)  |  `<EnterOutline />` 
-| ![exit](./icons/exit.svg) | `<Exit />` |  ![exit-outline](./icons/exit-outline.svg)  |  `<ExitOutline />` 
-| ![expand](./icons/expand.svg) | `<Expand />` |  ![expand-outline](./icons/expand-outline.svg)  |  `<ExpandOutline />` 
-| ![extension-puzzle](./icons/extension-puzzle.svg) | `<ExtensionPuzzle />` |  ![extension-puzzle-outline](./icons/extension-puzzle-outline.svg)  |  `<ExtensionPuzzleOutline />` 
-| ![eye](./icons/eye.svg) | `<Eye />` |  ![eye-outline](./icons/eye-outline.svg)  |  `<EyeOutline />` 
-| ![eye-off](./icons/eye-off.svg) | `<EyeOff />` |  ![eye-off-outline](./icons/eye-off-outline.svg)  |  `<EyeOffOutline />` 
-| ![eyedrop](./icons/eyedrop.svg) | `<Eyedrop />` |  ![eyedrop-outline](./icons/eyedrop-outline.svg)  |  `<EyedropOutline />` 
-| ![fast-food](./icons/fast-food.svg) | `<FastFood />` |  ![fast-food-outline](./icons/fast-food-outline.svg)  |  `<FastFoodOutline />` 
-| ![female](./icons/female.svg) | `<Female />` |  ![female-outline](./icons/female-outline.svg)  |  `<FemaleOutline />` 
-| ![file-tray-full](./icons/file-tray-full.svg) | `<FileTrayFull />` |  ![file-tray-full-outline](./icons/file-tray-full-outline.svg)  |  `<FileTrayFullOutline />` 
-| ![file-tray](./icons/file-tray.svg) | `<FileTray />` |  ![file-tray-outline](./icons/file-tray-outline.svg)  |  `<FileTrayOutline />` 
-| ![file-tray-stacked](./icons/file-tray-stacked.svg) | `<FileTrayStacked />` |  ![file-tray-stacked-outline](./icons/file-tray-stacked-outline.svg)  |  `<FileTrayStackedOutline />` 
-| ![film](./icons/film.svg) | `<Film />` |  ![film-outline](./icons/film-outline.svg)  |  `<FilmOutline />` 
-| ![filter-circle](./icons/filter-circle.svg) | `<FilterCircle />` |  ![filter-circle-outline](./icons/filter-circle-outline.svg)  |  `<FilterCircleOutline />` 
-| ![filter](./icons/filter.svg) | `<Filter />` |  ![filter-outline](./icons/filter-outline.svg)  |  `<FilterOutline />` 
-| ![finger-print](./icons/finger-print.svg) | `<FingerPrint />` |  ![finger-print-outline](./icons/finger-print-outline.svg)  |  `<FingerPrintOutline />` 
-| ![fish](./icons/fish.svg) | `<Fish />` |  ![fish-outline](./icons/fish-outline.svg)  |  `<FishOutline />` 
-| ![fitness](./icons/fitness.svg) | `<Fitness />` |  ![fitness-outline](./icons/fitness-outline.svg)  |  `<FitnessOutline />` 
-| ![flag](./icons/flag.svg) | `<Flag />` |  ![flag-outline](./icons/flag-outline.svg)  |  `<FlagOutline />` 
-| ![flame](./icons/flame.svg) | `<Flame />` |  ![flame-outline](./icons/flame-outline.svg)  |  `<FlameOutline />` 
-| ![flash](./icons/flash.svg) | `<Flash />` |  ![flash-outline](./icons/flash-outline.svg)  |  `<FlashOutline />` 
-| ![flash-off](./icons/flash-off.svg) | `<FlashOff />` |  ![flash-off-outline](./icons/flash-off-outline.svg)  |  `<FlashOffOutline />` 
-| ![flashlight](./icons/flashlight.svg) | `<Flashlight />` |  ![flashlight-outline](./icons/flashlight-outline.svg)  |  `<FlashlightOutline />` 
-| ![flask](./icons/flask.svg) | `<Flask />` |  ![flask-outline](./icons/flask-outline.svg)  |  `<FlaskOutline />` 
-| ![flower](./icons/flower.svg) | `<Flower />` |  ![flower-outline](./icons/flower-outline.svg)  |  `<FlowerOutline />` 
-| ![folder](./icons/folder.svg) | `<Folder />` |  ![folder-outline](./icons/folder-outline.svg)  |  `<FolderOutline />` 
-| ![folder-open](./icons/folder-open.svg) | `<FolderOpen />` |  ![folder-open-outline](./icons/folder-open-outline.svg)  |  `<FolderOpenOutline />` 
-| ![football](./icons/football.svg) | `<Football />` |  ![football-outline](./icons/football-outline.svg)  |  `<FootballOutline />` 
-| ![funnel](./icons/funnel.svg) | `<Funnel />` |  ![funnel-outline](./icons/funnel-outline.svg)  |  `<FunnelOutline />` 
-| ![game-controller](./icons/game-controller.svg) | `<GameController />` |  ![game-controller-outline](./icons/game-controller-outline.svg)  |  `<GameControllerOutline />` 
-| ![gift](./icons/gift.svg) | `<Gift />` |  ![gift-outline](./icons/gift-outline.svg)  |  `<GiftOutline />` 
-| ![git-branch](./icons/git-branch.svg) | `<GitBranch />` |  ![git-branch-outline](./icons/git-branch-outline.svg)  |  `<GitBranchOutline />` 
-| ![git-commit](./icons/git-commit.svg) | `<GitCommit />` |  ![git-commit-outline](./icons/git-commit-outline.svg)  |  `<GitCommitOutline />` 
-| ![git-compare](./icons/git-compare.svg) | `<GitCompare />` |  ![git-compare-outline](./icons/git-compare-outline.svg)  |  `<GitCompareOutline />` 
-| ![git-merge](./icons/git-merge.svg) | `<GitMerge />` |  ![git-merge-outline](./icons/git-merge-outline.svg)  |  `<GitMergeOutline />` 
-| ![git-network](./icons/git-network.svg) | `<GitNetwork />` |  ![git-network-outline](./icons/git-network-outline.svg)  |  `<GitNetworkOutline />` 
-| ![git-pull-request](./icons/git-pull-request.svg) | `<GitPullRequest />` |  ![git-pull-request-outline](./icons/git-pull-request-outline.svg)  |  `<GitPullRequestOutline />` 
-| ![glasses](./icons/glasses.svg) | `<Glasses />` |  ![glasses-outline](./icons/glasses-outline.svg)  |  `<GlassesOutline />` 
-| ![globe](./icons/globe.svg) | `<Globe />` |  ![globe-outline](./icons/globe-outline.svg)  |  `<GlobeOutline />` 
-| ![golf](./icons/golf.svg) | `<Golf />` |  ![golf-outline](./icons/golf-outline.svg)  |  `<GolfOutline />` 
-| ![grid](./icons/grid.svg) | `<Grid />` |  ![grid-outline](./icons/grid-outline.svg)  |  `<GridOutline />` 
-| ![hammer](./icons/hammer.svg) | `<Hammer />` |  ![hammer-outline](./icons/hammer-outline.svg)  |  `<HammerOutline />` 
-| ![hand-left](./icons/hand-left.svg) | `<HandLeft />` |  ![hand-left-outline](./icons/hand-left-outline.svg)  |  `<HandLeftOutline />` 
-| ![hand-right](./icons/hand-right.svg) | `<HandRight />` |  ![hand-right-outline](./icons/hand-right-outline.svg)  |  `<HandRightOutline />` 
-| ![happy](./icons/happy.svg) | `<Happy />` |  ![happy-outline](./icons/happy-outline.svg)  |  `<HappyOutline />` 
-| ![hardware-chip](./icons/hardware-chip.svg) | `<HardwareChip />` |  ![hardware-chip-outline](./icons/hardware-chip-outline.svg)  |  `<HardwareChipOutline />` 
-| ![headset](./icons/headset.svg) | `<Headset />` |  ![headset-outline](./icons/headset-outline.svg)  |  `<HeadsetOutline />` 
-| ![heart-circle](./icons/heart-circle.svg) | `<HeartCircle />` |  ![heart-circle-outline](./icons/heart-circle-outline.svg)  |  `<HeartCircleOutline />` 
-| ![heart-dislike-circle](./icons/heart-dislike-circle.svg) | `<HeartDislikeCircle />` |  ![heart-dislike-circle-outline](./icons/heart-dislike-circle-outline.svg)  |  `<HeartDislikeCircleOutline />` 
-| ![heart-dislike](./icons/heart-dislike.svg) | `<HeartDislike />` |  ![heart-dislike-outline](./icons/heart-dislike-outline.svg)  |  `<HeartDislikeOutline />` 
-| ![heart-half](./icons/heart-half.svg) | `<HeartHalf />` |  ![heart-half-outline](./icons/heart-half-outline.svg)  |  `<HeartHalfOutline />` 
-| ![heart](./icons/heart.svg) | `<Heart />` |  ![heart-outline](./icons/heart-outline.svg)  |  `<HeartOutline />` 
-| ![help-buoy](./icons/help-buoy.svg) | `<HelpBuoy />` |  ![help-buoy-outline](./icons/help-buoy-outline.svg)  |  `<HelpBuoyOutline />` 
-| ![help-circle](./icons/help-circle.svg) | `<HelpCircle />` |  ![help-circle-outline](./icons/help-circle-outline.svg)  |  `<HelpCircleOutline />` 
-| ![help](./icons/help.svg) | `<Help />` |  ![help-outline](./icons/help-outline.svg)  |  `<HelpOutline />` 
-| ![home](./icons/home.svg) | `<Home />` |  ![home-outline](./icons/home-outline.svg)  |  `<HomeOutline />` 
-| ![hourglass](./icons/hourglass.svg) | `<Hourglass />` |  ![hourglass-outline](./icons/hourglass-outline.svg)  |  `<HourglassOutline />` 
-| ![ice-cream](./icons/ice-cream.svg) | `<IceCream />` |  ![ice-cream-outline](./icons/ice-cream-outline.svg)  |  `<IceCreamOutline />` 
-| ![image](./icons/image.svg) | `<Image />` |  ![image-outline](./icons/image-outline.svg)  |  `<ImageOutline />` 
-| ![images](./icons/images.svg) | `<Images />` |  ![images-outline](./icons/images-outline.svg)  |  `<ImagesOutline />` 
-| ![infinite](./icons/infinite.svg) | `<Infinite />` |  ![infinite-outline](./icons/infinite-outline.svg)  |  `<InfiniteOutline />` 
-| ![information-circle](./icons/information-circle.svg) | `<InformationCircle />` |  ![information-circle-outline](./icons/information-circle-outline.svg)  |  `<InformationCircleOutline />` 
-| ![information](./icons/information.svg) | `<Information />` |  ![information-outline](./icons/information-outline.svg)  |  `<InformationOutline />` 
-| ![invert-mode](./icons/invert-mode.svg) | `<InvertMode />` |  ![invert-mode-outline](./icons/invert-mode-outline.svg)  |  `<InvertModeOutline />` 
-| ![journal](./icons/journal.svg) | `<Journal />` |  ![journal-outline](./icons/journal-outline.svg)  |  `<JournalOutline />` 
-| ![key](./icons/key.svg) | `<Key />` |  ![key-outline](./icons/key-outline.svg)  |  `<KeyOutline />` 
-| ![keypad](./icons/keypad.svg) | `<Keypad />` |  ![keypad-outline](./icons/keypad-outline.svg)  |  `<KeypadOutline />` 
-| ![language](./icons/language.svg) | `<Language />` |  ![language-outline](./icons/language-outline.svg)  |  `<LanguageOutline />` 
-| ![laptop](./icons/laptop.svg) | `<Laptop />` |  ![laptop-outline](./icons/laptop-outline.svg)  |  `<LaptopOutline />` 
-| ![layers](./icons/layers.svg) | `<Layers />` |  ![layers-outline](./icons/layers-outline.svg)  |  `<LayersOutline />` 
-| ![leaf](./icons/leaf.svg) | `<Leaf />` |  ![leaf-outline](./icons/leaf-outline.svg)  |  `<LeafOutline />` 
-| ![library](./icons/library.svg) | `<Library />` |  ![library-outline](./icons/library-outline.svg)  |  `<LibraryOutline />` 
-| ![link](./icons/link.svg) | `<Link />` |  ![link-outline](./icons/link-outline.svg)  |  `<LinkOutline />` 
-| ![list-circle](./icons/list-circle.svg) | `<ListCircle />` |  ![list-circle-outline](./icons/list-circle-outline.svg)  |  `<ListCircleOutline />` 
-| ![list](./icons/list.svg) | `<List />` |  ![list-outline](./icons/list-outline.svg)  |  `<ListOutline />` 
-| ![locate](./icons/locate.svg) | `<Locate />` |  ![locate-outline](./icons/locate-outline.svg)  |  `<LocateOutline />` 
-| ![location](./icons/location.svg) | `<Location />` |  ![location-outline](./icons/location-outline.svg)  |  `<LocationOutline />` 
-| ![lock-closed](./icons/lock-closed.svg) | `<LockClosed />` |  ![lock-closed-outline](./icons/lock-closed-outline.svg)  |  `<LockClosedOutline />` 
-| ![lock-open](./icons/lock-open.svg) | `<LockOpen />` |  ![lock-open-outline](./icons/lock-open-outline.svg)  |  `<LockOpenOutline />` 
-| ![log-in](./icons/log-in.svg) | `<LogIn />` |  ![log-in-outline](./icons/log-in-outline.svg)  |  `<LogInOutline />` 
-| ![log-out](./icons/log-out.svg) | `<LogOut />` |  ![log-out-outline](./icons/log-out-outline.svg)  |  `<LogOutOutline />` 
-| ![magnet](./icons/magnet.svg) | `<Magnet />` |  ![magnet-outline](./icons/magnet-outline.svg)  |  `<MagnetOutline />` 
-| ![mail](./icons/mail.svg) | `<Mail />` |  ![mail-outline](./icons/mail-outline.svg)  |  `<MailOutline />` 
-| ![mail-open](./icons/mail-open.svg) | `<MailOpen />` |  ![mail-open-outline](./icons/mail-open-outline.svg)  |  `<MailOpenOutline />` 
-| ![mail-unread](./icons/mail-unread.svg) | `<MailUnread />` |  ![mail-unread-outline](./icons/mail-unread-outline.svg)  |  `<MailUnreadOutline />` 
-| ![male-female](./icons/male-female.svg) | `<MaleFemale />` |  ![male-female-outline](./icons/male-female-outline.svg)  |  `<MaleFemaleOutline />` 
-| ![male](./icons/male.svg) | `<Male />` |  ![male-outline](./icons/male-outline.svg)  |  `<MaleOutline />` 
-| ![man](./icons/man.svg) | `<Man />` |  ![man-outline](./icons/man-outline.svg)  |  `<ManOutline />` 
-| ![map](./icons/map.svg) | `<Map />` |  ![map-outline](./icons/map-outline.svg)  |  `<MapOutline />` 
-| ![medal](./icons/medal.svg) | `<Medal />` |  ![medal-outline](./icons/medal-outline.svg)  |  `<MedalOutline />` 
-| ![medical](./icons/medical.svg) | `<Medical />` |  ![medical-outline](./icons/medical-outline.svg)  |  `<MedicalOutline />` 
-| ![medkit](./icons/medkit.svg) | `<Medkit />` |  ![medkit-outline](./icons/medkit-outline.svg)  |  `<MedkitOutline />` 
-| ![megaphone](./icons/megaphone.svg) | `<Megaphone />` |  ![megaphone-outline](./icons/megaphone-outline.svg)  |  `<MegaphoneOutline />` 
-| ![menu](./icons/menu.svg) | `<Menu />` |  ![menu-outline](./icons/menu-outline.svg)  |  `<MenuOutline />` 
-| ![mic-circle](./icons/mic-circle.svg) | `<MicCircle />` |  ![mic-circle-outline](./icons/mic-circle-outline.svg)  |  `<MicCircleOutline />` 
-| ![mic](./icons/mic.svg) | `<Mic />` |  ![mic-outline](./icons/mic-outline.svg)  |  `<MicOutline />` 
-| ![mic-off-circle](./icons/mic-off-circle.svg) | `<MicOffCircle />` |  ![mic-off-circle-outline](./icons/mic-off-circle-outline.svg)  |  `<MicOffCircleOutline />` 
-| ![mic-off](./icons/mic-off.svg) | `<MicOff />` |  ![mic-off-outline](./icons/mic-off-outline.svg)  |  `<MicOffOutline />` 
-| ![moon](./icons/moon.svg) | `<Moon />` |  ![moon-outline](./icons/moon-outline.svg)  |  `<MoonOutline />` 
-| ![move](./icons/move.svg) | `<Move />` |  ![move-outline](./icons/move-outline.svg)  |  `<MoveOutline />` 
-| ![musical-note](./icons/musical-note.svg) | `<MusicalNote />` |  ![musical-note-outline](./icons/musical-note-outline.svg)  |  `<MusicalNoteOutline />` 
-| ![musical-notes](./icons/musical-notes.svg) | `<MusicalNotes />` |  ![musical-notes-outline](./icons/musical-notes-outline.svg)  |  `<MusicalNotesOutline />` 
-| ![navigate-circle](./icons/navigate-circle.svg) | `<NavigateCircle />` |  ![navigate-circle-outline](./icons/navigate-circle-outline.svg)  |  `<NavigateCircleOutline />` 
-| ![navigate](./icons/navigate.svg) | `<Navigate />` |  ![navigate-outline](./icons/navigate-outline.svg)  |  `<NavigateOutline />` 
-| ![newspaper](./icons/newspaper.svg) | `<Newspaper />` |  ![newspaper-outline](./icons/newspaper-outline.svg)  |  `<NewspaperOutline />` 
-| ![notifications-circle](./icons/notifications-circle.svg) | `<NotificationsCircle />` |  ![notifications-circle-outline](./icons/notifications-circle-outline.svg)  |  `<NotificationsCircleOutline />` 
-| ![notifications](./icons/notifications.svg) | `<Notifications />` |  ![notifications-outline](./icons/notifications-outline.svg)  |  `<NotificationsOutline />` 
-| ![notifications-off-circle](./icons/notifications-off-circle.svg) | `<NotificationsOffCircle />` |  ![notifications-off-circle-outline](./icons/notifications-off-circle-outline.svg)  |  `<NotificationsOffCircleOutline />` 
-| ![notifications-off](./icons/notifications-off.svg) | `<NotificationsOff />` |  ![notifications-off-outline](./icons/notifications-off-outline.svg)  |  `<NotificationsOffOutline />` 
-| ![nuclear](./icons/nuclear.svg) | `<Nuclear />` |  ![nuclear-outline](./icons/nuclear-outline.svg)  |  `<NuclearOutline />` 
-| ![nutrition](./icons/nutrition.svg) | `<Nutrition />` |  ![nutrition-outline](./icons/nutrition-outline.svg)  |  `<NutritionOutline />` 
-| ![open](./icons/open.svg) | `<Open />` |  ![open-outline](./icons/open-outline.svg)  |  `<OpenOutline />` 
-| ![options](./icons/options.svg) | `<Options />` |  ![options-outline](./icons/options-outline.svg)  |  `<OptionsOutline />` 
-| ![paper-plane](./icons/paper-plane.svg) | `<PaperPlane />` |  ![paper-plane-outline](./icons/paper-plane-outline.svg)  |  `<PaperPlaneOutline />` 
-| ![partly-sunny](./icons/partly-sunny.svg) | `<PartlySunny />` |  ![partly-sunny-outline](./icons/partly-sunny-outline.svg)  |  `<PartlySunnyOutline />` 
-| ![pause-circle](./icons/pause-circle.svg) | `<PauseCircle />` |  ![pause-circle-outline](./icons/pause-circle-outline.svg)  |  `<PauseCircleOutline />` 
-| ![pause](./icons/pause.svg) | `<Pause />` |  ![pause-outline](./icons/pause-outline.svg)  |  `<PauseOutline />` 
-| ![paw](./icons/paw.svg) | `<Paw />` |  ![paw-outline](./icons/paw-outline.svg)  |  `<PawOutline />` 
-| ![pencil](./icons/pencil.svg) | `<Pencil />` |  ![pencil-outline](./icons/pencil-outline.svg)  |  `<PencilOutline />` 
-| ![people-circle](./icons/people-circle.svg) | `<PeopleCircle />` |  ![people-circle-outline](./icons/people-circle-outline.svg)  |  `<PeopleCircleOutline />` 
-| ![people](./icons/people.svg) | `<People />` |  ![people-outline](./icons/people-outline.svg)  |  `<PeopleOutline />` 
-| ![person-add](./icons/person-add.svg) | `<PersonAdd />` |  ![person-add-outline](./icons/person-add-outline.svg)  |  `<PersonAddOutline />` 
-| ![person-circle](./icons/person-circle.svg) | `<PersonCircle />` |  ![person-circle-outline](./icons/person-circle-outline.svg)  |  `<PersonCircleOutline />` 
-| ![person](./icons/person.svg) | `<Person />` |  ![person-outline](./icons/person-outline.svg)  |  `<PersonOutline />` 
-| ![person-remove](./icons/person-remove.svg) | `<PersonRemove />` |  ![person-remove-outline](./icons/person-remove-outline.svg)  |  `<PersonRemoveOutline />` 
-| ![phone-landscape](./icons/phone-landscape.svg) | `<PhoneLandscape />` |  ![phone-landscape-outline](./icons/phone-landscape-outline.svg)  |  `<PhoneLandscapeOutline />` 
-| ![phone-portrait](./icons/phone-portrait.svg) | `<PhonePortrait />` |  ![phone-portrait-outline](./icons/phone-portrait-outline.svg)  |  `<PhonePortraitOutline />` 
-| ![pie-chart](./icons/pie-chart.svg) | `<PieChart />` |  ![pie-chart-outline](./icons/pie-chart-outline.svg)  |  `<PieChartOutline />` 
-| ![pin](./icons/pin.svg) | `<Pin />` |  ![pin-outline](./icons/pin-outline.svg)  |  `<PinOutline />` 
-| ![pint](./icons/pint.svg) | `<Pint />` |  ![pint-outline](./icons/pint-outline.svg)  |  `<PintOutline />` 
-| ![pizza](./icons/pizza.svg) | `<Pizza />` |  ![pizza-outline](./icons/pizza-outline.svg)  |  `<PizzaOutline />` 
-| ![planet](./icons/planet.svg) | `<Planet />` |  ![planet-outline](./icons/planet-outline.svg)  |  `<PlanetOutline />` 
-| ![play-back-circle](./icons/play-back-circle.svg) | `<PlayBackCircle />` |  ![play-back-circle-outline](./icons/play-back-circle-outline.svg)  |  `<PlayBackCircleOutline />` 
-| ![play-back](./icons/play-back.svg) | `<PlayBack />` |  ![play-back-outline](./icons/play-back-outline.svg)  |  `<PlayBackOutline />` 
-| ![play-circle](./icons/play-circle.svg) | `<PlayCircle />` |  ![play-circle-outline](./icons/play-circle-outline.svg)  |  `<PlayCircleOutline />` 
-| ![play-forward-circle](./icons/play-forward-circle.svg) | `<PlayForwardCircle />` |  ![play-forward-circle-outline](./icons/play-forward-circle-outline.svg)  |  `<PlayForwardCircleOutline />` 
-| ![play-forward](./icons/play-forward.svg) | `<PlayForward />` |  ![play-forward-outline](./icons/play-forward-outline.svg)  |  `<PlayForwardOutline />` 
-| ![play](./icons/play.svg) | `<Play />` |  ![play-outline](./icons/play-outline.svg)  |  `<PlayOutline />` 
-| ![play-skip-back-circle](./icons/play-skip-back-circle.svg) | `<PlaySkipBackCircle />` |  ![play-skip-back-circle-outline](./icons/play-skip-back-circle-outline.svg)  |  `<PlaySkipBackCircleOutline />` 
-| ![play-skip-back](./icons/play-skip-back.svg) | `<PlaySkipBack />` |  ![play-skip-back-outline](./icons/play-skip-back-outline.svg)  |  `<PlaySkipBackOutline />` 
-| ![play-skip-forward-circle](./icons/play-skip-forward-circle.svg) | `<PlaySkipForwardCircle />` |  ![play-skip-forward-circle-outline](./icons/play-skip-forward-circle-outline.svg)  |  `<PlaySkipForwardCircleOutline />` 
-| ![play-skip-forward](./icons/play-skip-forward.svg) | `<PlaySkipForward />` |  ![play-skip-forward-outline](./icons/play-skip-forward-outline.svg)  |  `<PlaySkipForwardOutline />` 
-| ![podium](./icons/podium.svg) | `<Podium />` |  ![podium-outline](./icons/podium-outline.svg)  |  `<PodiumOutline />` 
-| ![power](./icons/power.svg) | `<Power />` |  ![power-outline](./icons/power-outline.svg)  |  `<PowerOutline />` 
-| ![pricetag](./icons/pricetag.svg) | `<Pricetag />` |  ![pricetag-outline](./icons/pricetag-outline.svg)  |  `<PricetagOutline />` 
-| ![pricetags](./icons/pricetags.svg) | `<Pricetags />` |  ![pricetags-outline](./icons/pricetags-outline.svg)  |  `<PricetagsOutline />` 
-| ![print](./icons/print.svg) | `<Print />` |  ![print-outline](./icons/print-outline.svg)  |  `<PrintOutline />` 
-| ![pulse](./icons/pulse.svg) | `<Pulse />` |  ![pulse-outline](./icons/pulse-outline.svg)  |  `<PulseOutline />` 
-| ![push](./icons/push.svg) | `<Push />` |  ![push-outline](./icons/push-outline.svg)  |  `<PushOutline />` 
-| ![qr-code](./icons/qr-code.svg) | `<QrCode />` |  ![qr-code-outline](./icons/qr-code-outline.svg)  |  `<QrCodeOutline />` 
-| ![radio-button-off](./icons/radio-button-off.svg) | `<RadioButtonOff />` |  ![radio-button-off-outline](./icons/radio-button-off-outline.svg)  |  `<RadioButtonOffOutline />` 
-| ![radio-button-on](./icons/radio-button-on.svg) | `<RadioButtonOn />` |  ![radio-button-on-outline](./icons/radio-button-on-outline.svg)  |  `<RadioButtonOnOutline />` 
-| ![radio](./icons/radio.svg) | `<Radio />` |  ![radio-outline](./icons/radio-outline.svg)  |  `<RadioOutline />` 
-| ![rainy](./icons/rainy.svg) | `<Rainy />` |  ![rainy-outline](./icons/rainy-outline.svg)  |  `<RainyOutline />` 
-| ![reader](./icons/reader.svg) | `<Reader />` |  ![reader-outline](./icons/reader-outline.svg)  |  `<ReaderOutline />` 
-| ![receipt](./icons/receipt.svg) | `<Receipt />` |  ![receipt-outline](./icons/receipt-outline.svg)  |  `<ReceiptOutline />` 
-| ![recording](./icons/recording.svg) | `<Recording />` |  ![recording-outline](./icons/recording-outline.svg)  |  `<RecordingOutline />` 
-| ![refresh-circle](./icons/refresh-circle.svg) | `<RefreshCircle />` |  ![refresh-circle-outline](./icons/refresh-circle-outline.svg)  |  `<RefreshCircleOutline />` 
-| ![refresh](./icons/refresh.svg) | `<Refresh />` |  ![refresh-outline](./icons/refresh-outline.svg)  |  `<RefreshOutline />` 
-| ![reload-circle](./icons/reload-circle.svg) | `<ReloadCircle />` |  ![reload-circle-outline](./icons/reload-circle-outline.svg)  |  `<ReloadCircleOutline />` 
-| ![reload](./icons/reload.svg) | `<Reload />` |  ![reload-outline](./icons/reload-outline.svg)  |  `<ReloadOutline />` 
-| ![remove-circle](./icons/remove-circle.svg) | `<RemoveCircle />` |  ![remove-circle-outline](./icons/remove-circle-outline.svg)  |  `<RemoveCircleOutline />` 
-| ![remove](./icons/remove.svg) | `<Remove />` |  ![remove-outline](./icons/remove-outline.svg)  |  `<RemoveOutline />` 
-| ![reorder-four](./icons/reorder-four.svg) | `<ReorderFour />` |  ![reorder-four-outline](./icons/reorder-four-outline.svg)  |  `<ReorderFourOutline />` 
-| ![reorder-three](./icons/reorder-three.svg) | `<ReorderThree />` |  ![reorder-three-outline](./icons/reorder-three-outline.svg)  |  `<ReorderThreeOutline />` 
-| ![reorder-two](./icons/reorder-two.svg) | `<ReorderTwo />` |  ![reorder-two-outline](./icons/reorder-two-outline.svg)  |  `<ReorderTwoOutline />` 
-| ![repeat](./icons/repeat.svg) | `<Repeat />` |  ![repeat-outline](./icons/repeat-outline.svg)  |  `<RepeatOutline />` 
-| ![resize](./icons/resize.svg) | `<Resize />` |  ![resize-outline](./icons/resize-outline.svg)  |  `<ResizeOutline />` 
-| ![restaurant](./icons/restaurant.svg) | `<Restaurant />` |  ![restaurant-outline](./icons/restaurant-outline.svg)  |  `<RestaurantOutline />` 
-| ![return-down-back](./icons/return-down-back.svg) | `<ReturnDownBack />` |  ![return-down-back-outline](./icons/return-down-back-outline.svg)  |  `<ReturnDownBackOutline />` 
-| ![return-down-forward](./icons/return-down-forward.svg) | `<ReturnDownForward />` |  ![return-down-forward-outline](./icons/return-down-forward-outline.svg)  |  `<ReturnDownForwardOutline />` 
-| ![return-up-back](./icons/return-up-back.svg) | `<ReturnUpBack />` |  ![return-up-back-outline](./icons/return-up-back-outline.svg)  |  `<ReturnUpBackOutline />` 
-| ![return-up-forward](./icons/return-up-forward.svg) | `<ReturnUpForward />` |  ![return-up-forward-outline](./icons/return-up-forward-outline.svg)  |  `<ReturnUpForwardOutline />` 
-| ![ribbon](./icons/ribbon.svg) | `<Ribbon />` |  ![ribbon-outline](./icons/ribbon-outline.svg)  |  `<RibbonOutline />` 
-| ![rocket](./icons/rocket.svg) | `<Rocket />` |  ![rocket-outline](./icons/rocket-outline.svg)  |  `<RocketOutline />` 
-| ![rose](./icons/rose.svg) | `<Rose />` |  ![rose-outline](./icons/rose-outline.svg)  |  `<RoseOutline />` 
-| ![sad](./icons/sad.svg) | `<Sad />` |  ![sad-outline](./icons/sad-outline.svg)  |  `<SadOutline />` 
-| ![save](./icons/save.svg) | `<Save />` |  ![save-outline](./icons/save-outline.svg)  |  `<SaveOutline />` 
-| ![scan-circle](./icons/scan-circle.svg) | `<ScanCircle />` |  ![scan-circle-outline](./icons/scan-circle-outline.svg)  |  `<ScanCircleOutline />` 
-| ![scan](./icons/scan.svg) | `<Scan />` |  ![scan-outline](./icons/scan-outline.svg)  |  `<ScanOutline />` 
-| ![school](./icons/school.svg) | `<School />` |  ![school-outline](./icons/school-outline.svg)  |  `<SchoolOutline />` 
-| ![search-circle](./icons/search-circle.svg) | `<SearchCircle />` |  ![search-circle-outline](./icons/search-circle-outline.svg)  |  `<SearchCircleOutline />` 
-| ![search](./icons/search.svg) | `<Search />` |  ![search-outline](./icons/search-outline.svg)  |  `<SearchOutline />` 
-| ![send](./icons/send.svg) | `<Send />` |  ![send-outline](./icons/send-outline.svg)  |  `<SendOutline />` 
-| ![server](./icons/server.svg) | `<Server />` |  ![server-outline](./icons/server-outline.svg)  |  `<ServerOutline />` 
-| ![settings](./icons/settings.svg) | `<Settings />` |  ![settings-outline](./icons/settings-outline.svg)  |  `<SettingsOutline />` 
-| ![shapes](./icons/shapes.svg) | `<Shapes />` |  ![shapes-outline](./icons/shapes-outline.svg)  |  `<ShapesOutline />` 
-| ![share](./icons/share.svg) | `<Share />` |  ![share-outline](./icons/share-outline.svg)  |  `<ShareOutline />` 
-| ![share-social](./icons/share-social.svg) | `<ShareSocial />` |  ![share-social-outline](./icons/share-social-outline.svg)  |  `<ShareSocialOutline />` 
-| ![shield-checkmark](./icons/shield-checkmark.svg) | `<ShieldCheckmark />` |  ![shield-checkmark-outline](./icons/shield-checkmark-outline.svg)  |  `<ShieldCheckmarkOutline />` 
-| ![shield](./icons/shield.svg) | `<Shield />` |  ![shield-outline](./icons/shield-outline.svg)  |  `<ShieldOutline />` 
-| ![shirt](./icons/shirt.svg) | `<Shirt />` |  ![shirt-outline](./icons/shirt-outline.svg)  |  `<ShirtOutline />` 
-| ![shuffle](./icons/shuffle.svg) | `<Shuffle />` |  ![shuffle-outline](./icons/shuffle-outline.svg)  |  `<ShuffleOutline />` 
-| ![skull](./icons/skull.svg) | `<Skull />` |  ![skull-outline](./icons/skull-outline.svg)  |  `<SkullOutline />` 
-| ![snow](./icons/snow.svg) | `<Snow />` |  ![snow-outline](./icons/snow-outline.svg)  |  `<SnowOutline />` 
-| ![speedometer](./icons/speedometer.svg) | `<Speedometer />` |  ![speedometer-outline](./icons/speedometer-outline.svg)  |  `<SpeedometerOutline />` 
-| ![square](./icons/square.svg) | `<Square />` |  ![square-outline](./icons/square-outline.svg)  |  `<SquareOutline />` 
-| ![star-half](./icons/star-half.svg) | `<StarHalf />` |  ![star-half-outline](./icons/star-half-outline.svg)  |  `<StarHalfOutline />` 
-| ![star](./icons/star.svg) | `<Star />` |  ![star-outline](./icons/star-outline.svg)  |  `<StarOutline />` 
-| ![stats-chart](./icons/stats-chart.svg) | `<StatsChart />` |  ![stats-chart-outline](./icons/stats-chart-outline.svg)  |  `<StatsChartOutline />` 
-| ![stop-circle](./icons/stop-circle.svg) | `<StopCircle />` |  ![stop-circle-outline](./icons/stop-circle-outline.svg)  |  `<StopCircleOutline />` 
-| ![stop](./icons/stop.svg) | `<Stop />` |  ![stop-outline](./icons/stop-outline.svg)  |  `<StopOutline />` 
-| ![stopwatch](./icons/stopwatch.svg) | `<Stopwatch />` |  ![stopwatch-outline](./icons/stopwatch-outline.svg)  |  `<StopwatchOutline />` 
-| ![storefront](./icons/storefront.svg) | `<Storefront />` |  ![storefront-outline](./icons/storefront-outline.svg)  |  `<StorefrontOutline />` 
-| ![subway](./icons/subway.svg) | `<Subway />` |  ![subway-outline](./icons/subway-outline.svg)  |  `<SubwayOutline />` 
-| ![sunny](./icons/sunny.svg) | `<Sunny />` |  ![sunny-outline](./icons/sunny-outline.svg)  |  `<SunnyOutline />` 
-| ![swap-horizontal](./icons/swap-horizontal.svg) | `<SwapHorizontal />` |  ![swap-horizontal-outline](./icons/swap-horizontal-outline.svg)  |  `<SwapHorizontalOutline />` 
-| ![swap-vertical](./icons/swap-vertical.svg) | `<SwapVertical />` |  ![swap-vertical-outline](./icons/swap-vertical-outline.svg)  |  `<SwapVerticalOutline />` 
-| ![sync-circle](./icons/sync-circle.svg) | `<SyncCircle />` |  ![sync-circle-outline](./icons/sync-circle-outline.svg)  |  `<SyncCircleOutline />` 
-| ![sync](./icons/sync.svg) | `<Sync />` |  ![sync-outline](./icons/sync-outline.svg)  |  `<SyncOutline />` 
-| ![tablet-landscape](./icons/tablet-landscape.svg) | `<TabletLandscape />` |  ![tablet-landscape-outline](./icons/tablet-landscape-outline.svg)  |  `<TabletLandscapeOutline />` 
-| ![tablet-portrait](./icons/tablet-portrait.svg) | `<TabletPortrait />` |  ![tablet-portrait-outline](./icons/tablet-portrait-outline.svg)  |  `<TabletPortraitOutline />` 
-| ![telescope](./icons/telescope.svg) | `<Telescope />` |  ![telescope-outline](./icons/telescope-outline.svg)  |  `<TelescopeOutline />` 
-| ![tennisball](./icons/tennisball.svg) | `<Tennisball />` |  ![tennisball-outline](./icons/tennisball-outline.svg)  |  `<TennisballOutline />` 
-| ![terminal](./icons/terminal.svg) | `<Terminal />` |  ![terminal-outline](./icons/terminal-outline.svg)  |  `<TerminalOutline />` 
-| ![text](./icons/text.svg) | `<Text />` |  ![text-outline](./icons/text-outline.svg)  |  `<TextOutline />` 
-| ![thermometer](./icons/thermometer.svg) | `<Thermometer />` |  ![thermometer-outline](./icons/thermometer-outline.svg)  |  `<ThermometerOutline />` 
-| ![thumbs-down](./icons/thumbs-down.svg) | `<ThumbsDown />` |  ![thumbs-down-outline](./icons/thumbs-down-outline.svg)  |  `<ThumbsDownOutline />` 
-| ![thumbs-up](./icons/thumbs-up.svg) | `<ThumbsUp />` |  ![thumbs-up-outline](./icons/thumbs-up-outline.svg)  |  `<ThumbsUpOutline />` 
-| ![thunderstorm](./icons/thunderstorm.svg) | `<Thunderstorm />` |  ![thunderstorm-outline](./icons/thunderstorm-outline.svg)  |  `<ThunderstormOutline />` 
-| ![ticket](./icons/ticket.svg) | `<Ticket />` |  ![ticket-outline](./icons/ticket-outline.svg)  |  `<TicketOutline />` 
-| ![time](./icons/time.svg) | `<Time />` |  ![time-outline](./icons/time-outline.svg)  |  `<TimeOutline />` 
-| ![timer](./icons/timer.svg) | `<Timer />` |  ![timer-outline](./icons/timer-outline.svg)  |  `<TimerOutline />` 
-| ![today](./icons/today.svg) | `<Today />` |  ![today-outline](./icons/today-outline.svg)  |  `<TodayOutline />` 
-| ![toggle](./icons/toggle.svg) | `<Toggle />` |  ![toggle-outline](./icons/toggle-outline.svg)  |  `<ToggleOutline />` 
-| ![trail-sign](./icons/trail-sign.svg) | `<TrailSign />` |  ![trail-sign-outline](./icons/trail-sign-outline.svg)  |  `<TrailSignOutline />` 
-| ![train](./icons/train.svg) | `<Train />` |  ![train-outline](./icons/train-outline.svg)  |  `<TrainOutline />` 
-| ![transgender](./icons/transgender.svg) | `<Transgender />` |  ![transgender-outline](./icons/transgender-outline.svg)  |  `<TransgenderOutline />` 
-| ![trash-bin](./icons/trash-bin.svg) | `<TrashBin />` |  ![trash-bin-outline](./icons/trash-bin-outline.svg)  |  `<TrashBinOutline />` 
-| ![trash](./icons/trash.svg) | `<Trash />` |  ![trash-outline](./icons/trash-outline.svg)  |  `<TrashOutline />` 
-| ![trending-down](./icons/trending-down.svg) | `<TrendingDown />` |  ![trending-down-outline](./icons/trending-down-outline.svg)  |  `<TrendingDownOutline />` 
-| ![trending-up](./icons/trending-up.svg) | `<TrendingUp />` |  ![trending-up-outline](./icons/trending-up-outline.svg)  |  `<TrendingUpOutline />` 
-| ![triangle](./icons/triangle.svg) | `<Triangle />` |  ![triangle-outline](./icons/triangle-outline.svg)  |  `<TriangleOutline />` 
-| ![trophy](./icons/trophy.svg) | `<Trophy />` |  ![trophy-outline](./icons/trophy-outline.svg)  |  `<TrophyOutline />` 
-| ![tv](./icons/tv.svg) | `<Tv />` |  ![tv-outline](./icons/tv-outline.svg)  |  `<TvOutline />` 
-| ![umbrella](./icons/umbrella.svg) | `<Umbrella />` |  ![umbrella-outline](./icons/umbrella-outline.svg)  |  `<UmbrellaOutline />` 
-| ![unlink](./icons/unlink.svg) | `<Unlink />` |  ![unlink-outline](./icons/unlink-outline.svg)  |  `<UnlinkOutline />` 
-| ![videocam](./icons/videocam.svg) | `<Videocam />` |  ![videocam-outline](./icons/videocam-outline.svg)  |  `<VideocamOutline />` 
-| ![videocam-off](./icons/videocam-off.svg) | `<VideocamOff />` |  ![videocam-off-outline](./icons/videocam-off-outline.svg)  |  `<VideocamOffOutline />` 
-| ![volume-high](./icons/volume-high.svg) | `<VolumeHigh />` |  ![volume-high-outline](./icons/volume-high-outline.svg)  |  `<VolumeHighOutline />` 
-| ![volume-low](./icons/volume-low.svg) | `<VolumeLow />` |  ![volume-low-outline](./icons/volume-low-outline.svg)  |  `<VolumeLowOutline />` 
-| ![volume-medium](./icons/volume-medium.svg) | `<VolumeMedium />` |  ![volume-medium-outline](./icons/volume-medium-outline.svg)  |  `<VolumeMediumOutline />` 
-| ![volume-mute](./icons/volume-mute.svg) | `<VolumeMute />` |  ![volume-mute-outline](./icons/volume-mute-outline.svg)  |  `<VolumeMuteOutline />` 
-| ![volume-off](./icons/volume-off.svg) | `<VolumeOff />` |  ![volume-off-outline](./icons/volume-off-outline.svg)  |  `<VolumeOffOutline />` 
-| ![walk](./icons/walk.svg) | `<Walk />` |  ![walk-outline](./icons/walk-outline.svg)  |  `<WalkOutline />` 
-| ![wallet](./icons/wallet.svg) | `<Wallet />` |  ![wallet-outline](./icons/wallet-outline.svg)  |  `<WalletOutline />` 
-| ![warning](./icons/warning.svg) | `<Warning />` |  ![warning-outline](./icons/warning-outline.svg)  |  `<WarningOutline />` 
-| ![watch](./icons/watch.svg) | `<Watch />` |  ![watch-outline](./icons/watch-outline.svg)  |  `<WatchOutline />` 
-| ![water](./icons/water.svg) | `<Water />` |  ![water-outline](./icons/water-outline.svg)  |  `<WaterOutline />` 
-| ![wifi](./icons/wifi.svg) | `<Wifi />` |  ![wifi-outline](./icons/wifi-outline.svg)  |  `<WifiOutline />` 
-| ![wine](./icons/wine.svg) | `<Wine />` |  ![wine-outline](./icons/wine-outline.svg)  |  `<WineOutline />` 
-| ![woman](./icons/woman.svg) | `<Woman />` |  ![woman-outline](./icons/woman-outline.svg)  |  `<WomanOutline />` 
-| ![logo-alipay](./icons/logo-alipay.svg) | `<LogoAlipay />` |  | 
-| ![logo-amazon](./icons/logo-amazon.svg) | `<LogoAmazon />` |  | 
-| ![logo-amplify](./icons/logo-amplify.svg) | `<LogoAmplify />` |  | 
-| ![logo-android](./icons/logo-android.svg) | `<LogoAndroid />` |  | 
-| ![logo-angular](./icons/logo-angular.svg) | `<LogoAngular />` |  | 
-| ![logo-apple-appstore](./icons/logo-apple-appstore.svg) | `<LogoAppleAppstore />` |  | 
-| ![logo-apple](./icons/logo-apple.svg) | `<LogoApple />` |  | 
-| ![logo-behance](./icons/logo-behance.svg) | `<LogoBehance />` |  | 
-| ![logo-bitbucket](./icons/logo-bitbucket.svg) | `<LogoBitbucket />` |  | 
-| ![logo-bitcoin](./icons/logo-bitcoin.svg) | `<LogoBitcoin />` |  | 
-| ![logo-buffer](./icons/logo-buffer.svg) | `<LogoBuffer />` |  | 
-| ![logo-capacitor](./icons/logo-capacitor.svg) | `<LogoCapacitor />` |  | 
-| ![logo-chrome](./icons/logo-chrome.svg) | `<LogoChrome />` |  | 
-| ![logo-closed-captioning](./icons/logo-closed-captioning.svg) | `<LogoClosedCaptioning />` |  | 
-| ![logo-codepen](./icons/logo-codepen.svg) | `<LogoCodepen />` |  | 
-| ![logo-css3](./icons/logo-css3.svg) | `<LogoCss3 />` |  | 
-| ![logo-designernews](./icons/logo-designernews.svg) | `<LogoDesignernews />` |  | 
-| ![logo-deviantart](./icons/logo-deviantart.svg) | `<LogoDeviantart />` |  | 
-| ![logo-discord](./icons/logo-discord.svg) | `<LogoDiscord />` |  | 
-| ![logo-docker](./icons/logo-docker.svg) | `<LogoDocker />` |  | 
-| ![logo-dribbble](./icons/logo-dribbble.svg) | `<LogoDribbble />` |  | 
-| ![logo-dropbox](./icons/logo-dropbox.svg) | `<LogoDropbox />` |  | 
-| ![logo-edge](./icons/logo-edge.svg) | `<LogoEdge />` |  | 
-| ![logo-electron](./icons/logo-electron.svg) | `<LogoElectron />` |  | 
-| ![logo-euro](./icons/logo-euro.svg) | `<LogoEuro />` |  | 
-| ![logo-facebook](./icons/logo-facebook.svg) | `<LogoFacebook />` |  | 
-| ![logo-figma](./icons/logo-figma.svg) | `<LogoFigma />` |  | 
-| ![logo-firebase](./icons/logo-firebase.svg) | `<LogoFirebase />` |  | 
-| ![logo-firefox](./icons/logo-firefox.svg) | `<LogoFirefox />` |  | 
-| ![logo-flickr](./icons/logo-flickr.svg) | `<LogoFlickr />` |  | 
-| ![logo-foursquare](./icons/logo-foursquare.svg) | `<LogoFoursquare />` |  | 
-| ![logo-github](./icons/logo-github.svg) | `<LogoGithub />` |  | 
-| ![logo-gitlab](./icons/logo-gitlab.svg) | `<LogoGitlab />` |  | 
-| ![logo-google](./icons/logo-google.svg) | `<LogoGoogle />` |  | 
-| ![logo-google-playstore](./icons/logo-google-playstore.svg) | `<LogoGooglePlaystore />` |  | 
-| ![logo-hackernews](./icons/logo-hackernews.svg) | `<LogoHackernews />` |  | 
-| ![logo-html5](./icons/logo-html5.svg) | `<LogoHtml5 />` |  | 
-| ![logo-instagram](./icons/logo-instagram.svg) | `<LogoInstagram />` |  | 
-| ![logo-ionic](./icons/logo-ionic.svg) | `<LogoIonic />` |  | 
-| ![logo-ionitron](./icons/logo-ionitron.svg) | `<LogoIonitron />` |  | 
-| ![logo-javascript](./icons/logo-javascript.svg) | `<LogoJavascript />` |  | 
-| ![logo-laravel](./icons/logo-laravel.svg) | `<LogoLaravel />` |  | 
-| ![logo-linkedin](./icons/logo-linkedin.svg) | `<LogoLinkedin />` |  | 
-| ![logo-markdown](./icons/logo-markdown.svg) | `<LogoMarkdown />` |  | 
-| ![logo-mastodon](./icons/logo-mastodon.svg) | `<LogoMastodon />` |  | 
-| ![logo-medium](./icons/logo-medium.svg) | `<LogoMedium />` |  | 
-| ![logo-no-smoking](./icons/logo-no-smoking.svg) | `<LogoNoSmoking />` |  | 
-| ![logo-nodejs](./icons/logo-nodejs.svg) | `<LogoNodejs />` |  | 
-| ![logo-npm](./icons/logo-npm.svg) | `<LogoNpm />` |  | 
-| ![logo-octocat](./icons/logo-octocat.svg) | `<LogoOctocat />` |  | 
-| ![logo-paypal](./icons/logo-paypal.svg) | `<LogoPaypal />` |  | 
-| ![logo-pinterest](./icons/logo-pinterest.svg) | `<LogoPinterest />` |  | 
-| ![logo-playstation](./icons/logo-playstation.svg) | `<LogoPlaystation />` |  | 
-| ![logo-pwa](./icons/logo-pwa.svg) | `<LogoPwa />` |  | 
-| ![logo-python](./icons/logo-python.svg) | `<LogoPython />` |  | 
-| ![logo-react](./icons/logo-react.svg) | `<LogoReact />` |  | 
-| ![logo-reddit](./icons/logo-reddit.svg) | `<LogoReddit />` |  | 
-| ![logo-rss](./icons/logo-rss.svg) | `<LogoRss />` |  | 
-| ![logo-sass](./icons/logo-sass.svg) | `<LogoSass />` |  | 
-| ![logo-skype](./icons/logo-skype.svg) | `<LogoSkype />` |  | 
-| ![logo-slack](./icons/logo-slack.svg) | `<LogoSlack />` |  | 
-| ![logo-snapchat](./icons/logo-snapchat.svg) | `<LogoSnapchat />` |  | 
-| ![logo-soundcloud](./icons/logo-soundcloud.svg) | `<LogoSoundcloud />` |  | 
-| ![logo-stackoverflow](./icons/logo-stackoverflow.svg) | `<LogoStackoverflow />` |  | 
-| ![logo-steam](./icons/logo-steam.svg) | `<LogoSteam />` |  | 
-| ![logo-stencil](./icons/logo-stencil.svg) | `<LogoStencil />` |  | 
-| ![logo-tableau](./icons/logo-tableau.svg) | `<LogoTableau />` |  | 
-| ![logo-tiktok](./icons/logo-tiktok.svg) | `<LogoTiktok />` |  | 
-| ![logo-tumblr](./icons/logo-tumblr.svg) | `<LogoTumblr />` |  | 
-| ![logo-tux](./icons/logo-tux.svg) | `<LogoTux />` |  | 
-| ![logo-twitch](./icons/logo-twitch.svg) | `<LogoTwitch />` |  | 
-| ![logo-twitter](./icons/logo-twitter.svg) | `<LogoTwitter />` |  | 
-| ![logo-usd](./icons/logo-usd.svg) | `<LogoUsd />` |  | 
-| ![logo-venmo](./icons/logo-venmo.svg) | `<LogoVenmo />` |  | 
-| ![logo-vercel](./icons/logo-vercel.svg) | `<LogoVercel />` |  | 
-| ![logo-vimeo](./icons/logo-vimeo.svg) | `<LogoVimeo />` |  | 
-| ![logo-vk](./icons/logo-vk.svg) | `<LogoVk />` |  | 
-| ![logo-vue](./icons/logo-vue.svg) | `<LogoVue />` |  | 
-| ![logo-web-component](./icons/logo-web-component.svg) | `<LogoWebComponent />` |  | 
-| ![logo-wechat](./icons/logo-wechat.svg) | `<LogoWechat />` |  | 
-| ![logo-whatsapp](./icons/logo-whatsapp.svg) | `<LogoWhatsapp />` |  | 
-| ![logo-windows](./icons/logo-windows.svg) | `<LogoWindows />` |  | 
-| ![logo-wordpress](./icons/logo-wordpress.svg) | `<LogoWordpress />` |  | 
-| ![logo-xbox](./icons/logo-xbox.svg) | `<LogoXbox />` |  | 
-| ![logo-xing](./icons/logo-xing.svg) | `<LogoXing />` |  | 
-| ![logo-yahoo](./icons/logo-yahoo.svg) | `<LogoYahoo />` |  | 
-| ![logo-yen](./icons/logo-yen.svg) | `<LogoYen />` |  | 
-| ![logo-youtube](./icons/logo-youtube.svg) | `<LogoYoutube />` |  | 
 
+| Icon                                                                  | Component                          | Outline                                                                               | Outline Component                         |
+| --------------------------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------- |
+| ![accessibility](./icons/accessibility.svg)                           | `<AccessibilityIcon />`            | ![accessibility-outline](./icons/accessibility-outline.svg)                           | `<AccessibilityOutlineIcon />`            |
+| ![add-circle](./icons/add-circle.svg)                                 | `<AddCircleIcon />`                | ![add-circle-outline](./icons/add-circle-outline.svg)                                 | `<AddCircleOutlineIcon />`                |
+| ![add](./icons/add.svg)                                               | `<AddIcon />`                      | ![add-outline](./icons/add-outline.svg)                                               | `<AddOutlineIcon />`                      |
+| ![airplane](./icons/airplane.svg)                                     | `<AirplaneIcon />`                 | ![airplane-outline](./icons/airplane-outline.svg)                                     | `<AirplaneOutlineIcon />`                 |
+| ![alarm](./icons/alarm.svg)                                           | `<AlarmIcon />`                    | ![alarm-outline](./icons/alarm-outline.svg)                                           | `<AlarmOutlineIcon />`                    |
+| ![albums](./icons/albums.svg)                                         | `<AlbumsIcon />`                   | ![albums-outline](./icons/albums-outline.svg)                                         | `<AlbumsOutlineIcon />`                   |
+| ![alert-circle](./icons/alert-circle.svg)                             | `<AlertCircleIcon />`              | ![alert-circle-outline](./icons/alert-circle-outline.svg)                             | `<AlertCircleOutlineIcon />`              |
+| ![alert](./icons/alert.svg)                                           | `<AlertIcon />`                    | ![alert-outline](./icons/alert-outline.svg)                                           | `<AlertOutlineIcon />`                    |
+| ![american-football](./icons/american-football.svg)                   | `<AmericanFootballIcon />`         | ![american-football-outline](./icons/american-football-outline.svg)                   | `<AmericanFootballOutlineIcon />`         |
+| ![analytics](./icons/analytics.svg)                                   | `<AnalyticsIcon />`                | ![analytics-outline](./icons/analytics-outline.svg)                                   | `<AnalyticsOutlineIcon />`                |
+| ![aperture](./icons/aperture.svg)                                     | `<ApertureIcon />`                 | ![aperture-outline](./icons/aperture-outline.svg)                                     | `<ApertureOutlineIcon />`                 |
+| ![apps](./icons/apps.svg)                                             | `<AppsIcon />`                     | ![apps-outline](./icons/apps-outline.svg)                                             | `<AppsOutlineIcon />`                     |
+| ![archive](./icons/archive.svg)                                       | `<ArchiveIcon />`                  | ![archive-outline](./icons/archive-outline.svg)                                       | `<ArchiveOutlineIcon />`                  |
+| ![arrow-back-circle](./icons/arrow-back-circle.svg)                   | `<ArrowBackCircleIcon />`          | ![arrow-back-circle-outline](./icons/arrow-back-circle-outline.svg)                   | `<ArrowBackCircleOutlineIcon />`          |
+| ![arrow-back](./icons/arrow-back.svg)                                 | `<ArrowBackIcon />`                | ![arrow-back-outline](./icons/arrow-back-outline.svg)                                 | `<ArrowBackOutlineIcon />`                |
+| ![arrow-down-circle](./icons/arrow-down-circle.svg)                   | `<ArrowDownCircleIcon />`          | ![arrow-down-circle-outline](./icons/arrow-down-circle-outline.svg)                   | `<ArrowDownCircleOutlineIcon />`          |
+| ![arrow-down](./icons/arrow-down.svg)                                 | `<ArrowDownIcon />`                | ![arrow-down-outline](./icons/arrow-down-outline.svg)                                 | `<ArrowDownOutlineIcon />`                |
+| ![arrow-forward-circle](./icons/arrow-forward-circle.svg)             | `<ArrowForwardCircleIcon />`       | ![arrow-forward-circle-outline](./icons/arrow-forward-circle-outline.svg)             | `<ArrowForwardCircleOutlineIcon />`       |
+| ![arrow-forward](./icons/arrow-forward.svg)                           | `<ArrowForwardIcon />`             | ![arrow-forward-outline](./icons/arrow-forward-outline.svg)                           | `<ArrowForwardOutlineIcon />`             |
+| ![arrow-redo-circle](./icons/arrow-redo-circle.svg)                   | `<ArrowRedoCircleIcon />`          | ![arrow-redo-circle-outline](./icons/arrow-redo-circle-outline.svg)                   | `<ArrowRedoCircleOutlineIcon />`          |
+| ![arrow-redo](./icons/arrow-redo.svg)                                 | `<ArrowRedoIcon />`                | ![arrow-redo-outline](./icons/arrow-redo-outline.svg)                                 | `<ArrowRedoOutlineIcon />`                |
+| ![arrow-undo-circle](./icons/arrow-undo-circle.svg)                   | `<ArrowUndoCircleIcon />`          | ![arrow-undo-circle-outline](./icons/arrow-undo-circle-outline.svg)                   | `<ArrowUndoCircleOutlineIcon />`          |
+| ![arrow-undo](./icons/arrow-undo.svg)                                 | `<ArrowUndoIcon />`                | ![arrow-undo-outline](./icons/arrow-undo-outline.svg)                                 | `<ArrowUndoOutlineIcon />`                |
+| ![arrow-up-circle](./icons/arrow-up-circle.svg)                       | `<ArrowUpCircleIcon />`            | ![arrow-up-circle-outline](./icons/arrow-up-circle-outline.svg)                       | `<ArrowUpCircleOutlineIcon />`            |
+| ![arrow-up](./icons/arrow-up.svg)                                     | `<ArrowUpIcon />`                  | ![arrow-up-outline](./icons/arrow-up-outline.svg)                                     | `<ArrowUpOutlineIcon />`                  |
+| ![at-circle](./icons/at-circle.svg)                                   | `<AtCircleIcon />`                 | ![at-circle-outline](./icons/at-circle-outline.svg)                                   | `<AtCircleOutlineIcon />`                 |
+| ![attach](./icons/attach.svg)                                         | `<AttachIcon />`                   | ![attach-outline](./icons/attach-outline.svg)                                         | `<AttachOutlineIcon />`                   |
+| ![backspace](./icons/backspace.svg)                                   | `<BackspaceIcon />`                | ![backspace-outline](./icons/backspace-outline.svg)                                   | `<BackspaceOutlineIcon />`                |
+| ![bag-add](./icons/bag-add.svg)                                       | `<BagAddIcon />`                   | ![bag-add-outline](./icons/bag-add-outline.svg)                                       | `<BagAddOutlineIcon />`                   |
+| ![bag-check](./icons/bag-check.svg)                                   | `<BagCheckIcon />`                 | ![bag-check-outline](./icons/bag-check-outline.svg)                                   | `<BagCheckOutlineIcon />`                 |
+| ![bag-handle](./icons/bag-handle.svg)                                 | `<BagHandleIcon />`                | ![bag-handle-outline](./icons/bag-handle-outline.svg)                                 | `<BagHandleOutlineIcon />`                |
+| ![bag](./icons/bag.svg)                                               | `<BagIcon />`                      | ![bag-outline](./icons/bag-outline.svg)                                               | `<BagOutlineIcon />`                      |
+| ![bag-remove](./icons/bag-remove.svg)                                 | `<BagRemoveIcon />`                | ![bag-remove-outline](./icons/bag-remove-outline.svg)                                 | `<BagRemoveOutlineIcon />`                |
+| ![ban](./icons/ban.svg)                                               | `<BanIcon />`                      | ![ban-outline](./icons/ban-outline.svg)                                               | `<BanOutlineIcon />`                      |
+| ![bandage](./icons/bandage.svg)                                       | `<BandageIcon />`                  | ![bandage-outline](./icons/bandage-outline.svg)                                       | `<BandageOutlineIcon />`                  |
+| ![bar-chart](./icons/bar-chart.svg)                                   | `<BarChartIcon />`                 | ![bar-chart-outline](./icons/bar-chart-outline.svg)                                   | `<BarChartOutlineIcon />`                 |
+| ![barbell](./icons/barbell.svg)                                       | `<BarbellIcon />`                  | ![barbell-outline](./icons/barbell-outline.svg)                                       | `<BarbellOutlineIcon />`                  |
+| ![barcode](./icons/barcode.svg)                                       | `<BarcodeIcon />`                  | ![barcode-outline](./icons/barcode-outline.svg)                                       | `<BarcodeOutlineIcon />`                  |
+| ![baseball](./icons/baseball.svg)                                     | `<BaseballIcon />`                 | ![baseball-outline](./icons/baseball-outline.svg)                                     | `<BaseballOutlineIcon />`                 |
+| ![basket](./icons/basket.svg)                                         | `<BasketIcon />`                   | ![basket-outline](./icons/basket-outline.svg)                                         | `<BasketOutlineIcon />`                   |
+| ![basketball](./icons/basketball.svg)                                 | `<BasketballIcon />`               | ![basketball-outline](./icons/basketball-outline.svg)                                 | `<BasketballOutlineIcon />`               |
+| ![battery-charging](./icons/battery-charging.svg)                     | `<BatteryChargingIcon />`          | ![battery-charging-outline](./icons/battery-charging-outline.svg)                     | `<BatteryChargingOutlineIcon />`          |
+| ![battery-dead](./icons/battery-dead.svg)                             | `<BatteryDeadIcon />`              | ![battery-dead-outline](./icons/battery-dead-outline.svg)                             | `<BatteryDeadOutlineIcon />`              |
+| ![battery-full](./icons/battery-full.svg)                             | `<BatteryFullIcon />`              | ![battery-full-outline](./icons/battery-full-outline.svg)                             | `<BatteryFullOutlineIcon />`              |
+| ![battery-half](./icons/battery-half.svg)                             | `<BatteryHalfIcon />`              | ![battery-half-outline](./icons/battery-half-outline.svg)                             | `<BatteryHalfOutlineIcon />`              |
+| ![beaker](./icons/beaker.svg)                                         | `<BeakerIcon />`                   | ![beaker-outline](./icons/beaker-outline.svg)                                         | `<BeakerOutlineIcon />`                   |
+| ![bed](./icons/bed.svg)                                               | `<BedIcon />`                      | ![bed-outline](./icons/bed-outline.svg)                                               | `<BedOutlineIcon />`                      |
+| ![beer](./icons/beer.svg)                                             | `<BeerIcon />`                     | ![beer-outline](./icons/beer-outline.svg)                                             | `<BeerOutlineIcon />`                     |
+| ![bicycle](./icons/bicycle.svg)                                       | `<BicycleIcon />`                  | ![bicycle-outline](./icons/bicycle-outline.svg)                                       | `<BicycleOutlineIcon />`                  |
+| ![bluetooth](./icons/bluetooth.svg)                                   | `<BluetoothIcon />`                | ![bluetooth-outline](./icons/bluetooth-outline.svg)                                   | `<BluetoothOutlineIcon />`                |
+| ![boat](./icons/boat.svg)                                             | `<BoatIcon />`                     | ![boat-outline](./icons/boat-outline.svg)                                             | `<BoatOutlineIcon />`                     |
+| ![body](./icons/body.svg)                                             | `<BodyIcon />`                     | ![body-outline](./icons/body-outline.svg)                                             | `<BodyOutlineIcon />`                     |
+| ![bonfire](./icons/bonfire.svg)                                       | `<BonfireIcon />`                  | ![bonfire-outline](./icons/bonfire-outline.svg)                                       | `<BonfireOutlineIcon />`                  |
+| ![book](./icons/book.svg)                                             | `<BookIcon />`                     | ![book-outline](./icons/book-outline.svg)                                             | `<BookOutlineIcon />`                     |
+| ![bookmark](./icons/bookmark.svg)                                     | `<BookmarkIcon />`                 | ![bookmark-outline](./icons/bookmark-outline.svg)                                     | `<BookmarkOutlineIcon />`                 |
+| ![bookmarks](./icons/bookmarks.svg)                                   | `<BookmarksIcon />`                | ![bookmarks-outline](./icons/bookmarks-outline.svg)                                   | `<BookmarksOutlineIcon />`                |
+| ![briefcase](./icons/briefcase.svg)                                   | `<BriefcaseIcon />`                | ![briefcase-outline](./icons/briefcase-outline.svg)                                   | `<BriefcaseOutlineIcon />`                |
+| ![browsers](./icons/browsers.svg)                                     | `<BrowsersIcon />`                 | ![browsers-outline](./icons/browsers-outline.svg)                                     | `<BrowsersOutlineIcon />`                 |
+| ![brush](./icons/brush.svg)                                           | `<BrushIcon />`                    | ![brush-outline](./icons/brush-outline.svg)                                           | `<BrushOutlineIcon />`                    |
+| ![bug](./icons/bug.svg)                                               | `<BugIcon />`                      | ![bug-outline](./icons/bug-outline.svg)                                               | `<BugOutlineIcon />`                      |
+| ![build](./icons/build.svg)                                           | `<BuildIcon />`                    | ![build-outline](./icons/build-outline.svg)                                           | `<BuildOutlineIcon />`                    |
+| ![bulb](./icons/bulb.svg)                                             | `<BulbIcon />`                     | ![bulb-outline](./icons/bulb-outline.svg)                                             | `<BulbOutlineIcon />`                     |
+| ![bus](./icons/bus.svg)                                               | `<BusIcon />`                      | ![bus-outline](./icons/bus-outline.svg)                                               | `<BusOutlineIcon />`                      |
+| ![business](./icons/business.svg)                                     | `<BusinessIcon />`                 | ![business-outline](./icons/business-outline.svg)                                     | `<BusinessOutlineIcon />`                 |
+| ![cafe](./icons/cafe.svg)                                             | `<CafeIcon />`                     | ![cafe-outline](./icons/cafe-outline.svg)                                             | `<CafeOutlineIcon />`                     |
+| ![calculator](./icons/calculator.svg)                                 | `<CalculatorIcon />`               | ![calculator-outline](./icons/calculator-outline.svg)                                 | `<CalculatorOutlineIcon />`               |
+| ![calendar-clear](./icons/calendar-clear.svg)                         | `<CalendarClearIcon />`            | ![calendar-clear-outline](./icons/calendar-clear-outline.svg)                         | `<CalendarClearOutlineIcon />`            |
+| ![calendar](./icons/calendar.svg)                                     | `<CalendarIcon />`                 | ![calendar-outline](./icons/calendar-outline.svg)                                     | `<CalendarOutlineIcon />`                 |
+| ![call](./icons/call.svg)                                             | `<CallIcon />`                     | ![call-outline](./icons/call-outline.svg)                                             | `<CallOutlineIcon />`                     |
+| ![camera](./icons/camera.svg)                                         | `<CameraIcon />`                   | ![camera-outline](./icons/camera-outline.svg)                                         | `<CameraOutlineIcon />`                   |
+| ![camera-reverse](./icons/camera-reverse.svg)                         | `<CameraReverseIcon />`            | ![camera-reverse-outline](./icons/camera-reverse-outline.svg)                         | `<CameraReverseOutlineIcon />`            |
+| ![car](./icons/car.svg)                                               | `<CarIcon />`                      | ![car-outline](./icons/car-outline.svg)                                               | `<CarOutlineIcon />`                      |
+| ![car-sport](./icons/car-sport.svg)                                   | `<CarSportIcon />`                 | ![car-sport-outline](./icons/car-sport-outline.svg)                                   | `<CarSportOutlineIcon />`                 |
+| ![card](./icons/card.svg)                                             | `<CardIcon />`                     | ![card-outline](./icons/card-outline.svg)                                             | `<CardOutlineIcon />`                     |
+| ![caret-back-circle](./icons/caret-back-circle.svg)                   | `<CaretBackCircleIcon />`          | ![caret-back-circle-outline](./icons/caret-back-circle-outline.svg)                   | `<CaretBackCircleOutlineIcon />`          |
+| ![caret-back](./icons/caret-back.svg)                                 | `<CaretBackIcon />`                | ![caret-back-outline](./icons/caret-back-outline.svg)                                 | `<CaretBackOutlineIcon />`                |
+| ![caret-down-circle](./icons/caret-down-circle.svg)                   | `<CaretDownCircleIcon />`          | ![caret-down-circle-outline](./icons/caret-down-circle-outline.svg)                   | `<CaretDownCircleOutlineIcon />`          |
+| ![caret-down](./icons/caret-down.svg)                                 | `<CaretDownIcon />`                | ![caret-down-outline](./icons/caret-down-outline.svg)                                 | `<CaretDownOutlineIcon />`                |
+| ![caret-forward-circle](./icons/caret-forward-circle.svg)             | `<CaretForwardCircleIcon />`       | ![caret-forward-circle-outline](./icons/caret-forward-circle-outline.svg)             | `<CaretForwardCircleOutlineIcon />`       |
+| ![caret-forward](./icons/caret-forward.svg)                           | `<CaretForwardIcon />`             | ![caret-forward-outline](./icons/caret-forward-outline.svg)                           | `<CaretForwardOutlineIcon />`             |
+| ![caret-up-circle](./icons/caret-up-circle.svg)                       | `<CaretUpCircleIcon />`            | ![caret-up-circle-outline](./icons/caret-up-circle-outline.svg)                       | `<CaretUpCircleOutlineIcon />`            |
+| ![caret-up](./icons/caret-up.svg)                                     | `<CaretUpIcon />`                  | ![caret-up-outline](./icons/caret-up-outline.svg)                                     | `<CaretUpOutlineIcon />`                  |
+| ![cart](./icons/cart.svg)                                             | `<CartIcon />`                     | ![cart-outline](./icons/cart-outline.svg)                                             | `<CartOutlineIcon />`                     |
+| ![cash](./icons/cash.svg)                                             | `<CashIcon />`                     | ![cash-outline](./icons/cash-outline.svg)                                             | `<CashOutlineIcon />`                     |
+| ![cellular](./icons/cellular.svg)                                     | `<CellularIcon />`                 | ![cellular-outline](./icons/cellular-outline.svg)                                     | `<CellularOutlineIcon />`                 |
+| ![chatbox-ellipses](./icons/chatbox-ellipses.svg)                     | `<ChatboxEllipsesIcon />`          | ![chatbox-ellipses-outline](./icons/chatbox-ellipses-outline.svg)                     | `<ChatboxEllipsesOutlineIcon />`          |
+| ![chatbox](./icons/chatbox.svg)                                       | `<ChatboxIcon />`                  | ![chatbox-outline](./icons/chatbox-outline.svg)                                       | `<ChatboxOutlineIcon />`                  |
+| ![chatbubble-ellipses](./icons/chatbubble-ellipses.svg)               | `<ChatbubbleEllipsesIcon />`       | ![chatbubble-ellipses-outline](./icons/chatbubble-ellipses-outline.svg)               | `<ChatbubbleEllipsesOutlineIcon />`       |
+| ![chatbubble](./icons/chatbubble.svg)                                 | `<ChatbubbleIcon />`               | ![chatbubble-outline](./icons/chatbubble-outline.svg)                                 | `<ChatbubbleOutlineIcon />`               |
+| ![chatbubbles](./icons/chatbubbles.svg)                               | `<ChatbubblesIcon />`              | ![chatbubbles-outline](./icons/chatbubbles-outline.svg)                               | `<ChatbubblesOutlineIcon />`              |
+| ![checkbox](./icons/checkbox.svg)                                     | `<CheckboxIcon />`                 | ![checkbox-outline](./icons/checkbox-outline.svg)                                     | `<CheckboxOutlineIcon />`                 |
+| ![checkmark-circle](./icons/checkmark-circle.svg)                     | `<CheckmarkCircleIcon />`          | ![checkmark-circle-outline](./icons/checkmark-circle-outline.svg)                     | `<CheckmarkCircleOutlineIcon />`          |
+| ![checkmark-done-circle](./icons/checkmark-done-circle.svg)           | `<CheckmarkDoneCircleIcon />`      | ![checkmark-done-circle-outline](./icons/checkmark-done-circle-outline.svg)           | `<CheckmarkDoneCircleOutlineIcon />`      |
+| ![checkmark-done](./icons/checkmark-done.svg)                         | `<CheckmarkDoneIcon />`            | ![checkmark-done-outline](./icons/checkmark-done-outline.svg)                         | `<CheckmarkDoneOutlineIcon />`            |
+| ![checkmark](./icons/checkmark.svg)                                   | `<CheckmarkIcon />`                | ![checkmark-outline](./icons/checkmark-outline.svg)                                   | `<CheckmarkOutlineIcon />`                |
+| ![chevron-back-circle](./icons/chevron-back-circle.svg)               | `<ChevronBackCircleIcon />`        | ![chevron-back-circle-outline](./icons/chevron-back-circle-outline.svg)               | `<ChevronBackCircleOutlineIcon />`        |
+| ![chevron-back](./icons/chevron-back.svg)                             | `<ChevronBackIcon />`              | ![chevron-back-outline](./icons/chevron-back-outline.svg)                             | `<ChevronBackOutlineIcon />`              |
+| ![chevron-down-circle](./icons/chevron-down-circle.svg)               | `<ChevronDownCircleIcon />`        | ![chevron-down-circle-outline](./icons/chevron-down-circle-outline.svg)               | `<ChevronDownCircleOutlineIcon />`        |
+| ![chevron-down](./icons/chevron-down.svg)                             | `<ChevronDownIcon />`              | ![chevron-down-outline](./icons/chevron-down-outline.svg)                             | `<ChevronDownOutlineIcon />`              |
+| ![chevron-forward-circle](./icons/chevron-forward-circle.svg)         | `<ChevronForwardCircleIcon />`     | ![chevron-forward-circle-outline](./icons/chevron-forward-circle-outline.svg)         | `<ChevronForwardCircleOutlineIcon />`     |
+| ![chevron-forward](./icons/chevron-forward.svg)                       | `<ChevronForwardIcon />`           | ![chevron-forward-outline](./icons/chevron-forward-outline.svg)                       | `<ChevronForwardOutlineIcon />`           |
+| ![chevron-up-circle](./icons/chevron-up-circle.svg)                   | `<ChevronUpCircleIcon />`          | ![chevron-up-circle-outline](./icons/chevron-up-circle-outline.svg)                   | `<ChevronUpCircleOutlineIcon />`          |
+| ![chevron-up](./icons/chevron-up.svg)                                 | `<ChevronUpIcon />`                | ![chevron-up-outline](./icons/chevron-up-outline.svg)                                 | `<ChevronUpOutlineIcon />`                |
+| ![clipboard](./icons/clipboard.svg)                                   | `<ClipboardIcon />`                | ![clipboard-outline](./icons/clipboard-outline.svg)                                   | `<ClipboardOutlineIcon />`                |
+| ![close-circle](./icons/close-circle.svg)                             | `<CloseCircleIcon />`              | ![close-circle-outline](./icons/close-circle-outline.svg)                             | `<CloseCircleOutlineIcon />`              |
+| ![close](./icons/close.svg)                                           | `<CloseIcon />`                    | ![close-outline](./icons/close-outline.svg)                                           | `<CloseOutlineIcon />`                    |
+| ![cloud-circle](./icons/cloud-circle.svg)                             | `<CloudCircleIcon />`              | ![cloud-circle-outline](./icons/cloud-circle-outline.svg)                             | `<CloudCircleOutlineIcon />`              |
+| ![cloud-done](./icons/cloud-done.svg)                                 | `<CloudDoneIcon />`                | ![cloud-done-outline](./icons/cloud-done-outline.svg)                                 | `<CloudDoneOutlineIcon />`                |
+| ![cloud-download](./icons/cloud-download.svg)                         | `<CloudDownloadIcon />`            | ![cloud-download-outline](./icons/cloud-download-outline.svg)                         | `<CloudDownloadOutlineIcon />`            |
+| ![cloud](./icons/cloud.svg)                                           | `<CloudIcon />`                    | ![cloud-outline](./icons/cloud-outline.svg)                                           | `<CloudOutlineIcon />`                    |
+| ![cloud-offline](./icons/cloud-offline.svg)                           | `<CloudOfflineIcon />`             | ![cloud-offline-outline](./icons/cloud-offline-outline.svg)                           | `<CloudOfflineOutlineIcon />`             |
+| ![cloud-upload](./icons/cloud-upload.svg)                             | `<CloudUploadIcon />`              | ![cloud-upload-outline](./icons/cloud-upload-outline.svg)                             | `<CloudUploadOutlineIcon />`              |
+| ![cloudy](./icons/cloudy.svg)                                         | `<CloudyIcon />`                   | ![cloudy-outline](./icons/cloudy-outline.svg)                                         | `<CloudyOutlineIcon />`                   |
+| ![cloudy-night](./icons/cloudy-night.svg)                             | `<CloudyNightIcon />`              | ![cloudy-night-outline](./icons/cloudy-night-outline.svg)                             | `<CloudyNightOutlineIcon />`              |
+| ![code-download](./icons/code-download.svg)                           | `<CodeDownloadIcon />`             | ![code-download-outline](./icons/code-download-outline.svg)                           | `<CodeDownloadOutlineIcon />`             |
+| ![code](./icons/code.svg)                                             | `<CodeIcon />`                     | ![code-outline](./icons/code-outline.svg)                                             | `<CodeOutlineIcon />`                     |
+| ![code-slash](./icons/code-slash.svg)                                 | `<CodeSlashIcon />`                | ![code-slash-outline](./icons/code-slash-outline.svg)                                 | `<CodeSlashOutlineIcon />`                |
+| ![code-working](./icons/code-working.svg)                             | `<CodeWorkingIcon />`              | ![code-working-outline](./icons/code-working-outline.svg)                             | `<CodeWorkingOutlineIcon />`              |
+| ![cog](./icons/cog.svg)                                               | `<CogIcon />`                      | ![cog-outline](./icons/cog-outline.svg)                                               | `<CogOutlineIcon />`                      |
+| ![color-fill](./icons/color-fill.svg)                                 | `<ColorFillIcon />`                | ![color-fill-outline](./icons/color-fill-outline.svg)                                 | `<ColorFillOutlineIcon />`                |
+| ![color-filter](./icons/color-filter.svg)                             | `<ColorFilterIcon />`              | ![color-filter-outline](./icons/color-filter-outline.svg)                             | `<ColorFilterOutlineIcon />`              |
+| ![color-palette](./icons/color-palette.svg)                           | `<ColorPaletteIcon />`             | ![color-palette-outline](./icons/color-palette-outline.svg)                           | `<ColorPaletteOutlineIcon />`             |
+| ![color-wand](./icons/color-wand.svg)                                 | `<ColorWandIcon />`                | ![color-wand-outline](./icons/color-wand-outline.svg)                                 | `<ColorWandOutlineIcon />`                |
+| ![compass](./icons/compass.svg)                                       | `<CompassIcon />`                  | ![compass-outline](./icons/compass-outline.svg)                                       | `<CompassOutlineIcon />`                  |
+| ![construct](./icons/construct.svg)                                   | `<ConstructIcon />`                | ![construct-outline](./icons/construct-outline.svg)                                   | `<ConstructOutlineIcon />`                |
+| ![contract](./icons/contract.svg)                                     | `<ContractIcon />`                 | ![contract-outline](./icons/contract-outline.svg)                                     | `<ContractOutlineIcon />`                 |
+| ![contrast](./icons/contrast.svg)                                     | `<ContrastIcon />`                 | ![contrast-outline](./icons/contrast-outline.svg)                                     | `<ContrastOutlineIcon />`                 |
+| ![copy](./icons/copy.svg)                                             | `<CopyIcon />`                     | ![copy-outline](./icons/copy-outline.svg)                                             | `<CopyOutlineIcon />`                     |
+| ![create](./icons/create.svg)                                         | `<CreateIcon />`                   | ![create-outline](./icons/create-outline.svg)                                         | `<CreateOutlineIcon />`                   |
+| ![crop](./icons/crop.svg)                                             | `<CropIcon />`                     | ![crop-outline](./icons/crop-outline.svg)                                             | `<CropOutlineIcon />`                     |
+| ![cube](./icons/cube.svg)                                             | `<CubeIcon />`                     | ![cube-outline](./icons/cube-outline.svg)                                             | `<CubeOutlineIcon />`                     |
+| ![cut](./icons/cut.svg)                                               | `<CutIcon />`                      | ![cut-outline](./icons/cut-outline.svg)                                               | `<CutOutlineIcon />`                      |
+| ![desktop](./icons/desktop.svg)                                       | `<DesktopIcon />`                  | ![desktop-outline](./icons/desktop-outline.svg)                                       | `<DesktopOutlineIcon />`                  |
+| ![dice](./icons/dice.svg)                                             | `<DiceIcon />`                     | ![dice-outline](./icons/dice-outline.svg)                                             | `<DiceOutlineIcon />`                     |
+| ![disc](./icons/disc.svg)                                             | `<DiscIcon />`                     | ![disc-outline](./icons/disc-outline.svg)                                             | `<DiscOutlineIcon />`                     |
+| ![document-attach](./icons/document-attach.svg)                       | `<DocumentAttachIcon />`           | ![document-attach-outline](./icons/document-attach-outline.svg)                       | `<DocumentAttachOutlineIcon />`           |
+| ![document](./icons/document.svg)                                     | `<DocumentIcon />`                 | ![document-outline](./icons/document-outline.svg)                                     | `<DocumentOutlineIcon />`                 |
+| ![document-lock](./icons/document-lock.svg)                           | `<DocumentLockIcon />`             | ![document-lock-outline](./icons/document-lock-outline.svg)                           | `<DocumentLockOutlineIcon />`             |
+| ![document-text](./icons/document-text.svg)                           | `<DocumentTextIcon />`             | ![document-text-outline](./icons/document-text-outline.svg)                           | `<DocumentTextOutlineIcon />`             |
+| ![documents](./icons/documents.svg)                                   | `<DocumentsIcon />`                | ![documents-outline](./icons/documents-outline.svg)                                   | `<DocumentsOutlineIcon />`                |
+| ![download](./icons/download.svg)                                     | `<DownloadIcon />`                 | ![download-outline](./icons/download-outline.svg)                                     | `<DownloadOutlineIcon />`                 |
+| ![duplicate](./icons/duplicate.svg)                                   | `<DuplicateIcon />`                | ![duplicate-outline](./icons/duplicate-outline.svg)                                   | `<DuplicateOutlineIcon />`                |
+| ![ear](./icons/ear.svg)                                               | `<EarIcon />`                      | ![ear-outline](./icons/ear-outline.svg)                                               | `<EarOutlineIcon />`                      |
+| ![earth](./icons/earth.svg)                                           | `<EarthIcon />`                    | ![earth-outline](./icons/earth-outline.svg)                                           | `<EarthOutlineIcon />`                    |
+| ![easel](./icons/easel.svg)                                           | `<EaselIcon />`                    | ![easel-outline](./icons/easel-outline.svg)                                           | `<EaselOutlineIcon />`                    |
+| ![egg](./icons/egg.svg)                                               | `<EggIcon />`                      | ![egg-outline](./icons/egg-outline.svg)                                               | `<EggOutlineIcon />`                      |
+| ![ellipse](./icons/ellipse.svg)                                       | `<EllipseIcon />`                  | ![ellipse-outline](./icons/ellipse-outline.svg)                                       | `<EllipseOutlineIcon />`                  |
+| ![ellipsis-horizontal-circle](./icons/ellipsis-horizontal-circle.svg) | `<EllipsisHorizontalCircleIcon />` | ![ellipsis-horizontal-circle-outline](./icons/ellipsis-horizontal-circle-outline.svg) | `<EllipsisHorizontalCircleOutlineIcon />` |
+| ![ellipsis-horizontal](./icons/ellipsis-horizontal.svg)               | `<EllipsisHorizontalIcon />`       | ![ellipsis-horizontal-outline](./icons/ellipsis-horizontal-outline.svg)               | `<EllipsisHorizontalOutlineIcon />`       |
+| ![ellipsis-vertical-circle](./icons/ellipsis-vertical-circle.svg)     | `<EllipsisVerticalCircleIcon />`   | ![ellipsis-vertical-circle-outline](./icons/ellipsis-vertical-circle-outline.svg)     | `<EllipsisVerticalCircleOutlineIcon />`   |
+| ![ellipsis-vertical](./icons/ellipsis-vertical.svg)                   | `<EllipsisVerticalIcon />`         | ![ellipsis-vertical-outline](./icons/ellipsis-vertical-outline.svg)                   | `<EllipsisVerticalOutlineIcon />`         |
+| ![enter](./icons/enter.svg)                                           | `<EnterIcon />`                    | ![enter-outline](./icons/enter-outline.svg)                                           | `<EnterOutlineIcon />`                    |
+| ![exit](./icons/exit.svg)                                             | `<ExitIcon />`                     | ![exit-outline](./icons/exit-outline.svg)                                             | `<ExitOutlineIcon />`                     |
+| ![expand](./icons/expand.svg)                                         | `<ExpandIcon />`                   | ![expand-outline](./icons/expand-outline.svg)                                         | `<ExpandOutlineIcon />`                   |
+| ![extension-puzzle](./icons/extension-puzzle.svg)                     | `<ExtensionPuzzleIcon />`          | ![extension-puzzle-outline](./icons/extension-puzzle-outline.svg)                     | `<ExtensionPuzzleOutlineIcon />`          |
+| ![eye](./icons/eye.svg)                                               | `<EyeIcon />`                      | ![eye-outline](./icons/eye-outline.svg)                                               | `<EyeOutlineIcon />`                      |
+| ![eye-off](./icons/eye-off.svg)                                       | `<EyeOffIcon />`                   | ![eye-off-outline](./icons/eye-off-outline.svg)                                       | `<EyeOffOutlineIcon />`                   |
+| ![eyedrop](./icons/eyedrop.svg)                                       | `<EyedropIcon />`                  | ![eyedrop-outline](./icons/eyedrop-outline.svg)                                       | `<EyedropOutlineIcon />`                  |
+| ![fast-food](./icons/fast-food.svg)                                   | `<FastFoodIcon />`                 | ![fast-food-outline](./icons/fast-food-outline.svg)                                   | `<FastFoodOutlineIcon />`                 |
+| ![female](./icons/female.svg)                                         | `<FemaleIcon />`                   | ![female-outline](./icons/female-outline.svg)                                         | `<FemaleOutlineIcon />`                   |
+| ![file-tray-full](./icons/file-tray-full.svg)                         | `<FileTrayFullIcon />`             | ![file-tray-full-outline](./icons/file-tray-full-outline.svg)                         | `<FileTrayFullOutlineIcon />`             |
+| ![file-tray](./icons/file-tray.svg)                                   | `<FileTrayIcon />`                 | ![file-tray-outline](./icons/file-tray-outline.svg)                                   | `<FileTrayOutlineIcon />`                 |
+| ![file-tray-stacked](./icons/file-tray-stacked.svg)                   | `<FileTrayStackedIcon />`          | ![file-tray-stacked-outline](./icons/file-tray-stacked-outline.svg)                   | `<FileTrayStackedOutlineIcon />`          |
+| ![film](./icons/film.svg)                                             | `<FilmIcon />`                     | ![film-outline](./icons/film-outline.svg)                                             | `<FilmOutlineIcon />`                     |
+| ![filter-circle](./icons/filter-circle.svg)                           | `<FilterCircleIcon />`             | ![filter-circle-outline](./icons/filter-circle-outline.svg)                           | `<FilterCircleOutlineIcon />`             |
+| ![filter](./icons/filter.svg)                                         | `<FilterIcon />`                   | ![filter-outline](./icons/filter-outline.svg)                                         | `<FilterOutlineIcon />`                   |
+| ![finger-print](./icons/finger-print.svg)                             | `<FingerPrintIcon />`              | ![finger-print-outline](./icons/finger-print-outline.svg)                             | `<FingerPrintOutlineIcon />`              |
+| ![fish](./icons/fish.svg)                                             | `<FishIcon />`                     | ![fish-outline](./icons/fish-outline.svg)                                             | `<FishOutlineIcon />`                     |
+| ![fitness](./icons/fitness.svg)                                       | `<FitnessIcon />`                  | ![fitness-outline](./icons/fitness-outline.svg)                                       | `<FitnessOutlineIcon />`                  |
+| ![flag](./icons/flag.svg)                                             | `<FlagIcon />`                     | ![flag-outline](./icons/flag-outline.svg)                                             | `<FlagOutlineIcon />`                     |
+| ![flame](./icons/flame.svg)                                           | `<FlameIcon />`                    | ![flame-outline](./icons/flame-outline.svg)                                           | `<FlameOutlineIcon />`                    |
+| ![flash](./icons/flash.svg)                                           | `<FlashIcon />`                    | ![flash-outline](./icons/flash-outline.svg)                                           | `<FlashOutlineIcon />`                    |
+| ![flash-off](./icons/flash-off.svg)                                   | `<FlashOffIcon />`                 | ![flash-off-outline](./icons/flash-off-outline.svg)                                   | `<FlashOffOutlineIcon />`                 |
+| ![flashlight](./icons/flashlight.svg)                                 | `<FlashlightIcon />`               | ![flashlight-outline](./icons/flashlight-outline.svg)                                 | `<FlashlightOutlineIcon />`               |
+| ![flask](./icons/flask.svg)                                           | `<FlaskIcon />`                    | ![flask-outline](./icons/flask-outline.svg)                                           | `<FlaskOutlineIcon />`                    |
+| ![flower](./icons/flower.svg)                                         | `<FlowerIcon />`                   | ![flower-outline](./icons/flower-outline.svg)                                         | `<FlowerOutlineIcon />`                   |
+| ![folder](./icons/folder.svg)                                         | `<FolderIcon />`                   | ![folder-outline](./icons/folder-outline.svg)                                         | `<FolderOutlineIcon />`                   |
+| ![folder-open](./icons/folder-open.svg)                               | `<FolderOpenIcon />`               | ![folder-open-outline](./icons/folder-open-outline.svg)                               | `<FolderOpenOutlineIcon />`               |
+| ![football](./icons/football.svg)                                     | `<FootballIcon />`                 | ![football-outline](./icons/football-outline.svg)                                     | `<FootballOutlineIcon />`                 |
+| ![funnel](./icons/funnel.svg)                                         | `<FunnelIcon />`                   | ![funnel-outline](./icons/funnel-outline.svg)                                         | `<FunnelOutlineIcon />`                   |
+| ![game-controller](./icons/game-controller.svg)                       | `<GameControllerIcon />`           | ![game-controller-outline](./icons/game-controller-outline.svg)                       | `<GameControllerOutlineIcon />`           |
+| ![gift](./icons/gift.svg)                                             | `<GiftIcon />`                     | ![gift-outline](./icons/gift-outline.svg)                                             | `<GiftOutlineIcon />`                     |
+| ![git-branch](./icons/git-branch.svg)                                 | `<GitBranchIcon />`                | ![git-branch-outline](./icons/git-branch-outline.svg)                                 | `<GitBranchOutlineIcon />`                |
+| ![git-commit](./icons/git-commit.svg)                                 | `<GitCommitIcon />`                | ![git-commit-outline](./icons/git-commit-outline.svg)                                 | `<GitCommitOutlineIcon />`                |
+| ![git-compare](./icons/git-compare.svg)                               | `<GitCompareIcon />`               | ![git-compare-outline](./icons/git-compare-outline.svg)                               | `<GitCompareOutlineIcon />`               |
+| ![git-merge](./icons/git-merge.svg)                                   | `<GitMergeIcon />`                 | ![git-merge-outline](./icons/git-merge-outline.svg)                                   | `<GitMergeOutlineIcon />`                 |
+| ![git-network](./icons/git-network.svg)                               | `<GitNetworkIcon />`               | ![git-network-outline](./icons/git-network-outline.svg)                               | `<GitNetworkOutlineIcon />`               |
+| ![git-pull-request](./icons/git-pull-request.svg)                     | `<GitPullRequestIcon />`           | ![git-pull-request-outline](./icons/git-pull-request-outline.svg)                     | `<GitPullRequestOutlineIcon />`           |
+| ![glasses](./icons/glasses.svg)                                       | `<GlassesIcon />`                  | ![glasses-outline](./icons/glasses-outline.svg)                                       | `<GlassesOutlineIcon />`                  |
+| ![globe](./icons/globe.svg)                                           | `<GlobeIcon />`                    | ![globe-outline](./icons/globe-outline.svg)                                           | `<GlobeOutlineIcon />`                    |
+| ![golf](./icons/golf.svg)                                             | `<GolfIcon />`                     | ![golf-outline](./icons/golf-outline.svg)                                             | `<GolfOutlineIcon />`                     |
+| ![grid](./icons/grid.svg)                                             | `<GridIcon />`                     | ![grid-outline](./icons/grid-outline.svg)                                             | `<GridOutlineIcon />`                     |
+| ![hammer](./icons/hammer.svg)                                         | `<HammerIcon />`                   | ![hammer-outline](./icons/hammer-outline.svg)                                         | `<HammerOutlineIcon />`                   |
+| ![hand-left](./icons/hand-left.svg)                                   | `<HandLeftIcon />`                 | ![hand-left-outline](./icons/hand-left-outline.svg)                                   | `<HandLeftOutlineIcon />`                 |
+| ![hand-right](./icons/hand-right.svg)                                 | `<HandRightIcon />`                | ![hand-right-outline](./icons/hand-right-outline.svg)                                 | `<HandRightOutlineIcon />`                |
+| ![happy](./icons/happy.svg)                                           | `<HappyIcon />`                    | ![happy-outline](./icons/happy-outline.svg)                                           | `<HappyOutlineIcon />`                    |
+| ![hardware-chip](./icons/hardware-chip.svg)                           | `<HardwareChipIcon />`             | ![hardware-chip-outline](./icons/hardware-chip-outline.svg)                           | `<HardwareChipOutlineIcon />`             |
+| ![headset](./icons/headset.svg)                                       | `<HeadsetIcon />`                  | ![headset-outline](./icons/headset-outline.svg)                                       | `<HeadsetOutlineIcon />`                  |
+| ![heart-circle](./icons/heart-circle.svg)                             | `<HeartCircleIcon />`              | ![heart-circle-outline](./icons/heart-circle-outline.svg)                             | `<HeartCircleOutlineIcon />`              |
+| ![heart-dislike-circle](./icons/heart-dislike-circle.svg)             | `<HeartDislikeCircleIcon />`       | ![heart-dislike-circle-outline](./icons/heart-dislike-circle-outline.svg)             | `<HeartDislikeCircleOutlineIcon />`       |
+| ![heart-dislike](./icons/heart-dislike.svg)                           | `<HeartDislikeIcon />`             | ![heart-dislike-outline](./icons/heart-dislike-outline.svg)                           | `<HeartDislikeOutlineIcon />`             |
+| ![heart-half](./icons/heart-half.svg)                                 | `<HeartHalfIcon />`                | ![heart-half-outline](./icons/heart-half-outline.svg)                                 | `<HeartHalfOutlineIcon />`                |
+| ![heart](./icons/heart.svg)                                           | `<HeartIcon />`                    | ![heart-outline](./icons/heart-outline.svg)                                           | `<HeartOutlineIcon />`                    |
+| ![help-buoy](./icons/help-buoy.svg)                                   | `<HelpBuoyIcon />`                 | ![help-buoy-outline](./icons/help-buoy-outline.svg)                                   | `<HelpBuoyOutlineIcon />`                 |
+| ![help-circle](./icons/help-circle.svg)                               | `<HelpCircleIcon />`               | ![help-circle-outline](./icons/help-circle-outline.svg)                               | `<HelpCircleOutlineIcon />`               |
+| ![help](./icons/help.svg)                                             | `<HelpIcon />`                     | ![help-outline](./icons/help-outline.svg)                                             | `<HelpOutlineIcon />`                     |
+| ![home](./icons/home.svg)                                             | `<HomeIcon />`                     | ![home-outline](./icons/home-outline.svg)                                             | `<HomeOutlineIcon />`                     |
+| ![hourglass](./icons/hourglass.svg)                                   | `<HourglassIcon />`                | ![hourglass-outline](./icons/hourglass-outline.svg)                                   | `<HourglassOutlineIcon />`                |
+| ![ice-cream](./icons/ice-cream.svg)                                   | `<IceCreamIcon />`                 | ![ice-cream-outline](./icons/ice-cream-outline.svg)                                   | `<IceCreamOutlineIcon />`                 |
+| ![image](./icons/image.svg)                                           | `<ImageIcon />`                    | ![image-outline](./icons/image-outline.svg)                                           | `<ImageOutlineIcon />`                    |
+| ![images](./icons/images.svg)                                         | `<ImagesIcon />`                   | ![images-outline](./icons/images-outline.svg)                                         | `<ImagesOutlineIcon />`                   |
+| ![infinite](./icons/infinite.svg)                                     | `<InfiniteIcon />`                 | ![infinite-outline](./icons/infinite-outline.svg)                                     | `<InfiniteOutlineIcon />`                 |
+| ![information-circle](./icons/information-circle.svg)                 | `<InformationCircleIcon />`        | ![information-circle-outline](./icons/information-circle-outline.svg)                 | `<InformationCircleOutlineIcon />`        |
+| ![information](./icons/information.svg)                               | `<InformationIcon />`              | ![information-outline](./icons/information-outline.svg)                               | `<InformationOutlineIcon />`              |
+| ![invert-mode](./icons/invert-mode.svg)                               | `<InvertModeIcon />`               | ![invert-mode-outline](./icons/invert-mode-outline.svg)                               | `<InvertModeOutlineIcon />`               |
+| ![journal](./icons/journal.svg)                                       | `<JournalIcon />`                  | ![journal-outline](./icons/journal-outline.svg)                                       | `<JournalOutlineIcon />`                  |
+| ![key](./icons/key.svg)                                               | `<KeyIcon />`                      | ![key-outline](./icons/key-outline.svg)                                               | `<KeyOutlineIcon />`                      |
+| ![keypad](./icons/keypad.svg)                                         | `<KeypadIcon />`                   | ![keypad-outline](./icons/keypad-outline.svg)                                         | `<KeypadOutlineIcon />`                   |
+| ![language](./icons/language.svg)                                     | `<LanguageIcon />`                 | ![language-outline](./icons/language-outline.svg)                                     | `<LanguageOutlineIcon />`                 |
+| ![laptop](./icons/laptop.svg)                                         | `<LaptopIcon />`                   | ![laptop-outline](./icons/laptop-outline.svg)                                         | `<LaptopOutlineIcon />`                   |
+| ![layers](./icons/layers.svg)                                         | `<LayersIcon />`                   | ![layers-outline](./icons/layers-outline.svg)                                         | `<LayersOutlineIcon />`                   |
+| ![leaf](./icons/leaf.svg)                                             | `<LeafIcon />`                     | ![leaf-outline](./icons/leaf-outline.svg)                                             | `<LeafOutlineIcon />`                     |
+| ![library](./icons/library.svg)                                       | `<LibraryIcon />`                  | ![library-outline](./icons/library-outline.svg)                                       | `<LibraryOutlineIcon />`                  |
+| ![link](./icons/link.svg)                                             | `<LinkIcon />`                     | ![link-outline](./icons/link-outline.svg)                                             | `<LinkOutlineIcon />`                     |
+| ![list-circle](./icons/list-circle.svg)                               | `<ListCircleIcon />`               | ![list-circle-outline](./icons/list-circle-outline.svg)                               | `<ListCircleOutlineIcon />`               |
+| ![list](./icons/list.svg)                                             | `<ListIcon />`                     | ![list-outline](./icons/list-outline.svg)                                             | `<ListOutlineIcon />`                     |
+| ![locate](./icons/locate.svg)                                         | `<LocateIcon />`                   | ![locate-outline](./icons/locate-outline.svg)                                         | `<LocateOutlineIcon />`                   |
+| ![location](./icons/location.svg)                                     | `<LocationIcon />`                 | ![location-outline](./icons/location-outline.svg)                                     | `<LocationOutlineIcon />`                 |
+| ![lock-closed](./icons/lock-closed.svg)                               | `<LockClosedIcon />`               | ![lock-closed-outline](./icons/lock-closed-outline.svg)                               | `<LockClosedOutlineIcon />`               |
+| ![lock-open](./icons/lock-open.svg)                                   | `<LockOpenIcon />`                 | ![lock-open-outline](./icons/lock-open-outline.svg)                                   | `<LockOpenOutlineIcon />`                 |
+| ![log-in](./icons/log-in.svg)                                         | `<LogInIcon />`                    | ![log-in-outline](./icons/log-in-outline.svg)                                         | `<LogInOutlineIcon />`                    |
+| ![log-out](./icons/log-out.svg)                                       | `<LogOutIcon />`                   | ![log-out-outline](./icons/log-out-outline.svg)                                       | `<LogOutOutlineIcon />`                   |
+| ![magnet](./icons/magnet.svg)                                         | `<MagnetIcon />`                   | ![magnet-outline](./icons/magnet-outline.svg)                                         | `<MagnetOutlineIcon />`                   |
+| ![mail](./icons/mail.svg)                                             | `<MailIcon />`                     | ![mail-outline](./icons/mail-outline.svg)                                             | `<MailOutlineIcon />`                     |
+| ![mail-open](./icons/mail-open.svg)                                   | `<MailOpenIcon />`                 | ![mail-open-outline](./icons/mail-open-outline.svg)                                   | `<MailOpenOutlineIcon />`                 |
+| ![mail-unread](./icons/mail-unread.svg)                               | `<MailUnreadIcon />`               | ![mail-unread-outline](./icons/mail-unread-outline.svg)                               | `<MailUnreadOutlineIcon />`               |
+| ![male-female](./icons/male-female.svg)                               | `<MaleFemaleIcon />`               | ![male-female-outline](./icons/male-female-outline.svg)                               | `<MaleFemaleOutlineIcon />`               |
+| ![male](./icons/male.svg)                                             | `<MaleIcon />`                     | ![male-outline](./icons/male-outline.svg)                                             | `<MaleOutlineIcon />`                     |
+| ![man](./icons/man.svg)                                               | `<ManIcon />`                      | ![man-outline](./icons/man-outline.svg)                                               | `<ManOutlineIcon />`                      |
+| ![map](./icons/map.svg)                                               | `<MapIcon />`                      | ![map-outline](./icons/map-outline.svg)                                               | `<MapOutlineIcon />`                      |
+| ![medal](./icons/medal.svg)                                           | `<MedalIcon />`                    | ![medal-outline](./icons/medal-outline.svg)                                           | `<MedalOutlineIcon />`                    |
+| ![medical](./icons/medical.svg)                                       | `<MedicalIcon />`                  | ![medical-outline](./icons/medical-outline.svg)                                       | `<MedicalOutlineIcon />`                  |
+| ![medkit](./icons/medkit.svg)                                         | `<MedkitIcon />`                   | ![medkit-outline](./icons/medkit-outline.svg)                                         | `<MedkitOutlineIcon />`                   |
+| ![megaphone](./icons/megaphone.svg)                                   | `<MegaphoneIcon />`                | ![megaphone-outline](./icons/megaphone-outline.svg)                                   | `<MegaphoneOutlineIcon />`                |
+| ![menu](./icons/menu.svg)                                             | `<MenuIcon />`                     | ![menu-outline](./icons/menu-outline.svg)                                             | `<MenuOutlineIcon />`                     |
+| ![mic-circle](./icons/mic-circle.svg)                                 | `<MicCircleIcon />`                | ![mic-circle-outline](./icons/mic-circle-outline.svg)                                 | `<MicCircleOutlineIcon />`                |
+| ![mic](./icons/mic.svg)                                               | `<MicIcon />`                      | ![mic-outline](./icons/mic-outline.svg)                                               | `<MicOutlineIcon />`                      |
+| ![mic-off-circle](./icons/mic-off-circle.svg)                         | `<MicOffCircleIcon />`             | ![mic-off-circle-outline](./icons/mic-off-circle-outline.svg)                         | `<MicOffCircleOutlineIcon />`             |
+| ![mic-off](./icons/mic-off.svg)                                       | `<MicOffIcon />`                   | ![mic-off-outline](./icons/mic-off-outline.svg)                                       | `<MicOffOutlineIcon />`                   |
+| ![moon](./icons/moon.svg)                                             | `<MoonIcon />`                     | ![moon-outline](./icons/moon-outline.svg)                                             | `<MoonOutlineIcon />`                     |
+| ![move](./icons/move.svg)                                             | `<MoveIcon />`                     | ![move-outline](./icons/move-outline.svg)                                             | `<MoveOutlineIcon />`                     |
+| ![musical-note](./icons/musical-note.svg)                             | `<MusicalNoteIcon />`              | ![musical-note-outline](./icons/musical-note-outline.svg)                             | `<MusicalNoteOutlineIcon />`              |
+| ![musical-notes](./icons/musical-notes.svg)                           | `<MusicalNotesIcon />`             | ![musical-notes-outline](./icons/musical-notes-outline.svg)                           | `<MusicalNotesOutlineIcon />`             |
+| ![navigate-circle](./icons/navigate-circle.svg)                       | `<NavigateCircleIcon />`           | ![navigate-circle-outline](./icons/navigate-circle-outline.svg)                       | `<NavigateCircleOutlineIcon />`           |
+| ![navigate](./icons/navigate.svg)                                     | `<NavigateIcon />`                 | ![navigate-outline](./icons/navigate-outline.svg)                                     | `<NavigateOutlineIcon />`                 |
+| ![newspaper](./icons/newspaper.svg)                                   | `<NewspaperIcon />`                | ![newspaper-outline](./icons/newspaper-outline.svg)                                   | `<NewspaperOutlineIcon />`                |
+| ![notifications-circle](./icons/notifications-circle.svg)             | `<NotificationsCircleIcon />`      | ![notifications-circle-outline](./icons/notifications-circle-outline.svg)             | `<NotificationsCircleOutlineIcon />`      |
+| ![notifications](./icons/notifications.svg)                           | `<NotificationsIcon />`            | ![notifications-outline](./icons/notifications-outline.svg)                           | `<NotificationsOutlineIcon />`            |
+| ![notifications-off-circle](./icons/notifications-off-circle.svg)     | `<NotificationsOffCircleIcon />`   | ![notifications-off-circle-outline](./icons/notifications-off-circle-outline.svg)     | `<NotificationsOffCircleOutlineIcon />`   |
+| ![notifications-off](./icons/notifications-off.svg)                   | `<NotificationsOffIcon />`         | ![notifications-off-outline](./icons/notifications-off-outline.svg)                   | `<NotificationsOffOutlineIcon />`         |
+| ![nuclear](./icons/nuclear.svg)                                       | `<NuclearIcon />`                  | ![nuclear-outline](./icons/nuclear-outline.svg)                                       | `<NuclearOutlineIcon />`                  |
+| ![nutrition](./icons/nutrition.svg)                                   | `<NutritionIcon />`                | ![nutrition-outline](./icons/nutrition-outline.svg)                                   | `<NutritionOutlineIcon />`                |
+| ![open](./icons/open.svg)                                             | `<OpenIcon />`                     | ![open-outline](./icons/open-outline.svg)                                             | `<OpenOutlineIcon />`                     |
+| ![options](./icons/options.svg)                                       | `<OptionsIcon />`                  | ![options-outline](./icons/options-outline.svg)                                       | `<OptionsOutlineIcon />`                  |
+| ![paper-plane](./icons/paper-plane.svg)                               | `<PaperPlaneIcon />`               | ![paper-plane-outline](./icons/paper-plane-outline.svg)                               | `<PaperPlaneOutlineIcon />`               |
+| ![partly-sunny](./icons/partly-sunny.svg)                             | `<PartlySunnyIcon />`              | ![partly-sunny-outline](./icons/partly-sunny-outline.svg)                             | `<PartlySunnyOutlineIcon />`              |
+| ![pause-circle](./icons/pause-circle.svg)                             | `<PauseCircleIcon />`              | ![pause-circle-outline](./icons/pause-circle-outline.svg)                             | `<PauseCircleOutlineIcon />`              |
+| ![pause](./icons/pause.svg)                                           | `<PauseIcon />`                    | ![pause-outline](./icons/pause-outline.svg)                                           | `<PauseOutlineIcon />`                    |
+| ![paw](./icons/paw.svg)                                               | `<PawIcon />`                      | ![paw-outline](./icons/paw-outline.svg)                                               | `<PawOutlineIcon />`                      |
+| ![pencil](./icons/pencil.svg)                                         | `<PencilIcon />`                   | ![pencil-outline](./icons/pencil-outline.svg)                                         | `<PencilOutlineIcon />`                   |
+| ![people-circle](./icons/people-circle.svg)                           | `<PeopleCircleIcon />`             | ![people-circle-outline](./icons/people-circle-outline.svg)                           | `<PeopleCircleOutlineIcon />`             |
+| ![people](./icons/people.svg)                                         | `<PeopleIcon />`                   | ![people-outline](./icons/people-outline.svg)                                         | `<PeopleOutlineIcon />`                   |
+| ![person-add](./icons/person-add.svg)                                 | `<PersonAddIcon />`                | ![person-add-outline](./icons/person-add-outline.svg)                                 | `<PersonAddOutlineIcon />`                |
+| ![person-circle](./icons/person-circle.svg)                           | `<PersonCircleIcon />`             | ![person-circle-outline](./icons/person-circle-outline.svg)                           | `<PersonCircleOutlineIcon />`             |
+| ![person](./icons/person.svg)                                         | `<PersonIcon />`                   | ![person-outline](./icons/person-outline.svg)                                         | `<PersonOutlineIcon />`                   |
+| ![person-remove](./icons/person-remove.svg)                           | `<PersonRemoveIcon />`             | ![person-remove-outline](./icons/person-remove-outline.svg)                           | `<PersonRemoveOutlineIcon />`             |
+| ![phone-landscape](./icons/phone-landscape.svg)                       | `<PhoneLandscapeIcon />`           | ![phone-landscape-outline](./icons/phone-landscape-outline.svg)                       | `<PhoneLandscapeOutlineIcon />`           |
+| ![phone-portrait](./icons/phone-portrait.svg)                         | `<PhonePortraitIcon />`            | ![phone-portrait-outline](./icons/phone-portrait-outline.svg)                         | `<PhonePortraitOutlineIcon />`            |
+| ![pie-chart](./icons/pie-chart.svg)                                   | `<PieChartIcon />`                 | ![pie-chart-outline](./icons/pie-chart-outline.svg)                                   | `<PieChartOutlineIcon />`                 |
+| ![pin](./icons/pin.svg)                                               | `<PinIcon />`                      | ![pin-outline](./icons/pin-outline.svg)                                               | `<PinOutlineIcon />`                      |
+| ![pint](./icons/pint.svg)                                             | `<PintIcon />`                     | ![pint-outline](./icons/pint-outline.svg)                                             | `<PintOutlineIcon />`                     |
+| ![pizza](./icons/pizza.svg)                                           | `<PizzaIcon />`                    | ![pizza-outline](./icons/pizza-outline.svg)                                           | `<PizzaOutlineIcon />`                    |
+| ![planet](./icons/planet.svg)                                         | `<PlanetIcon />`                   | ![planet-outline](./icons/planet-outline.svg)                                         | `<PlanetOutlineIcon />`                   |
+| ![play-back-circle](./icons/play-back-circle.svg)                     | `<PlayBackCircleIcon />`           | ![play-back-circle-outline](./icons/play-back-circle-outline.svg)                     | `<PlayBackCircleOutlineIcon />`           |
+| ![play-back](./icons/play-back.svg)                                   | `<PlayBackIcon />`                 | ![play-back-outline](./icons/play-back-outline.svg)                                   | `<PlayBackOutlineIcon />`                 |
+| ![play-circle](./icons/play-circle.svg)                               | `<PlayCircleIcon />`               | ![play-circle-outline](./icons/play-circle-outline.svg)                               | `<PlayCircleOutlineIcon />`               |
+| ![play-forward-circle](./icons/play-forward-circle.svg)               | `<PlayForwardCircleIcon />`        | ![play-forward-circle-outline](./icons/play-forward-circle-outline.svg)               | `<PlayForwardCircleOutlineIcon />`        |
+| ![play-forward](./icons/play-forward.svg)                             | `<PlayForwardIcon />`              | ![play-forward-outline](./icons/play-forward-outline.svg)                             | `<PlayForwardOutlineIcon />`              |
+| ![play](./icons/play.svg)                                             | `<PlayIcon />`                     | ![play-outline](./icons/play-outline.svg)                                             | `<PlayOutlineIcon />`                     |
+| ![play-skip-back-circle](./icons/play-skip-back-circle.svg)           | `<PlaySkipBackCircleIcon />`       | ![play-skip-back-circle-outline](./icons/play-skip-back-circle-outline.svg)           | `<PlaySkipBackCircleOutlineIcon />`       |
+| ![play-skip-back](./icons/play-skip-back.svg)                         | `<PlaySkipBackIcon />`             | ![play-skip-back-outline](./icons/play-skip-back-outline.svg)                         | `<PlaySkipBackOutlineIcon />`             |
+| ![play-skip-forward-circle](./icons/play-skip-forward-circle.svg)     | `<PlaySkipForwardCircleIcon />`    | ![play-skip-forward-circle-outline](./icons/play-skip-forward-circle-outline.svg)     | `<PlaySkipForwardCircleOutlineIcon />`    |
+| ![play-skip-forward](./icons/play-skip-forward.svg)                   | `<PlaySkipForwardIcon />`          | ![play-skip-forward-outline](./icons/play-skip-forward-outline.svg)                   | `<PlaySkipForwardOutlineIcon />`          |
+| ![podium](./icons/podium.svg)                                         | `<PodiumIcon />`                   | ![podium-outline](./icons/podium-outline.svg)                                         | `<PodiumOutlineIcon />`                   |
+| ![power](./icons/power.svg)                                           | `<PowerIcon />`                    | ![power-outline](./icons/power-outline.svg)                                           | `<PowerOutlineIcon />`                    |
+| ![pricetag](./icons/pricetag.svg)                                     | `<PricetagIcon />`                 | ![pricetag-outline](./icons/pricetag-outline.svg)                                     | `<PricetagOutlineIcon />`                 |
+| ![pricetags](./icons/pricetags.svg)                                   | `<PricetagsIcon />`                | ![pricetags-outline](./icons/pricetags-outline.svg)                                   | `<PricetagsOutlineIcon />`                |
+| ![print](./icons/print.svg)                                           | `<PrintIcon />`                    | ![print-outline](./icons/print-outline.svg)                                           | `<PrintOutlineIcon />`                    |
+| ![pulse](./icons/pulse.svg)                                           | `<PulseIcon />`                    | ![pulse-outline](./icons/pulse-outline.svg)                                           | `<PulseOutlineIcon />`                    |
+| ![push](./icons/push.svg)                                             | `<PushIcon />`                     | ![push-outline](./icons/push-outline.svg)                                             | `<PushOutlineIcon />`                     |
+| ![qr-code](./icons/qr-code.svg)                                       | `<QrCodeIcon />`                   | ![qr-code-outline](./icons/qr-code-outline.svg)                                       | `<QrCodeOutlineIcon />`                   |
+| ![radio-button-off](./icons/radio-button-off.svg)                     | `<RadioButtonOffIcon />`           | ![radio-button-off-outline](./icons/radio-button-off-outline.svg)                     | `<RadioButtonOffOutlineIcon />`           |
+| ![radio-button-on](./icons/radio-button-on.svg)                       | `<RadioButtonOnIcon />`            | ![radio-button-on-outline](./icons/radio-button-on-outline.svg)                       | `<RadioButtonOnOutlineIcon />`            |
+| ![radio](./icons/radio.svg)                                           | `<RadioIcon />`                    | ![radio-outline](./icons/radio-outline.svg)                                           | `<RadioOutlineIcon />`                    |
+| ![rainy](./icons/rainy.svg)                                           | `<RainyIcon />`                    | ![rainy-outline](./icons/rainy-outline.svg)                                           | `<RainyOutlineIcon />`                    |
+| ![reader](./icons/reader.svg)                                         | `<ReaderIcon />`                   | ![reader-outline](./icons/reader-outline.svg)                                         | `<ReaderOutlineIcon />`                   |
+| ![receipt](./icons/receipt.svg)                                       | `<ReceiptIcon />`                  | ![receipt-outline](./icons/receipt-outline.svg)                                       | `<ReceiptOutlineIcon />`                  |
+| ![recording](./icons/recording.svg)                                   | `<RecordingIcon />`                | ![recording-outline](./icons/recording-outline.svg)                                   | `<RecordingOutlineIcon />`                |
+| ![refresh-circle](./icons/refresh-circle.svg)                         | `<RefreshCircleIcon />`            | ![refresh-circle-outline](./icons/refresh-circle-outline.svg)                         | `<RefreshCircleOutlineIcon />`            |
+| ![refresh](./icons/refresh.svg)                                       | `<RefreshIcon />`                  | ![refresh-outline](./icons/refresh-outline.svg)                                       | `<RefreshOutlineIcon />`                  |
+| ![reload-circle](./icons/reload-circle.svg)                           | `<ReloadCircleIcon />`             | ![reload-circle-outline](./icons/reload-circle-outline.svg)                           | `<ReloadCircleOutlineIcon />`             |
+| ![reload](./icons/reload.svg)                                         | `<ReloadIcon />`                   | ![reload-outline](./icons/reload-outline.svg)                                         | `<ReloadOutlineIcon />`                   |
+| ![remove-circle](./icons/remove-circle.svg)                           | `<RemoveCircleIcon />`             | ![remove-circle-outline](./icons/remove-circle-outline.svg)                           | `<RemoveCircleOutlineIcon />`             |
+| ![remove](./icons/remove.svg)                                         | `<RemoveIcon />`                   | ![remove-outline](./icons/remove-outline.svg)                                         | `<RemoveOutlineIcon />`                   |
+| ![reorder-four](./icons/reorder-four.svg)                             | `<ReorderFourIcon />`              | ![reorder-four-outline](./icons/reorder-four-outline.svg)                             | `<ReorderFourOutlineIcon />`              |
+| ![reorder-three](./icons/reorder-three.svg)                           | `<ReorderThreeIcon />`             | ![reorder-three-outline](./icons/reorder-three-outline.svg)                           | `<ReorderThreeOutlineIcon />`             |
+| ![reorder-two](./icons/reorder-two.svg)                               | `<ReorderTwoIcon />`               | ![reorder-two-outline](./icons/reorder-two-outline.svg)                               | `<ReorderTwoOutlineIcon />`               |
+| ![repeat](./icons/repeat.svg)                                         | `<RepeatIcon />`                   | ![repeat-outline](./icons/repeat-outline.svg)                                         | `<RepeatOutlineIcon />`                   |
+| ![resize](./icons/resize.svg)                                         | `<ResizeIcon />`                   | ![resize-outline](./icons/resize-outline.svg)                                         | `<ResizeOutlineIcon />`                   |
+| ![restaurant](./icons/restaurant.svg)                                 | `<RestaurantIcon />`               | ![restaurant-outline](./icons/restaurant-outline.svg)                                 | `<RestaurantOutlineIcon />`               |
+| ![return-down-back](./icons/return-down-back.svg)                     | `<ReturnDownBackIcon />`           | ![return-down-back-outline](./icons/return-down-back-outline.svg)                     | `<ReturnDownBackOutlineIcon />`           |
+| ![return-down-forward](./icons/return-down-forward.svg)               | `<ReturnDownForwardIcon />`        | ![return-down-forward-outline](./icons/return-down-forward-outline.svg)               | `<ReturnDownForwardOutlineIcon />`        |
+| ![return-up-back](./icons/return-up-back.svg)                         | `<ReturnUpBackIcon />`             | ![return-up-back-outline](./icons/return-up-back-outline.svg)                         | `<ReturnUpBackOutlineIcon />`             |
+| ![return-up-forward](./icons/return-up-forward.svg)                   | `<ReturnUpForwardIcon />`          | ![return-up-forward-outline](./icons/return-up-forward-outline.svg)                   | `<ReturnUpForwardOutlineIcon />`          |
+| ![ribbon](./icons/ribbon.svg)                                         | `<RibbonIcon />`                   | ![ribbon-outline](./icons/ribbon-outline.svg)                                         | `<RibbonOutlineIcon />`                   |
+| ![rocket](./icons/rocket.svg)                                         | `<RocketIcon />`                   | ![rocket-outline](./icons/rocket-outline.svg)                                         | `<RocketOutlineIcon />`                   |
+| ![rose](./icons/rose.svg)                                             | `<RoseIcon />`                     | ![rose-outline](./icons/rose-outline.svg)                                             | `<RoseOutlineIcon />`                     |
+| ![sad](./icons/sad.svg)                                               | `<SadIcon />`                      | ![sad-outline](./icons/sad-outline.svg)                                               | `<SadOutlineIcon />`                      |
+| ![save](./icons/save.svg)                                             | `<SaveIcon />`                     | ![save-outline](./icons/save-outline.svg)                                             | `<SaveOutlineIcon />`                     |
+| ![scan-circle](./icons/scan-circle.svg)                               | `<ScanCircleIcon />`               | ![scan-circle-outline](./icons/scan-circle-outline.svg)                               | `<ScanCircleOutlineIcon />`               |
+| ![scan](./icons/scan.svg)                                             | `<ScanIcon />`                     | ![scan-outline](./icons/scan-outline.svg)                                             | `<ScanOutlineIcon />`                     |
+| ![school](./icons/school.svg)                                         | `<SchoolIcon />`                   | ![school-outline](./icons/school-outline.svg)                                         | `<SchoolOutlineIcon />`                   |
+| ![search-circle](./icons/search-circle.svg)                           | `<SearchCircleIcon />`             | ![search-circle-outline](./icons/search-circle-outline.svg)                           | `<SearchCircleOutlineIcon />`             |
+| ![search](./icons/search.svg)                                         | `<SearchIcon />`                   | ![search-outline](./icons/search-outline.svg)                                         | `<SearchOutlineIcon />`                   |
+| ![send](./icons/send.svg)                                             | `<SendIcon />`                     | ![send-outline](./icons/send-outline.svg)                                             | `<SendOutlineIcon />`                     |
+| ![server](./icons/server.svg)                                         | `<ServerIcon />`                   | ![server-outline](./icons/server-outline.svg)                                         | `<ServerOutlineIcon />`                   |
+| ![settings](./icons/settings.svg)                                     | `<SettingsIcon />`                 | ![settings-outline](./icons/settings-outline.svg)                                     | `<SettingsOutlineIcon />`                 |
+| ![shapes](./icons/shapes.svg)                                         | `<ShapesIcon />`                   | ![shapes-outline](./icons/shapes-outline.svg)                                         | `<ShapesOutlineIcon />`                   |
+| ![share](./icons/share.svg)                                           | `<ShareIcon />`                    | ![share-outline](./icons/share-outline.svg)                                           | `<ShareOutlineIcon />`                    |
+| ![share-social](./icons/share-social.svg)                             | `<ShareSocialIcon />`              | ![share-social-outline](./icons/share-social-outline.svg)                             | `<ShareSocialOutlineIcon />`              |
+| ![shield-checkmark](./icons/shield-checkmark.svg)                     | `<ShieldCheckmarkIcon />`          | ![shield-checkmark-outline](./icons/shield-checkmark-outline.svg)                     | `<ShieldCheckmarkOutlineIcon />`          |
+| ![shield](./icons/shield.svg)                                         | `<ShieldIcon />`                   | ![shield-outline](./icons/shield-outline.svg)                                         | `<ShieldOutlineIcon />`                   |
+| ![shirt](./icons/shirt.svg)                                           | `<ShirtIcon />`                    | ![shirt-outline](./icons/shirt-outline.svg)                                           | `<ShirtOutlineIcon />`                    |
+| ![shuffle](./icons/shuffle.svg)                                       | `<ShuffleIcon />`                  | ![shuffle-outline](./icons/shuffle-outline.svg)                                       | `<ShuffleOutlineIcon />`                  |
+| ![skull](./icons/skull.svg)                                           | `<SkullIcon />`                    | ![skull-outline](./icons/skull-outline.svg)                                           | `<SkullOutlineIcon />`                    |
+| ![snow](./icons/snow.svg)                                             | `<SnowIcon />`                     | ![snow-outline](./icons/snow-outline.svg)                                             | `<SnowOutlineIcon />`                     |
+| ![speedometer](./icons/speedometer.svg)                               | `<SpeedometerIcon />`              | ![speedometer-outline](./icons/speedometer-outline.svg)                               | `<SpeedometerOutlineIcon />`              |
+| ![square](./icons/square.svg)                                         | `<SquareIcon />`                   | ![square-outline](./icons/square-outline.svg)                                         | `<SquareOutlineIcon />`                   |
+| ![star-half](./icons/star-half.svg)                                   | `<StarHalfIcon />`                 | ![star-half-outline](./icons/star-half-outline.svg)                                   | `<StarHalfOutlineIcon />`                 |
+| ![star](./icons/star.svg)                                             | `<StarIcon />`                     | ![star-outline](./icons/star-outline.svg)                                             | `<StarOutlineIcon />`                     |
+| ![stats-chart](./icons/stats-chart.svg)                               | `<StatsChartIcon />`               | ![stats-chart-outline](./icons/stats-chart-outline.svg)                               | `<StatsChartOutlineIcon />`               |
+| ![stop-circle](./icons/stop-circle.svg)                               | `<StopCircleIcon />`               | ![stop-circle-outline](./icons/stop-circle-outline.svg)                               | `<StopCircleOutlineIcon />`               |
+| ![stop](./icons/stop.svg)                                             | `<StopIcon />`                     | ![stop-outline](./icons/stop-outline.svg)                                             | `<StopOutlineIcon />`                     |
+| ![stopwatch](./icons/stopwatch.svg)                                   | `<StopwatchIcon />`                | ![stopwatch-outline](./icons/stopwatch-outline.svg)                                   | `<StopwatchOutlineIcon />`                |
+| ![storefront](./icons/storefront.svg)                                 | `<StorefrontIcon />`               | ![storefront-outline](./icons/storefront-outline.svg)                                 | `<StorefrontOutlineIcon />`               |
+| ![subway](./icons/subway.svg)                                         | `<SubwayIcon />`                   | ![subway-outline](./icons/subway-outline.svg)                                         | `<SubwayOutlineIcon />`                   |
+| ![sunny](./icons/sunny.svg)                                           | `<SunnyIcon />`                    | ![sunny-outline](./icons/sunny-outline.svg)                                           | `<SunnyOutlineIcon />`                    |
+| ![swap-horizontal](./icons/swap-horizontal.svg)                       | `<SwapHorizontalIcon />`           | ![swap-horizontal-outline](./icons/swap-horizontal-outline.svg)                       | `<SwapHorizontalOutlineIcon />`           |
+| ![swap-vertical](./icons/swap-vertical.svg)                           | `<SwapVerticalIcon />`             | ![swap-vertical-outline](./icons/swap-vertical-outline.svg)                           | `<SwapVerticalOutlineIcon />`             |
+| ![sync-circle](./icons/sync-circle.svg)                               | `<SyncCircleIcon />`               | ![sync-circle-outline](./icons/sync-circle-outline.svg)                               | `<SyncCircleOutlineIcon />`               |
+| ![sync](./icons/sync.svg)                                             | `<SyncIcon />`                     | ![sync-outline](./icons/sync-outline.svg)                                             | `<SyncOutlineIcon />`                     |
+| ![tablet-landscape](./icons/tablet-landscape.svg)                     | `<TabletLandscapeIcon />`          | ![tablet-landscape-outline](./icons/tablet-landscape-outline.svg)                     | `<TabletLandscapeOutlineIcon />`          |
+| ![tablet-portrait](./icons/tablet-portrait.svg)                       | `<TabletPortraitIcon />`           | ![tablet-portrait-outline](./icons/tablet-portrait-outline.svg)                       | `<TabletPortraitOutlineIcon />`           |
+| ![telescope](./icons/telescope.svg)                                   | `<TelescopeIcon />`                | ![telescope-outline](./icons/telescope-outline.svg)                                   | `<TelescopeOutlineIcon />`                |
+| ![tennisball](./icons/tennisball.svg)                                 | `<TennisballIcon />`               | ![tennisball-outline](./icons/tennisball-outline.svg)                                 | `<TennisballOutlineIcon />`               |
+| ![terminal](./icons/terminal.svg)                                     | `<TerminalIcon />`                 | ![terminal-outline](./icons/terminal-outline.svg)                                     | `<TerminalOutlineIcon />`                 |
+| ![text](./icons/text.svg)                                             | `<TextIcon />`                     | ![text-outline](./icons/text-outline.svg)                                             | `<TextOutlineIcon />`                     |
+| ![thermometer](./icons/thermometer.svg)                               | `<ThermometerIcon />`              | ![thermometer-outline](./icons/thermometer-outline.svg)                               | `<ThermometerOutlineIcon />`              |
+| ![thumbs-down](./icons/thumbs-down.svg)                               | `<ThumbsDownIcon />`               | ![thumbs-down-outline](./icons/thumbs-down-outline.svg)                               | `<ThumbsDownOutlineIcon />`               |
+| ![thumbs-up](./icons/thumbs-up.svg)                                   | `<ThumbsUpIcon />`                 | ![thumbs-up-outline](./icons/thumbs-up-outline.svg)                                   | `<ThumbsUpOutlineIcon />`                 |
+| ![thunderstorm](./icons/thunderstorm.svg)                             | `<ThunderstormIcon />`             | ![thunderstorm-outline](./icons/thunderstorm-outline.svg)                             | `<ThunderstormOutlineIcon />`             |
+| ![ticket](./icons/ticket.svg)                                         | `<TicketIcon />`                   | ![ticket-outline](./icons/ticket-outline.svg)                                         | `<TicketOutlineIcon />`                   |
+| ![time](./icons/time.svg)                                             | `<TimeIcon />`                     | ![time-outline](./icons/time-outline.svg)                                             | `<TimeOutlineIcon />`                     |
+| ![timer](./icons/timer.svg)                                           | `<TimerIcon />`                    | ![timer-outline](./icons/timer-outline.svg)                                           | `<TimerOutlineIcon />`                    |
+| ![today](./icons/today.svg)                                           | `<TodayIcon />`                    | ![today-outline](./icons/today-outline.svg)                                           | `<TodayOutlineIcon />`                    |
+| ![toggle](./icons/toggle.svg)                                         | `<ToggleIcon />`                   | ![toggle-outline](./icons/toggle-outline.svg)                                         | `<ToggleOutlineIcon />`                   |
+| ![trail-sign](./icons/trail-sign.svg)                                 | `<TrailSignIcon />`                | ![trail-sign-outline](./icons/trail-sign-outline.svg)                                 | `<TrailSignOutlineIcon />`                |
+| ![train](./icons/train.svg)                                           | `<TrainIcon />`                    | ![train-outline](./icons/train-outline.svg)                                           | `<TrainOutlineIcon />`                    |
+| ![transgender](./icons/transgender.svg)                               | `<TransgenderIcon />`              | ![transgender-outline](./icons/transgender-outline.svg)                               | `<TransgenderOutlineIcon />`              |
+| ![trash-bin](./icons/trash-bin.svg)                                   | `<TrashBinIcon />`                 | ![trash-bin-outline](./icons/trash-bin-outline.svg)                                   | `<TrashBinOutlineIcon />`                 |
+| ![trash](./icons/trash.svg)                                           | `<TrashIcon />`                    | ![trash-outline](./icons/trash-outline.svg)                                           | `<TrashOutlineIcon />`                    |
+| ![trending-down](./icons/trending-down.svg)                           | `<TrendingDownIcon />`             | ![trending-down-outline](./icons/trending-down-outline.svg)                           | `<TrendingDownOutlineIcon />`             |
+| ![trending-up](./icons/trending-up.svg)                               | `<TrendingUpIcon />`               | ![trending-up-outline](./icons/trending-up-outline.svg)                               | `<TrendingUpOutlineIcon />`               |
+| ![triangle](./icons/triangle.svg)                                     | `<TriangleIcon />`                 | ![triangle-outline](./icons/triangle-outline.svg)                                     | `<TriangleOutlineIcon />`                 |
+| ![trophy](./icons/trophy.svg)                                         | `<TrophyIcon />`                   | ![trophy-outline](./icons/trophy-outline.svg)                                         | `<TrophyOutlineIcon />`                   |
+| ![tv](./icons/tv.svg)                                                 | `<TvIcon />`                       | ![tv-outline](./icons/tv-outline.svg)                                                 | `<TvOutlineIcon />`                       |
+| ![umbrella](./icons/umbrella.svg)                                     | `<UmbrellaIcon />`                 | ![umbrella-outline](./icons/umbrella-outline.svg)                                     | `<UmbrellaOutlineIcon />`                 |
+| ![unlink](./icons/unlink.svg)                                         | `<UnlinkIcon />`                   | ![unlink-outline](./icons/unlink-outline.svg)                                         | `<UnlinkOutlineIcon />`                   |
+| ![videocam](./icons/videocam.svg)                                     | `<VideocamIcon />`                 | ![videocam-outline](./icons/videocam-outline.svg)                                     | `<VideocamOutlineIcon />`                 |
+| ![videocam-off](./icons/videocam-off.svg)                             | `<VideocamOffIcon />`              | ![videocam-off-outline](./icons/videocam-off-outline.svg)                             | `<VideocamOffOutlineIcon />`              |
+| ![volume-high](./icons/volume-high.svg)                               | `<VolumeHighIcon />`               | ![volume-high-outline](./icons/volume-high-outline.svg)                               | `<VolumeHighOutlineIcon />`               |
+| ![volume-low](./icons/volume-low.svg)                                 | `<VolumeLowIcon />`                | ![volume-low-outline](./icons/volume-low-outline.svg)                                 | `<VolumeLowOutlineIcon />`                |
+| ![volume-medium](./icons/volume-medium.svg)                           | `<VolumeMediumIcon />`             | ![volume-medium-outline](./icons/volume-medium-outline.svg)                           | `<VolumeMediumOutlineIcon />`             |
+| ![volume-mute](./icons/volume-mute.svg)                               | `<VolumeMuteIcon />`               | ![volume-mute-outline](./icons/volume-mute-outline.svg)                               | `<VolumeMuteOutlineIcon />`               |
+| ![volume-off](./icons/volume-off.svg)                                 | `<VolumeOffIcon />`                | ![volume-off-outline](./icons/volume-off-outline.svg)                                 | `<VolumeOffOutlineIcon />`                |
+| ![walk](./icons/walk.svg)                                             | `<WalkIcon />`                     | ![walk-outline](./icons/walk-outline.svg)                                             | `<WalkOutlineIcon />`                     |
+| ![wallet](./icons/wallet.svg)                                         | `<WalletIcon />`                   | ![wallet-outline](./icons/wallet-outline.svg)                                         | `<WalletOutlineIcon />`                   |
+| ![warning](./icons/warning.svg)                                       | `<WarningIcon />`                  | ![warning-outline](./icons/warning-outline.svg)                                       | `<WarningOutlineIcon />`                  |
+| ![watch](./icons/watch.svg)                                           | `<WatchIcon />`                    | ![watch-outline](./icons/watch-outline.svg)                                           | `<WatchOutlineIcon />`                    |
+| ![water](./icons/water.svg)                                           | `<WaterIcon />`                    | ![water-outline](./icons/water-outline.svg)                                           | `<WaterOutlineIcon />`                    |
+| ![wifi](./icons/wifi.svg)                                             | `<WifiIcon />`                     | ![wifi-outline](./icons/wifi-outline.svg)                                             | `<WifiOutlineIcon />`                     |
+| ![wine](./icons/wine.svg)                                             | `<WineIcon />`                     | ![wine-outline](./icons/wine-outline.svg)                                             | `<WineOutlineIcon />`                     |
+| ![woman](./icons/woman.svg)                                           | `<WomanIcon />`                    | ![woman-outline](./icons/woman-outline.svg)                                           | `<WomanOutlineIcon />`                    |
+| ![logo-alipay](./icons/logo-alipay.svg)                               | `<LogoAlipayIcon />`               |                                                                                       |
+| ![logo-amazon](./icons/logo-amazon.svg)                               | `<LogoAmazonIcon />`               |                                                                                       |
+| ![logo-amplify](./icons/logo-amplify.svg)                             | `<LogoAmplifyIcon />`              |                                                                                       |
+| ![logo-android](./icons/logo-android.svg)                             | `<LogoAndroidIcon />`              |                                                                                       |
+| ![logo-angular](./icons/logo-angular.svg)                             | `<LogoAngularIcon />`              |                                                                                       |
+| ![logo-apple-appstore](./icons/logo-apple-appstore.svg)               | `<LogoAppleAppstoreIcon />`        |                                                                                       |
+| ![logo-apple](./icons/logo-apple.svg)                                 | `<LogoAppleIcon />`                |                                                                                       |
+| ![logo-behance](./icons/logo-behance.svg)                             | `<LogoBehanceIcon />`              |                                                                                       |
+| ![logo-bitbucket](./icons/logo-bitbucket.svg)                         | `<LogoBitbucketIcon />`            |                                                                                       |
+| ![logo-bitcoin](./icons/logo-bitcoin.svg)                             | `<LogoBitcoinIcon />`              |                                                                                       |
+| ![logo-buffer](./icons/logo-buffer.svg)                               | `<LogoBufferIcon />`               |                                                                                       |
+| ![logo-capacitor](./icons/logo-capacitor.svg)                         | `<LogoCapacitorIcon />`            |                                                                                       |
+| ![logo-chrome](./icons/logo-chrome.svg)                               | `<LogoChromeIcon />`               |                                                                                       |
+| ![logo-closed-captioning](./icons/logo-closed-captioning.svg)         | `<LogoClosedCaptioningIcon />`     |                                                                                       |
+| ![logo-codepen](./icons/logo-codepen.svg)                             | `<LogoCodepenIcon />`              |                                                                                       |
+| ![logo-css3](./icons/logo-css3.svg)                                   | `<LogoCss3Icon />`                 |                                                                                       |
+| ![logo-designernews](./icons/logo-designernews.svg)                   | `<LogoDesignernewsIcon />`         |                                                                                       |
+| ![logo-deviantart](./icons/logo-deviantart.svg)                       | `<LogoDeviantartIcon />`           |                                                                                       |
+| ![logo-discord](./icons/logo-discord.svg)                             | `<LogoDiscordIcon />`              |                                                                                       |
+| ![logo-docker](./icons/logo-docker.svg)                               | `<LogoDockerIcon />`               |                                                                                       |
+| ![logo-dribbble](./icons/logo-dribbble.svg)                           | `<LogoDribbbleIcon />`             |                                                                                       |
+| ![logo-dropbox](./icons/logo-dropbox.svg)                             | `<LogoDropboxIcon />`              |                                                                                       |
+| ![logo-edge](./icons/logo-edge.svg)                                   | `<LogoEdgeIcon />`                 |                                                                                       |
+| ![logo-electron](./icons/logo-electron.svg)                           | `<LogoElectronIcon />`             |                                                                                       |
+| ![logo-euro](./icons/logo-euro.svg)                                   | `<LogoEuroIcon />`                 |                                                                                       |
+| ![logo-facebook](./icons/logo-facebook.svg)                           | `<LogoFacebookIcon />`             |                                                                                       |
+| ![logo-figma](./icons/logo-figma.svg)                                 | `<LogoFigmaIcon />`                |                                                                                       |
+| ![logo-firebase](./icons/logo-firebase.svg)                           | `<LogoFirebaseIcon />`             |                                                                                       |
+| ![logo-firefox](./icons/logo-firefox.svg)                             | `<LogoFirefoxIcon />`              |                                                                                       |
+| ![logo-flickr](./icons/logo-flickr.svg)                               | `<LogoFlickrIcon />`               |                                                                                       |
+| ![logo-foursquare](./icons/logo-foursquare.svg)                       | `<LogoFoursquareIcon />`           |                                                                                       |
+| ![logo-github](./icons/logo-github.svg)                               | `<LogoGithubIcon />`               |                                                                                       |
+| ![logo-gitlab](./icons/logo-gitlab.svg)                               | `<LogoGitlabIcon />`               |                                                                                       |
+| ![logo-google](./icons/logo-google.svg)                               | `<LogoGoogleIcon />`               |                                                                                       |
+| ![logo-google-playstore](./icons/logo-google-playstore.svg)           | `<LogoGooglePlaystoreIcon />`      |                                                                                       |
+| ![logo-hackernews](./icons/logo-hackernews.svg)                       | `<LogoHackernewsIcon />`           |                                                                                       |
+| ![logo-html5](./icons/logo-html5.svg)                                 | `<LogoHtml5Icon />`                |                                                                                       |
+| ![logo-instagram](./icons/logo-instagram.svg)                         | `<LogoInstagramIcon />`            |                                                                                       |
+| ![logo-ionic](./icons/logo-ionic.svg)                                 | `<LogoIonicIcon />`                |                                                                                       |
+| ![logo-ionitron](./icons/logo-ionitron.svg)                           | `<LogoIonitronIcon />`             |                                                                                       |
+| ![logo-javascript](./icons/logo-javascript.svg)                       | `<LogoJavascriptIcon />`           |                                                                                       |
+| ![logo-laravel](./icons/logo-laravel.svg)                             | `<LogoLaravelIcon />`              |                                                                                       |
+| ![logo-linkedin](./icons/logo-linkedin.svg)                           | `<LogoLinkedinIcon />`             |                                                                                       |
+| ![logo-markdown](./icons/logo-markdown.svg)                           | `<LogoMarkdownIcon />`             |                                                                                       |
+| ![logo-mastodon](./icons/logo-mastodon.svg)                           | `<LogoMastodonIcon />`             |                                                                                       |
+| ![logo-medium](./icons/logo-medium.svg)                               | `<LogoMediumIcon />`               |                                                                                       |
+| ![logo-no-smoking](./icons/logo-no-smoking.svg)                       | `<LogoNoSmokingIcon />`            |                                                                                       |
+| ![logo-nodejs](./icons/logo-nodejs.svg)                               | `<LogoNodejsIcon />`               |                                                                                       |
+| ![logo-npm](./icons/logo-npm.svg)                                     | `<LogoNpmIcon />`                  |                                                                                       |
+| ![logo-octocat](./icons/logo-octocat.svg)                             | `<LogoOctocatIcon />`              |                                                                                       |
+| ![logo-paypal](./icons/logo-paypal.svg)                               | `<LogoPaypalIcon />`               |                                                                                       |
+| ![logo-pinterest](./icons/logo-pinterest.svg)                         | `<LogoPinterestIcon />`            |                                                                                       |
+| ![logo-playstation](./icons/logo-playstation.svg)                     | `<LogoPlaystationIcon />`          |                                                                                       |
+| ![logo-pwa](./icons/logo-pwa.svg)                                     | `<LogoPwaIcon />`                  |                                                                                       |
+| ![logo-python](./icons/logo-python.svg)                               | `<LogoPythonIcon />`               |                                                                                       |
+| ![logo-react](./icons/logo-react.svg)                                 | `<LogoReactIcon />`                |                                                                                       |
+| ![logo-reddit](./icons/logo-reddit.svg)                               | `<LogoRedditIcon />`               |                                                                                       |
+| ![logo-rss](./icons/logo-rss.svg)                                     | `<LogoRssIcon />`                  |                                                                                       |
+| ![logo-sass](./icons/logo-sass.svg)                                   | `<LogoSassIcon />`                 |                                                                                       |
+| ![logo-skype](./icons/logo-skype.svg)                                 | `<LogoSkypeIcon />`                |                                                                                       |
+| ![logo-slack](./icons/logo-slack.svg)                                 | `<LogoSlackIcon />`                |                                                                                       |
+| ![logo-snapchat](./icons/logo-snapchat.svg)                           | `<LogoSnapchatIcon />`             |                                                                                       |
+| ![logo-soundcloud](./icons/logo-soundcloud.svg)                       | `<LogoSoundcloudIcon />`           |                                                                                       |
+| ![logo-stackoverflow](./icons/logo-stackoverflow.svg)                 | `<LogoStackoverflowIcon />`        |                                                                                       |
+| ![logo-steam](./icons/logo-steam.svg)                                 | `<LogoSteamIcon />`                |                                                                                       |
+| ![logo-stencil](./icons/logo-stencil.svg)                             | `<LogoStencilIcon />`              |                                                                                       |
+| ![logo-tableau](./icons/logo-tableau.svg)                             | `<LogoTableauIcon />`              |                                                                                       |
+| ![logo-tiktok](./icons/logo-tiktok.svg)                               | `<LogoTiktokIcon />`               |                                                                                       |
+| ![logo-tumblr](./icons/logo-tumblr.svg)                               | `<LogoTumblrIcon />`               |                                                                                       |
+| ![logo-tux](./icons/logo-tux.svg)                                     | `<LogoTuxIcon />`                  |                                                                                       |
+| ![logo-twitch](./icons/logo-twitch.svg)                               | `<LogoTwitchIcon />`               |                                                                                       |
+| ![logo-twitter](./icons/logo-twitter.svg)                             | `<LogoTwitterIcon />`              |                                                                                       |
+| ![logo-usd](./icons/logo-usd.svg)                                     | `<LogoUsdIcon />`                  |                                                                                       |
+| ![logo-venmo](./icons/logo-venmo.svg)                                 | `<LogoVenmoIcon />`                |                                                                                       |
+| ![logo-vercel](./icons/logo-vercel.svg)                               | `<LogoVercelIcon />`               |                                                                                       |
+| ![logo-vimeo](./icons/logo-vimeo.svg)                                 | `<LogoVimeoIcon />`                |                                                                                       |
+| ![logo-vk](./icons/logo-vk.svg)                                       | `<LogoVkIcon />`                   |                                                                                       |
+| ![logo-vue](./icons/logo-vue.svg)                                     | `<LogoVueIcon />`                  |                                                                                       |
+| ![logo-web-component](./icons/logo-web-component.svg)                 | `<LogoWebComponentIcon />`         |                                                                                       |
+| ![logo-wechat](./icons/logo-wechat.svg)                               | `<LogoWechatIcon />`               |                                                                                       |
+| ![logo-whatsapp](./icons/logo-whatsapp.svg)                           | `<LogoWhatsappIcon />`             |                                                                                       |
+| ![logo-windows](./icons/logo-windows.svg)                             | `<LogoWindowsIcon />`              |                                                                                       |
+| ![logo-wordpress](./icons/logo-wordpress.svg)                         | `<LogoWordpressIcon />`            |                                                                                       |
+| ![logo-xbox](./icons/logo-xbox.svg)                                   | `<LogoXboxIcon />`                 |                                                                                       |
+| ![logo-xing](./icons/logo-xing.svg)                                   | `<LogoXingIcon />`                 |                                                                                       |
+| ![logo-yahoo](./icons/logo-yahoo.svg)                                 | `<LogoYahooIcon />`                |                                                                                       |
+| ![logo-yen](./icons/logo-yen.svg)                                     | `<LogoYenIcon />`                  |                                                                                       |
+| ![logo-youtube](./icons/logo-youtube.svg)                             | `<LogoYoutubeIcon />`              |                                                                                       |
 
 ## Automatic Release
 
 Here is an example of the release type that will be done based on a commit messages:
 
-| Commit message | Release type |
+| Commit message      | Release type          |
 | ------------------- | --------------------- |
-| fix: [comment] | Patch Release |
-| feat: [comment] | Minor Feature Release |
-| perf: [comment] | Major Feature Release |
-| doc: [comment] | No Release |
-| refactor: [comment] | No Release |
-| chore: [comment] | No Release |
+| fix: [comment]      | Patch Release         |
+| feat: [comment]     | Minor Feature Release |
+| perf: [comment]     | Major Feature Release |
+| doc: [comment]      | No Release            |
+| refactor: [comment] | No Release            |
+| chore: [comment]    | No Release            |
