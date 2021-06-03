@@ -20,26 +20,26 @@ export function SwapHorizontalOutlineIcon({
       <Path
         d='M14.25 2.25L19.5 7.5L14.25 12.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M18.697 7.5H4.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M9.75 21.75L4.5 16.5L9.75 11.25'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M5.34375 16.5H19.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

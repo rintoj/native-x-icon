@@ -17,7 +17,7 @@ export function EggOutlineIcon({ size = 'normal', color = COLOR.SECONDARY }: Egg
       <Path
         d='M12 2.25C9 2.25 4.5 8.04797 4.5 13.432C4.5 18.8161 7.5 21.75 12 21.75C16.5 21.75 19.5 18.8161 19.5 13.432C19.5 8.04797 15 2.25 12 2.25Z'
         stroke={contentColor}
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
       />
     </Svg>
   )

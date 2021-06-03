@@ -15,20 +15,20 @@ export function MagnetIcon({ size = 'normal', color = COLOR.SECONDARY }: MagnetI
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M8.99902 18.7411C9.41324 18.7411 9.74902 19.0769 9.74902 19.4911V21.7411C9.74902 22.1553 9.41324 22.4911 8.99902 22.4911C8.58481 22.4911 8.24902 22.1553 8.24902 21.7411V19.4911C8.24902 19.0769 8.58481 18.7411 8.99902 18.7411Z'
         fill={contentColor}
       />
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M6.34746 17.6418C6.64035 17.9347 6.64035 18.4096 6.34746 18.7024L4.75652 20.2934C4.46363 20.5863 3.98876 20.5863 3.69587 20.2934C3.40297 20.0005 3.40297 19.5256 3.69587 19.2327L5.2868 17.6418C5.57969 17.3489 6.05456 17.3489 6.34746 17.6418Z'
         fill={contentColor}
       />
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M1.49902 14.9911C1.49902 14.5769 1.83481 14.2411 2.24902 14.2411H4.49902C4.91324 14.2411 5.24902 14.5769 5.24902 14.9911C5.24902 15.4053 4.91324 15.7411 4.49902 15.7411H2.24902C1.83481 15.7411 1.49902 15.4053 1.49902 14.9911Z'
         fill={contentColor}
       />

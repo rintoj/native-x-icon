@@ -20,13 +20,13 @@ export function PlaySkipBackOutlineIcon({
       <Path
         d='M18.75 5.20308V18.7968C18.75 19.6143 17.9531 20.1337 17.2969 19.7418L5.67609 12.787C5.10797 12.4471 5.10797 11.5528 5.67609 11.2129L17.2969 4.25808C17.9531 3.86621 18.75 4.38558 18.75 5.20308Z'
         stroke={contentColor}
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
       />
       <Path
         d='M5.25 3.75V20.25'
         stroke={contentColor}
-        stroke-miterlimit='10'
-        stroke-linecap='round'
+        strokeMiterlimit='10'
+        strokeLinecap='round'
       />
     </Svg>
   )

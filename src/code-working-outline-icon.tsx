@@ -32,14 +32,14 @@ export function CodeWorkingOutlineIcon({
       <Path
         d='M7.5 17.25L1.5 12L7.5 6.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M16.5 17.25L22.5 12L16.5 6.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

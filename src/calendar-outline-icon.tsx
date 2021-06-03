@@ -20,7 +20,7 @@ export function CalendarOutlineIcon({
       <Path
         d='M19.5 3.75H4.5C3.25736 3.75 2.25 4.75736 2.25 6V19.5C2.25 20.7426 3.25736 21.75 4.5 21.75H19.5C20.7426 21.75 21.75 20.7426 21.75 19.5V6C21.75 4.75736 20.7426 3.75 19.5 3.75Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M13.875 12C14.4963 12 15 11.4963 15 10.875C15 10.2537 14.4963 9.75 13.875 9.75C13.2537 9.75 12.75 10.2537 12.75 10.875C12.75 11.4963 13.2537 12 13.875 12Z'
@@ -58,14 +58,9 @@ export function CalendarOutlineIcon({
         d='M13.875 19.5C14.4963 19.5 15 18.9963 15 18.375C15 17.7537 14.4963 17.25 13.875 17.25C13.2537 17.25 12.75 17.7537 12.75 18.375C12.75 18.9963 13.2537 19.5 13.875 19.5Z'
         fill={contentColor}
       />
-      <Path d='M6 2.25V3.75' stroke={contentColor} stroke-linecap='round' stroke-linejoin='round' />
-      <Path
-        d='M18 2.25V3.75'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
-      <Path d='M21.75 7.5H2.25' stroke={contentColor} stroke-linejoin='round' />
+      <Path d='M6 2.25V3.75' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M18 2.25V3.75' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M21.75 7.5H2.25' stroke={contentColor} strokeLinejoin='round' />
     </Svg>
   )
 }

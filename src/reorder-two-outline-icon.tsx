@@ -20,14 +20,14 @@ export function ReorderTwoOutlineIcon({
       <Path
         d='M5.25 14.25H18.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M5.25 9.75H18.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

@@ -20,7 +20,7 @@ export function ContrastOutlineIcon({
       <Path
         d='M12 21.75C17.3848 21.75 21.75 17.3848 21.75 12C21.75 6.61522 17.3848 2.25 12 2.25C6.61522 2.25 2.25 6.61522 2.25 12C2.25 17.3848 6.61522 21.75 12 21.75Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M12 21.75C6.615 21.75 2.25 17.385 2.25 12C2.25 6.615 6.615 2.25 12 2.25V21.75Z'

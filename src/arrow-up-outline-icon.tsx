@@ -20,14 +20,14 @@ export function ArrowUpOutlineIcon({
       <Path
         d='M5.25 11.4375L12 4.6875L18.75 11.4375'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M12 5.625V19.3125'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

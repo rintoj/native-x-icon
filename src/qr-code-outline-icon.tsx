@@ -44,8 +44,8 @@ export function QrCodeOutlineIcon({
       <Path
         d='M21 2.25H14.25C13.8358 2.25 13.5 2.58579 13.5 3V9.75C13.5 10.1642 13.8358 10.5 14.25 10.5H21C21.4142 10.5 21.75 10.1642 21.75 9.75V3C21.75 2.58579 21.4142 2.25 21 2.25Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M7.875 4.5H4.875C4.66789 4.5 4.5 4.66789 4.5 4.875V7.875C4.5 8.08211 4.66789 8.25 4.875 8.25H7.875C8.08211 8.25 8.25 8.08211 8.25 7.875V4.875C8.25 4.66789 8.08211 4.5 7.875 4.5Z'
@@ -54,8 +54,8 @@ export function QrCodeOutlineIcon({
       <Path
         d='M9.75 2.25H3C2.58579 2.25 2.25 2.58579 2.25 3V9.75C2.25 10.1642 2.58579 10.5 3 10.5H9.75C10.1642 10.5 10.5 10.1642 10.5 9.75V3C10.5 2.58579 10.1642 2.25 9.75 2.25Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M7.875 15.75H4.875C4.66789 15.75 4.5 15.9179 4.5 16.125V19.125C4.5 19.3321 4.66789 19.5 4.875 19.5H7.875C8.08211 19.5 8.25 19.3321 8.25 19.125V16.125C8.25 15.9179 8.08211 15.75 7.875 15.75Z'
@@ -64,8 +64,8 @@ export function QrCodeOutlineIcon({
       <Path
         d='M9.75 13.5H3C2.58579 13.5 2.25 13.8358 2.25 14.25V21C2.25 21.4142 2.58579 21.75 3 21.75H9.75C10.1642 21.75 10.5 21.4142 10.5 21V14.25C10.5 13.8358 10.1642 13.5 9.75 13.5Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

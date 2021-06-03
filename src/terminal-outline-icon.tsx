@@ -20,15 +20,15 @@ export function TerminalOutlineIcon({
       <Path
         d='M20.25 2.25H3.75C2.50736 2.25 1.5 3.25736 1.5 4.5V19.5C1.5 20.7426 2.50736 21.75 3.75 21.75H20.25C21.4926 21.75 22.5 20.7426 22.5 19.5V4.5C22.5 3.25736 21.4926 2.25 20.25 2.25Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M4.5 5.25L8.25 8.25L4.5 11.25'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <Path d='M9 11.25H12' stroke={contentColor} stroke-linecap='round' stroke-linejoin='round' />
+      <Path d='M9 11.25H12' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
     </Svg>
   )
 }

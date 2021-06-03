@@ -20,31 +20,21 @@ export function EaselOutlineIcon({
       <Path
         d='M20.25 3.75H3.75C2.92157 3.75 2.25 4.42157 2.25 5.25V15C2.25 15.8284 2.92157 16.5 3.75 16.5H20.25C21.0784 16.5 21.75 15.8284 21.75 15V5.25C21.75 4.42157 21.0784 3.75 20.25 3.75Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
-      <Path
-        d='M12 19.5V16.5'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
-      <Path
-        d='M12 3.75V2.25'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
+      <Path d='M12 19.5V16.5' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M12 3.75V2.25' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
       <Path
         d='M18.75 21.75L17.25 16.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M5.25 21.75L6.75 16.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

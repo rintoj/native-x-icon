@@ -20,7 +20,7 @@ export function StopOutlineIcon({
       <Path
         d='M18.375 4.5H5.625C5.00368 4.5 4.5 5.00368 4.5 5.625V18.375C4.5 18.9963 5.00368 19.5 5.625 19.5H18.375C18.9963 19.5 19.5 18.9963 19.5 18.375V5.625C19.5 5.00368 18.9963 4.5 18.375 4.5Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

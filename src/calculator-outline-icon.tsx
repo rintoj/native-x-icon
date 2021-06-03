@@ -20,14 +20,14 @@ export function CalculatorOutlineIcon({
       <Path
         d='M17.25 2.25H6.75C5.92157 2.25 5.25 2.92157 5.25 3.75V20.25C5.25 21.0784 5.92157 21.75 6.75 21.75H17.25C18.0784 21.75 18.75 21.0784 18.75 20.25V3.75C18.75 2.92157 18.0784 2.25 17.25 2.25Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M16.5 5.25H7.50043V8.25H16.5V5.25Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M7.875 12.75C8.49632 12.75 9 12.2463 9 11.625C9 11.0037 8.49632 10.5 7.875 10.5C7.25368 10.5 6.75 11.0037 6.75 11.625C6.75 12.2463 7.25368 12.75 7.875 12.75Z'

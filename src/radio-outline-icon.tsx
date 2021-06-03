@@ -24,38 +24,38 @@ export function RadioOutlineIcon({
       <Path
         d='M8.63672 9.01172C7.90501 9.83534 7.50085 10.8988 7.50085 12.0005C7.50085 13.1022 7.90501 14.1656 8.63672 14.9892'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M15.3641 14.9892C16.0959 14.1656 16.5 13.1022 16.5 12.0005C16.5 10.8988 16.0959 9.83534 15.3641 9.01172'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M6.24751 6.62317C4.88406 8.08185 4.12561 10.004 4.12561 12.0007C4.12561 13.9974 4.88406 15.9195 6.24751 17.3782'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M17.7526 17.3782C19.116 15.9195 19.8745 13.9974 19.8745 12.0007C19.8745 10.004 19.116 8.08185 17.7526 6.62317'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M20.3906 19.5C22.2322 17.4358 23.2499 14.7663 23.2499 12C23.2499 9.23374 22.2322 6.56418 20.3906 4.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M3.60932 4.5C1.76775 6.56418 0.75 9.23374 0.75 12C0.75 14.7663 1.76775 17.4358 3.60932 19.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

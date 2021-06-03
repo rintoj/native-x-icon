@@ -20,26 +20,16 @@ export function ReorderFourOutlineIcon({
       <Path
         d='M4.5 14.25H19.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <Path
-        d='M4.5 9.75H19.5'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
-      <Path
-        d='M4.5 5.25H19.5'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
+      <Path d='M4.5 9.75H19.5' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M4.5 5.25H19.5' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
       <Path
         d='M4.5 18.75H19.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

@@ -20,13 +20,13 @@ export function ChevronForwardCircleOutlineIcon({
       <Path
         d='M3 12C3 16.9688 7.03125 21 12 21C16.9688 21 21 16.9688 21 12C21 7.03125 16.9688 3 12 3C7.03125 3 3 7.03125 3 12Z'
         stroke={contentColor}
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
       />
       <Path
         d='M10.125 16.5L14.625 12L10.125 7.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

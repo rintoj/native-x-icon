@@ -20,14 +20,14 @@ export function MailUnreadOutlineIcon({
       <Path
         d='M15 4.5H4.125C3.62772 4.5 3.15081 4.69754 2.79917 5.04917C2.44754 5.40081 2.25 5.87772 2.25 6.375V17.625C2.25 18.1223 2.44754 18.5992 2.79917 18.9508C3.15081 19.3025 3.62772 19.5 4.125 19.5H19.8155C20.3128 19.5 20.7897 19.3025 21.1413 18.9508C21.4929 18.5992 21.6905 18.1223 21.6905 17.625V11.2031'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M5.25 7.5L12 12.75L16.0781 9.67172'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M20.2477 8.25039C21.489 8.25039 22.4953 7.24407 22.4953 6.00273C22.4953 4.76138 21.489 3.75507 20.2477 3.75507C19.0063 3.75507 18 4.76138 18 6.00273C18 7.24407 19.0063 8.25039 20.2477 8.25039Z'

@@ -14,7 +14,7 @@ export function BodyIcon({ size = 'normal', color = COLOR.SECONDARY }: BodyIconP
   const iconSize = getIconSize(size)
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
-      <G clip-path='url(#clip0)'>
+      <G clipPath='url(#clip0)'>
         <Path
           d='M12 5.25C13.4497 5.25 14.625 4.07475 14.625 2.625C14.625 1.17525 13.4497 0 12 0C10.5503 0 9.375 1.17525 9.375 2.625C9.375 4.07475 10.5503 5.25 12 5.25Z'
           fill={contentColor}

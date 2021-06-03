@@ -30,8 +30,8 @@ export function VideocamOffIcon({
         fill={contentColor}
       />
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M3.21967 3.21967C3.51256 2.92678 3.98744 2.92678 4.28033 3.21967L20.0303 18.9697C20.3232 19.2626 20.3232 19.7374 20.0303 20.0303C19.7374 20.3232 19.2626 20.3232 18.9697 20.0303L3.21967 4.28033C2.92678 3.98744 2.92678 3.51256 3.21967 3.21967Z'
         fill={contentColor}
       />

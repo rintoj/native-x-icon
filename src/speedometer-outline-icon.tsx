@@ -24,23 +24,23 @@ export function SpeedometerOutlineIcon({
       <Path
         d='M12 3C6.20157 3 1.50001 7.69687 1.50001 13.4953C1.49645 16.0607 2.43565 18.538 4.13907 20.4562C4.19063 20.5125 4.23751 20.5687 4.28907 20.6203C4.4 20.7404 4.53465 20.8361 4.68451 20.9015C4.83436 20.9668 4.99615 21.0003 5.15963 20.9999C5.32311 20.9995 5.48472 20.9651 5.63422 20.8989C5.78372 20.8328 5.91786 20.7363 6.02813 20.6156C6.78822 19.7896 7.71139 19.1303 8.7393 18.6793C9.76721 18.2282 10.8775 17.9954 12 17.9954C13.1225 17.9954 14.2328 18.2282 15.2607 18.6793C16.2886 19.1303 17.2118 19.7896 17.9719 20.6156C18.0822 20.7363 18.2163 20.8328 18.3658 20.8989C18.5153 20.9651 18.6769 20.9995 18.8404 20.9999C19.0039 21.0003 19.1657 20.9668 19.3155 20.9015C19.4654 20.8361 19.6 20.7404 19.7109 20.6203L19.8609 20.4562C21.5644 18.538 22.5036 16.0607 22.5 13.4953C22.5 7.69687 17.7984 3 12 3Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <Path d='M12 6V7.5' stroke={contentColor} stroke-miterlimit='10' stroke-linecap='round' />
-      <Path d='M19.5 13.5H18' stroke={contentColor} stroke-miterlimit='10' stroke-linecap='round' />
-      <Path d='M6 13.5H4.5' stroke={contentColor} stroke-miterlimit='10' stroke-linecap='round' />
+      <Path d='M12 6V7.5' stroke={contentColor} strokeMiterlimit='10' strokeLinecap='round' />
+      <Path d='M19.5 13.5H18' stroke={contentColor} strokeMiterlimit='10' strokeLinecap='round' />
+      <Path d='M6 13.5H4.5' stroke={contentColor} strokeMiterlimit='10' strokeLinecap='round' />
       <Path
         d='M7.75719 9.25793L6.69641 8.19714'
         stroke={contentColor}
-        stroke-miterlimit='10'
-        stroke-linecap='round'
+        strokeMiterlimit='10'
+        strokeLinecap='round'
       />
       <Path
         d='M16.2427 9.25793L17.3035 8.19714'
         stroke={contentColor}
-        stroke-miterlimit='10'
-        stroke-linecap='round'
+        strokeMiterlimit='10'
+        strokeLinecap='round'
       />
     </Svg>
   )

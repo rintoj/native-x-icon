@@ -17,23 +17,13 @@ export function MenuOutlineIcon({
   const iconSize = getIconSize(size)
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
-      <Path
-        d='M3.75 7.5H20.25'
-        stroke={contentColor}
-        stroke-miterlimit='10'
-        stroke-linecap='round'
-      />
-      <Path
-        d='M3.75 12H20.25'
-        stroke={contentColor}
-        stroke-miterlimit='10'
-        stroke-linecap='round'
-      />
+      <Path d='M3.75 7.5H20.25' stroke={contentColor} strokeMiterlimit='10' strokeLinecap='round' />
+      <Path d='M3.75 12H20.25' stroke={contentColor} strokeMiterlimit='10' strokeLinecap='round' />
       <Path
         d='M3.75 16.5H20.25'
         stroke={contentColor}
-        stroke-miterlimit='10'
-        stroke-linecap='round'
+        strokeMiterlimit='10'
+        strokeLinecap='round'
       />
     </Svg>
   )

@@ -20,20 +20,15 @@ export function CalendarClearOutlineIcon({
       <Path
         d='M19.5 3.75H4.5C3.25736 3.75 2.25 4.75736 2.25 6V19.5C2.25 20.7426 3.25736 21.75 4.5 21.75H19.5C20.7426 21.75 21.75 20.7426 21.75 19.5V6C21.75 4.75736 20.7426 3.75 19.5 3.75Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
-      <Path d='M6 2.25V3.75' stroke={contentColor} stroke-linecap='round' stroke-linejoin='round' />
-      <Path
-        d='M18 2.25V3.75'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
+      <Path d='M6 2.25V3.75' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M18 2.25V3.75' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
       <Path
         d='M21.75 7.5H2.25'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

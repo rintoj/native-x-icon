@@ -15,8 +15,8 @@ export function InvertModeIcon({ size = 'normal', color = COLOR.SECONDARY }: Inv
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3ZM1.5 12C1.5 6.20101 6.20101 1.5 12 1.5C17.799 1.5 22.5 6.20101 22.5 12C22.5 17.799 17.799 22.5 12 22.5C6.20101 22.5 1.5 17.799 1.5 12Z'
         fill={contentColor}
       />

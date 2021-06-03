@@ -20,8 +20,8 @@ export function TabletLandscapeOutlineIcon({
       <Path
         d='M0.75 6L0.75 18C0.75 19.2426 1.75736 20.25 3 20.25H21C22.2426 20.25 23.25 19.2426 23.25 18V6C23.25 4.75736 22.2426 3.75 21 3.75H3C1.75736 3.75 0.75 4.75736 0.75 6Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

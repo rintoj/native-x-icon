@@ -20,7 +20,7 @@ export function PlayOutlineIcon({
       <Path
         d='M5.25 5.20308V18.7968C5.25 19.6143 6.04688 20.1337 6.70312 19.7418L18.3234 12.787C18.8916 12.4471 18.8916 11.5528 18.3234 11.2129L6.70312 4.25808C6.04688 3.86621 5.25 4.38558 5.25 5.20308Z'
         stroke={contentColor}
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
       />
     </Svg>
   )

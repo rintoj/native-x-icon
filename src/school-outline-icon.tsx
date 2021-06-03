@@ -20,22 +20,17 @@ export function SchoolOutlineIcon({
       <Path
         d='M1.5 9L12 3L22.5 9L12 15L1.5 9Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M5.25 11.25V17.25L12 21L18.75 17.25V11.25'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <Path
-        d='M22.5 17.25V9'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
-      <Path d='M12 15V21' stroke={contentColor} stroke-linecap='round' stroke-linejoin='round' />
+      <Path d='M22.5 17.25V9' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M12 15V21' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
     </Svg>
   )
 }

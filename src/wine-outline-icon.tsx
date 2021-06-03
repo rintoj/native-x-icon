@@ -20,16 +20,16 @@ export function WineOutlineIcon({
       <Path
         d='M18.683 3.75H5.31702V4.5C5.31702 4.5 4.10202 12.75 12 12.75C19.898 12.75 18.683 4.5 18.683 4.5V3.75Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
-      <Path d='M12 12.75V20.25' stroke={contentColor} stroke-linejoin='round' />
+      <Path d='M12 12.75V20.25' stroke={contentColor} strokeLinejoin='round' />
       <Path
         d='M16.5 20.25H7.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <Path d='M5.25 7.5H18.75' stroke={contentColor} stroke-linejoin='round' />
+      <Path d='M5.25 7.5H18.75' stroke={contentColor} strokeLinejoin='round' />
     </Svg>
   )
 }

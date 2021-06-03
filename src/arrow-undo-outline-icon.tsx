@@ -20,7 +20,7 @@ export function ArrowUndoOutlineIcon({
       <Path
         d='M11.25 19.875V15.375C16.7063 15.375 18.7214 16.9575 21 19.875C21 14.2861 19.1452 8.625 11.25 8.625V4.125L3 12L11.25 19.875Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

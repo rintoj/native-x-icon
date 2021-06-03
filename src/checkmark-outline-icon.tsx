@@ -20,8 +20,8 @@ export function CheckmarkOutlineIcon({
       <Path
         d='M19.5 6L9 18L4.5 13.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

@@ -1,8 +1,8 @@
 import { sync } from 'fast-glob'
+import { readFileSync, writeFileSync } from 'fs-extra'
+import { toCamelCase, toClassName, toDashedName } from 'name-util'
 import { basename } from 'path'
 import { parseString } from 'xml2js'
-import { readFileSync, writeFileSync } from 'fs-extra'
-import { toClassName, toDashedName } from 'name-util'
 import { compileReadme } from './readme-compiler'
 
 const componentTemplate = (name: string, jsxContent: string, imports: string[]) => `
@@ -83,7 +83,9 @@ function composeElement(name: string, props: Record<string, string> = {}, conten
   const elementName = toClassName(name)
   const attributes = Object.keys(props)
     .filter(property => !['xmlns'].includes(property))
-    .map(property => `${property}=${processAttributes(name, property, props[property])}`)
+    .map(
+      property => `${toCamelCase(property)}=${processAttributes(name, property, props[property])}`,
+    )
     .join(' ')
   if (!content) {
     return `<${elementName} ${attributes} />`

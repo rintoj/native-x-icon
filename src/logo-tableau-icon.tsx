@@ -42,8 +42,8 @@ export function LogoTableauIcon({
         fill={contentColor}
       />
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M17.3506 20.867H18.4095V17.8417H21.2454V16.8962H18.4095V13.8334H17.3506V16.8962H14.5521V17.8417H17.3506V20.867Z'
         fill={contentColor}
       />

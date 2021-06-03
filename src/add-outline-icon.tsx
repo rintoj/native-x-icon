@@ -14,18 +14,8 @@ export function AddOutlineIcon({ size = 'normal', color = COLOR.SECONDARY }: Add
   const iconSize = getIconSize(size)
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
-      <Path
-        d='M12 5.25V18.75'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
-      <Path
-        d='M18.75 12H5.25'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
+      <Path d='M12 5.25V18.75' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M18.75 12H5.25' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
     </Svg>
   )
 }

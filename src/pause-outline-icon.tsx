@@ -20,14 +20,14 @@ export function PauseOutlineIcon({
       <Path
         d='M9 4.5H8.25V19.5H9V4.5Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M15.75 4.5H15V19.5H15.75V4.5Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

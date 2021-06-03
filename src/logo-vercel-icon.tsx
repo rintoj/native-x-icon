@@ -15,8 +15,8 @@ export function LogoVercelIcon({ size = 'normal', color = COLOR.SECONDARY }: Log
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M12 2.25L23.25 21.75H0.75L12 2.25Z'
         fill={contentColor}
       />

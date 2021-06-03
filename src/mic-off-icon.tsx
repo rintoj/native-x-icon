@@ -15,8 +15,8 @@ export function MicOffIcon({ size = 'normal', color = COLOR.SECONDARY }: MicOffI
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M3.96967 2.46967C4.26256 2.17678 4.73744 2.17678 5.03033 2.46967L20.7803 18.2197C21.0732 18.5126 21.0732 18.9874 20.7803 19.2803C20.4874 19.5732 20.0126 19.5732 19.7197 19.2803L3.96967 3.53033C3.67678 3.23744 3.67678 2.76256 3.96967 2.46967Z'
         fill={contentColor}
       />

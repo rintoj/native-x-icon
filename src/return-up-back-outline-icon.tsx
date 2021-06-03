@@ -20,14 +20,14 @@ export function ReturnUpBackOutlineIcon({
       <Path
         d='M5.25 7.5L2.25 10.5L5.25 13.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M3 10.5H16.7812C19.5356 10.5 21.75 12.8123 21.75 15.5625V16.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

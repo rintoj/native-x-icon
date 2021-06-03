@@ -20,7 +20,7 @@ export function GameControllerOutlineIcon({
       <Path
         d='M21.9145 11.6636C21.052 7.76454 19.7728 5.27735 17.7225 4.67126C17.3254 4.55542 16.9136 4.49763 16.5 4.4997C15.2395 4.4997 14.2448 5.2497 12 5.2497C9.75515 5.2497 8.75859 4.4997 7.49999 4.4997C7.06909 4.49747 6.63998 4.55521 6.22499 4.67126C4.17187 5.27735 2.90343 7.76688 2.03109 11.6636C1.14046 15.6438 1.30171 18.7886 3.04265 19.3924C4.2614 19.8142 5.35124 18.9419 6.38343 17.658C7.5553 16.1955 8.99859 15.7455 12 15.7455C15.0014 15.7455 16.3884 16.1955 17.5622 17.658C18.5934 18.9428 19.7236 19.8044 20.91 19.3999C22.8328 18.7431 22.8056 15.6906 21.9145 11.6636Z'
         stroke={contentColor}
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
       />
       <Path
         d='M13.6875 11.4375C14.2053 11.4375 14.625 11.0178 14.625 10.5C14.625 9.98223 14.2053 9.5625 13.6875 9.5625C13.1697 9.5625 12.75 9.98223 12.75 10.5C12.75 11.0178 13.1697 11.4375 13.6875 11.4375Z'
@@ -41,14 +41,14 @@ export function GameControllerOutlineIcon({
       <Path
         d='M7.5 8.25V12.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M9.75 10.5H5.25'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

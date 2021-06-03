@@ -17,18 +17,13 @@ export function ReorderThreeOutlineIcon({
   const iconSize = getIconSize(size)
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
-      <Path d='M4.5 12H19.5' stroke={contentColor} stroke-linecap='round' stroke-linejoin='round' />
-      <Path
-        d='M4.5 8.25H19.5'
-        stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
-      />
+      <Path d='M4.5 12H19.5' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
+      <Path d='M4.5 8.25H19.5' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
       <Path
         d='M4.5 15.75H19.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

@@ -19,8 +19,8 @@ export function TvIcon({ size = 'normal', color = COLOR.SECONDARY }: TvIconProps
         fill={contentColor}
       />
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M5.25 19.5C5.25 19.0858 5.58579 18.75 6 18.75H18C18.4142 18.75 18.75 19.0858 18.75 19.5C18.75 19.9142 18.4142 20.25 18 20.25H6C5.58579 20.25 5.25 19.9142 5.25 19.5Z'
         fill={contentColor}
       />

@@ -15,8 +15,8 @@ export function VolumeMuteIcon({ size = 'normal', color = COLOR.SECONDARY }: Vol
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M2.46967 3.21967C2.76256 2.92678 3.23744 2.92678 3.53033 3.21967L20.0303 19.7197C20.3232 20.0126 20.3232 20.4874 20.0303 20.7803C19.7374 21.0732 19.2626 21.0732 18.9697 20.7803L2.46967 4.28033C2.17678 3.98744 2.17678 3.51256 2.46967 3.21967Z'
         fill={contentColor}
       />

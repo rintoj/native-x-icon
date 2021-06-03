@@ -20,7 +20,7 @@ export function ArrowRedoOutlineIcon({
       <Path
         d='M21 12L12.75 4.125V8.625C4.85484 8.625 3 14.2861 3 19.875C5.27859 16.9575 7.29375 15.375 12.75 15.375V19.875L21 12Z'
         stroke={contentColor}
-        stroke-linejoin='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

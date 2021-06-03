@@ -14,7 +14,7 @@ export function RadioIcon({ size = 'normal', color = COLOR.SECONDARY }: RadioIco
   const iconSize = getIconSize(size)
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
-      <G clip-path='url(#clip0)'>
+      <G clipPath='url(#clip0)'>
         <Path
           d='M12 13.6875C12.932 13.6875 13.6875 12.932 13.6875 12C13.6875 11.068 12.932 10.3125 12 10.3125C11.068 10.3125 10.3125 11.068 10.3125 12C10.3125 12.932 11.068 13.6875 12 13.6875Z'
           fill={contentColor}

@@ -20,8 +20,8 @@ export function ChevronDownOutlineIcon({
       <Path
         d='M5.25 8.625L12 15.375L18.75 8.625'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )

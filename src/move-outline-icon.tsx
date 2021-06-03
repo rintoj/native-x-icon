@@ -20,34 +20,34 @@ export function MoveOutlineIcon({
       <Path
         d='M8.25 5.25L12 1.5L15.75 5.25'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M11.999 1.5L12 22.5'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M8.25 18.75L12 22.5L15.75 18.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M18.75 8.25L22.5 12L18.75 15.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <Path
         d='M5.25 8.25L1.5 12L5.25 15.75'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
-      <Path d='M1.5 12H22.5' stroke={contentColor} stroke-linecap='round' stroke-linejoin='round' />
+      <Path d='M1.5 12H22.5' stroke={contentColor} strokeLinecap='round' strokeLinejoin='round' />
     </Svg>
   )
 }

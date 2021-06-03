@@ -18,14 +18,14 @@ export function InformationIcon({
   return (
     <Svg width={iconSize} height={iconSize} viewBox='0 0 24 24' fill='none'>
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M8.25 10.3125C8.25 9.79473 8.66973 9.375 9.1875 9.375H12.1875C12.7053 9.375 13.125 9.79473 13.125 10.3125V18.375C13.125 18.8928 12.7053 19.3125 12.1875 19.3125C11.6697 19.3125 11.25 18.8928 11.25 18.375V11.25H9.1875C8.66973 11.25 8.25 10.8303 8.25 10.3125Z'
         fill={contentColor}
       />
       <Path
-        fill-rule='evenodd'
-        clip-rule='evenodd'
+        fillRule='evenodd'
+        clipRule='evenodd'
         d='M7.82812 18.5625C7.82812 18.0447 8.24786 17.625 8.76562 17.625H15.2344C15.7521 17.625 16.1719 18.0447 16.1719 18.5625C16.1719 19.0803 15.7521 19.5 15.2344 19.5H8.76562C8.24786 19.5 7.82812 19.0803 7.82812 18.5625Z'
         fill={contentColor}
       />

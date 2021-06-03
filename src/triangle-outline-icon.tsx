@@ -20,8 +20,8 @@ export function TriangleOutlineIcon({
       <Path
         d='M2.25 21L12 3L21.75 21H2.25Z'
         stroke={contentColor}
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </Svg>
   )
