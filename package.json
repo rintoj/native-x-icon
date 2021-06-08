@@ -42,8 +42,10 @@
     "xml2js": "^0.4.23"
   },
   "dependencies": {
-    "native-x-theme": "^1.0.9",
     "react-native-svg": "^12.1.0",
     "tachyons-react-native": "^1.0.4"
+  },
+  "peerDependencies": {
+    "native-x-theme": "^1.0.9"
   }
 }
