@@ -1,6 +1,6 @@
 import { COLOR, useTheme } from 'native-x-theme'
 import * as React from 'react'
-import Svg, { Path } from 'react-native-svg'
+import Svg, { Path, Circle } from 'react-native-svg'
 import { getIconSize, IconSize } from './icon-size'
 
 export interface NotificationsOutlineWithBadgeIconProps {
@@ -29,6 +29,7 @@ export function NotificationsOutlineWithBadgeIcon({
         strokeLinecap='round'
         strokeLinejoin='round'
       />
+      <Circle cx="18" cy="6" r="4.75" fill='#ED2733' stroke='#ED2733' />
     </Svg>
   )
 }
