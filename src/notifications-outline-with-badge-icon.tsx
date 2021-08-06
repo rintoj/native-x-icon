@@ -25,7 +25,7 @@ export function NotificationsOutlineWithBadgeIcon({
       />
       <Path
         d='M14.9999 17.9988V18.7488C14.9999 19.5444 14.6839 20.3075 14.1213 20.8701C13.5586 21.4327 12.7956 21.7488 11.9999 21.7488C11.2043 21.7488 10.4412 21.4327 9.87862 20.8701C9.31601 20.3075 8.99994 19.5444 8.99994 18.7488V17.9988'
-        stroke='#ED2733'
+        stroke={contentColor}
         strokeLinecap='round'
         strokeLinejoin='round'
       />
