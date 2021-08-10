@@ -44,8 +44,5 @@
   "dependencies": {
     "react-native-svg": "^12.1.0",
     "tachyons-react-native": "^1.0.4"
-  },
-  "peerDependencies": {
-    "native-x-theme": "*"
   }
 }
